@@ -1,0 +1,43 @@
+
+20mmx20mm_Rod:
+    Name: Grid 5 - 20mm x 20mm Aluminium bar
+    Description: bar
+    Specs:
+        Material: Aluminium
+    Suppliers:
+    RS Components:
+        PartNo: 850-8470
+        Link: 'https://de.rs-online.com/web/p/rohre-und-strebenprofile/8508470'
+
+
+rod_M5Screw_Thread:
+    Name: M5 x 12 mm rod with Screw Thread
+    Description: Bar with screw thread
+    Specs:
+        Material: Steel equivalent En 1.0038
+    Suppliers:
+        Misumi:
+            PartNo: ETKLS12-200-F10-SC0-M5-N5
+            Link: 'https://de.misumi-ec.com/vona2/detail/110300209240/?PNSearch=ETKLS12-200-F10-SC0-M5-N5&HissuCode=ETKLS12-200-F10-SC0-M5-N5&searchFlow=suggest2products&Keyword=ETKLS12-200-F10-SC0-M5-N5'
+
+
+12mmRod:
+    Name: 12 mm Aluminium Rod
+    Description: Rod
+    Specs:
+        Material: Aluminium
+    Suppliers:
+        RS Components:
+            PartNo: 124-3623
+            Link: 'https://de.rs-online.com/web/p/metallstangen-und-stabe/1243623'
+
+arm_movable:
+    Name: Indicator Arm - Moveable
+    Description: Indicator Arm
+    Specs:
+        Material: Various
+    Suppliers:
+        RS Components:
+            PartNo: 264-3542
+            Link: 'https://de.rs-online.com/web/p/messstander-und-stativarme/2643542'
+            

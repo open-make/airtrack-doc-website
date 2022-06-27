@@ -1,0 +1,32 @@
+5mmNuts_angle:
+    Name: 5mm Nuts Angle
+    Description: Frame angle
+    Specs:
+        Material: Aluminium die-cast
+    Suppliers:
+        RS Components:
+            PartNo: 180-9136
+            Link: 'https://de.rs-online.com/web/p/innensechskantschrauben/8229170'\
+
+5mmNuts:
+    Name: 5mm Nut with M5 (for 20mm frame)
+    Description: Nut
+    Specs:
+        Material: Zinc plated stell (Ball: Stainless Steel)
+    Suppliers:
+        RS Components:
+            PartNo: 180-9104
+            Link: 'https://de.rs-online.com/web/p/innensechskantschrauben/1838676'
+
+
+
+12mmConnectingClamp:
+    Name: 12mm Twistable Two-Way Connecting Clamp
+    Description: Connecting Clamp
+    Specs:
+        Material: Aluminium
+    Suppliers:
+        RS Components:
+            PartNo: 786-6071
+            Link: 'https://de.rs-online.com/web/p/verbindungselemente/7866071'
+

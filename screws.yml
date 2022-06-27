@@ -1,0 +1,33 @@
+M5x6Screw:
+    Name: M5 x 6 mm Button Head Socket Screw
+    Description: Metric Screw
+    Specs:
+        Material: A2 304 Stainless Steel
+    Suppliers:
+        RS Components:
+        PartNo: 822-9170
+        Link: 'https://de.rs-online.com/web/p/innensechskantschrauben/8229170'
+
+
+
+M5x12Screw:
+    Name: M5 x 12 mm Button Head Socket Screw
+    Description: Metric Screw
+    Specs:
+        Material: A2 304 Stainless Steel
+    Suppliers:
+        RS Components:
+        PartNo: 183-8676
+        Link: 'https://de.rs-online.com/web/p/innensechskantschrauben/1838676'
+
+
+M5x12Woodscrew:
+    Name: 3mm x 20mm Pozidriv Countersunk Head Wood Screw
+    Description: Wood Screw
+    Specs:
+        Material: A2 304 Stainless Steel
+    Suppliers:
+        RS Components:
+        PartNo: 144-3525
+        Link: 'https://de.rs-online.com/web/p/holzschrauben/1443525'
+
