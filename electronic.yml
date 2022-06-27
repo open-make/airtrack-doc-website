@@ -6,7 +6,7 @@ Arduino_Uno:
             PartNo: 1050-1024-ND
             Link: 'https://www.digikey.de/de/products/detail/arduino/A000066/2784006'
 
-L293D:\
+L293D:
     Name: L293D H-bridge
     Description: H-bridge
     Suppliers:
@@ -26,12 +26,12 @@ PixyCam:
 
 
 
-LinActuator50mm:\
-    Name: Actuonix L16 Linear Actuator 35:1 50mm 12V with Potentiometer Feedback\
-    Description: Linear Actuator\
-    Suppliers:\
-        RobotShop:\
-            PartNo: L16-50-35-12-P\
+LinActuator50mm:
+    Name: Actuonix L16 Linear Actuator 35:1 50mm 12V with Potentiometer Feedback
+    Description: Linear Actuator
+    Suppliers:
+        RobotShop:
+            PartNo: L16-50-35-12-P
             Link: 'https://www.robotshop.com/uk/actuonix-l16-linear-actuator-351-50mm-12v-w--potentiometer-feedback.html'
 
 
@@ -40,7 +40,7 @@ mpr121:
     Description: Capacitive Touch Sensor
     Suppliers:
         Tinkerly:
-            PartNo: -
+            PartNo: No PartNo
             Link: 'https://paradisetronic.com/de/sensoren/mpr121-touchsensor-controller-breakout-12-kanaele-i2c'
 
 
@@ -49,9 +49,9 @@ Keyes_KY-012:
     Description: Active Buzzer
     Suppliers:
         Aliexpress:
-            PartNo: -
-            Link:'https://de.aliexpress.com/item/32816721769.html?aff_fcid=dbb60528572745a9ac0787a7403f897f-1651112003196-06651&aff_fsk&aff_platform=api-new-product-query&sk&aff_trace_key=dbb60528572745a9ac0787a7403f897f-1651112003196-06651&terminal_id=c3fe0c0a7e284a458624de73aaa29e49&afSmartRedirect=y&gatewayAdapt=glo2deu'
-
+            PartNo: No PartNo
+            Link: 'https://de.aliexpress.com/item/32816721769.html?aff_fcid=dbb60528572745a9ac0787a7403f897f-1651112003196-06651&aff_fsk&aff_platform=api-new-product-query&sk&aff_trace_key=dbb60528572745a9ac0787a7403f897f-1651112003196-06651&terminal_id=c3fe0c0a7e284a458624de73aaa29e49&afSmartRedirect=y&gatewayAdapt=glo2deu'            
+            
 
 5VLED:
     Name: 5V Red LED
