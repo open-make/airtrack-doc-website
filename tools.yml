@@ -12,7 +12,7 @@ acrifix_192:
 screwdriver:
     Name: Screwdriver
     Description: A tool to drive screws with a max. torque around 50-100 Nm
-	
+
 1mmdrill:
     Name: 1mm drill
     Description: A drill specific for acyrlglass or a metall drill with similar angles as for acrylglas 

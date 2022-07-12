@@ -2,7 +2,7 @@
 
 ## Predrill of plexiglass plates {pagestep}
 
-Drill several holes (1 cm diameter) into the [480mm x 326mm plexiglass plate](plexiglass.yml#480x326pg) {Qty:1} as shown in the following drawing. After drilling remove remains of drilling. Now you have a predrilled 480mm x 326mm plexiglass plate. 
+Drill several holes (1 cm diameter) into the [480mm x 326mm plexiglass plate](plexiglass.yml#480x326pg){Qty:1} as shown in the following drawing. After drilling remove remains of drilling. Now you have a predrilled 480mm x 326mm plexiglass plate. 
 
 ### Missing drawing
 

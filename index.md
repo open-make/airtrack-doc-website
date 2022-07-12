@@ -22,7 +22,7 @@ Further Information is provided on the website of the [Airtrack](http://www.neur
 #### [Construction of the rewarding system](rewardsystem.md){step}
 
 
-#### [Setup of the electronics](electronics.md){step}
+#### [Setup of the electronics](electronic.md){step}
 
 
 #### [List of all necessary components]{BOM}

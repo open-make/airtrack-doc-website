@@ -1,6 +1,6 @@
-20x20_Rod:
+20x20Rod:
     Name: Aluminium framework
-    Description: Aluminium framework 20mm x 20mm with 4 times 5mm nut spaces	
+    Description: Aluminium framework 20mm x 20mm with 4 times 5mm nut spaces
     Specs:
         Material: Aluminium 
     Suppliers:
@@ -20,11 +20,10 @@ M5Rod:
 
 12mmRod:
     Name: Aluminium rod
-    Description: Aluminium rod,12 mm diameter	
+    Description: Aluminium rod,12 mm diameter
     Specs:
         Material: Aluminium 
     Suppliers:
         RS Components:
             PartNo: 124-3623
             Link: 'https://de.rs-online.com/web/p/metallstangen-und-stabe/1243623'
-
