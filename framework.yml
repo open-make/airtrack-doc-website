@@ -1,0 +1,30 @@
+20x20_Rod:
+    Name: Aluminium framework
+    Description: Aluminium framework 20mm x 20mm with 4 times 5mm nut spaces	
+    Specs:
+        Material: Aluminium 
+    Suppliers:
+        RS Components:
+            PartNo: 180-9136
+            Link: 'https://de.rs-online.com/web/p/innensechskantschrauben/8229170'
+
+M5Rod:
+    Name: Round rod M5
+    Description: Round rod with M5 external thread at one end (20cm long, 12mm diameter)
+    Specs:
+        Material: steel EN 1,0038 Equivalent
+    Suppliers:
+        Misumi Europe GmbH:
+            PartNo: ETKLS12-200-F10-SC0-M5-N5
+            Link: 'https://de.misumi-ec.com/vona2/detail/110300209240/?PNSearch=ETKLS12-200-F10-SC0-M5-N5&HissuCode=ETKLS12-200-F10-SC0-M5-N5&searchFlow=suggest2products&Keyword=ETKLS12-200-F10-SC0-M5-N5'
+
+12mmRod:
+    Name: Aluminium rod
+    Description: Aluminium rod,12 mm diameter	
+    Specs:
+        Material: Aluminium 
+    Suppliers:
+        RS Components:
+            PartNo: 124-3623
+            Link: 'https://de.rs-online.com/web/p/metallstangen-und-stabe/1243623'
+

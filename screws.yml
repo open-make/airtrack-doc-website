@@ -1,0 +1,34 @@
+3mm_pozidriv:
+    Name: Pozidriv wood screw 
+    Description: Pozidriv wood screw 3mmx20mm
+    Specs:
+        Material: stainless steel A2 304 
+    Suppliers:
+        RS Components:
+            PartNo: 144-3525
+            Link: 'https://de.rs-online.com/web/p/holzschrauben/1443525'
+       
+
+
+
+
+m5x6mm_screw:
+    Name: Hexagon socket screw
+    Description: M5 Hexagon socket screw 6mm
+    Specs:
+        Material: steel  
+    Suppliers:
+        RS Components:
+            PartNo: 822-9170
+            Link: 'https://de.rs-online.com/web/p/innensechskantschrauben/8229170'
+
+
+m5x12mm_screw:
+    Name: Hexagon socket screw
+    Description: M5 Hexagon socket screw 12mm
+    Specs:
+        Material: stainless steel  
+    Suppliers:
+        RS Components:
+            PartNo: 183-8676
+            Link: 'https://de.rs-online.com/web/p/innensechskantschrauben/1838676'

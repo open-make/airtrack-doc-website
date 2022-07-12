@@ -1,0 +1,32 @@
+acrifix_192:
+    Name: Acrifix 192 
+    Description: Glue - no precise amount needed
+    Suppliers:
+        Modulor:
+            PartNo: 0154916
+            Link: 'https://www.modulor.de/en/acrifix-192-acrylic-glue.html'
+        Rexin Gmbh:
+            PartNo: PLE99000
+            Link: 'https://www.rexin-shop.de/zubehoer/kleber-politur-und-co/plexiglas-kleber-acrifix-192-100g'
+
+screwdriver:
+    Name: Screwdriver
+    Description: A tool to drive screws with a max. torque around 50-100 Nm
+	
+1mmdrill:
+    Name: 1mm drill
+    Description: A drill specific for acyrlglass or a metall drill with similar angles as for acrylglas 
+
+
+5mmdrill:
+    Name: 5mm drill
+    Description: A drill specific for acyrlglass or a metall drill with similar angles as for acrylglas 
+
+
+M5thread_drill:
+    Name: M5 thread drill
+    Description: A thread drill specific for aluminium with a M5 tread 
+
+metallsaw:
+    Name: Metall saw
+    Description: oame saw with a saw blade appropriate for aluminium

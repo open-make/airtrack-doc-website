@@ -1,0 +1,21 @@
+480x326pg:
+    Name: plexiglass precut
+    Description: 480mmx326mmx10mm
+    Specs:
+        Material: Polymethylmethacrylat
+
+
+
+480x50pg:
+    Name: plexiglass precut
+    Description: 480 x 50 x 10 mm^3
+    Specs:
+        Material: Polymethylmethacrylat
+
+
+
+306x50pg:
+    Name: plexiglass precut
+    Description: 305,6x50x10 mm^3
+    Specs:
+        Material: Polymethylmethacrylat
