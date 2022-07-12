@@ -1,12 +1,13 @@
 20x20Rod:
     Name: Aluminium framework
-    Description: Aluminium framework 20mm x 20mm with 4 times 5mm nut spaces
+    Description: Aluminium strut profile with 4 times 5mm nut spaces
     Specs:
-        Material: Aluminium 
+        Material: Aluminium
+        Size: 20mm x 20mm x 2000m
     Suppliers:
         RS Components:
             PartNo: 180-9136
-            Link: 'https://de.rs-online.com/web/p/innensechskantschrauben/8229170'
+            Link: ' https://de.rs-online.com/web/p/rohre-und-strebenprofile/8508470'
 
 M5Rod:
     Name: Round rod M5
