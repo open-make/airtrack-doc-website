@@ -4,7 +4,7 @@ Now you're going to connect the [air table center box](fromstep){Qty:1} with the
 
 ## U-formation framework {pagestep}
 
-Cut the [aluminium framework](framework.yml#20x20Rod) into two 48cm pieces and four pieces with a minimum of 20cm with a [metallsaw](tools.yml#metallsaw). The length of the four pieces is depending on your height preferences. A minimum of 20 cm is needed to have enough space for the camera below the table. The following is done twice. Place two [nuts](connectors.yml#5mmNuts){Qty:4} inside the two framework pieces with variable length, fixate on each a [angle](connectors.yml#5mmNuts_angle){Qty:4} with a [M5 screw (6mm)](screws.yml#m5x6mm_screw){Qty:4} at one end. Now connect both with the 48 cm long [aluminium framework](framework.yml#20x20Rod) by using a [nuts](connectors.yml#5mmNuts){Qty:4} and a [M5 screw (6mm)](screws.yml#m5x6mm_screw){Qty:4}.
+Cut the [aluminium strut profile](framework.yml#20x20Rod) into two 48cm pieces and four pieces with a minimum of 20cm with a [metallsaw](tools.yml#metallsaw). The length of the four pieces is depending on your height preferences. A minimum of 25 cm is needed to have enough space for the camera below the table. The following is done twice. Place two [nuts](connectors.yml#5mmNuts){Qty:4} inside the two [aluminium strut profile](framework.yml#20x20Rod) pieces with variable length, fixate on each a [angle](connectors.yml#5mmNuts_angle){Qty:4} with a [M5 screw (6mm)](screws.yml#m5x6mm_screw){Qty:4} at one end. Now connect both with the 48 cm long [aluminium strut profile](framework.yml#20x20Rod) by using a [nuts](connectors.yml#5mmNuts){Qty:4} and a [M5 screw (6mm)](screws.yml#m5x6mm_screw){Qty:4}.
 
 
 ## Applying the U-formation framework to the central air table {pagestep}
@@ -18,3 +18,7 @@ Repeat this step with the second U-formation framework on the other side of the 
 ## Glueing of the bottom plate {pagestep}
 
 After connecting the air table with the framework there is no need in accessing the inner box. Now [glue](tools.yml#acrifix_192) the second [480mm x 326mm plexiglass plate](plexiglass.yml#480x326pg){Qty:1} on the bottom side of the already build. Line up the long side of the box with the long side of the plate, there must be no hole for air flowing through. Again it's necessary to degrease and remove any dirt at the glueing surface before glueing.
+
+
+
+You have build the [center air table]{output, qty:1} now.
