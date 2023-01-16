@@ -28,3 +28,14 @@ M5Rod:
         RS Components:
             PartNo: 124-3623
             Link: 'https://de.rs-online.com/web/p/metallstangen-und-stabe/1243623'
+
+
+moving_arm:
+    Name: Aluminium rod
+    Description: Aluminium rod,12 mm diameter
+    Specs:
+        Material: Aluminium 
+    Suppliers:
+        RS Components:
+            PartNo: 124-3623
+            Link: 'https://de.rs-online.com/web/p/metallstangen-und-stabe/1243623'

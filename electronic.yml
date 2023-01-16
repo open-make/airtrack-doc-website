@@ -1,0 +1,96 @@
+Arduino_Uno:
+    Name: Arduino Uno
+    Description: Microcontroller
+    Suppliers:
+        Digi-Key Electronics:
+            PartNo: 1050-1024-ND
+            Link: 'https://www.digikey.de/de/products/detail/arduino/A000066/2784006'
+
+L293D:
+    Name: L293D H-bridge
+    Description: H-bridge
+    Suppliers:
+        Digi-Key Electronics:
+            PartNo: 497-2936-5-ND
+            Link: 'https://www.digikey.de/de/products/detail/stmicroelectronics/L293D/634700'
+
+
+
+PixyCam:
+    Name: Pixy 2 CMUCAM5
+    Description: Image Sensor Robo
+    Suppliers:
+        Digi-Key Electronics:
+            PartNo: 1738-1426-ND
+            Link: 'https://www.digikey.de/de/products/detail/dfrobot/SEN0265/9559245'
+
+
+
+LinActuator50mm:
+    Name: Actuonix L16 Linear Actuator 35:1 50mm 12V with Potentiometer Feedback
+    Description: Linear Actuator
+    Suppliers:
+        RobotShop:
+            PartNo: L16-50-35-12-P
+            Link: 'https://www.robotshop.com/uk/actuonix-l16-linear-actuator-351-50mm-12v-w--potentiometer-feedback.html'
+
+
+mpr121:
+    Name: MPR121 Capacitive Touch Sensor
+    Description: Capacitive Touch Sensor
+    Suppliers:
+        Tinkerly:
+            PartNo: No PartNo
+            Link: 'https://paradisetronic.com/de/sensoren/mpr121-touchsensor-controller-breakout-12-kanaele-i2c'
+
+
+Keyes_KY-012:
+    Name: Keyes KY-012 Active Buzzer
+    Description: Active Buzzer
+    Suppliers:
+        Aliexpress:
+            PartNo: No PartNo
+            Link: 'https://de.aliexpress.com/item/32816721769.html?aff_fcid=dbb60528572745a9ac0787a7403f897f-1651112003196-06651&aff_fsk&aff_platform=api-new-product-query&sk&aff_trace_key=dbb60528572745a9ac0787a7403f897f-1651112003196-06651&terminal_id=c3fe0c0a7e284a458624de73aaa29e49&afSmartRedirect=y&gatewayAdapt=glo2deu'            
+            
+
+5VLED:
+    Name: 5V Red LED
+    Description: LED
+    Suppliers:
+        Digi-Key Electronics:
+            PartNo: 67-1068-ND
+            Link: 'https://www.digikey.de/de/products/detail/lumex-opto-components-inc/SSL-LX3044ID-5V/270866'
+
+
+pv:
+    Name: pinch valve
+    Description: 2-way normally closed pinch valve
+    Specs:
+        Manufactorer: Bio-Chem Fluidics
+	Tubing: OD = 2,4mm, ID = 0,8mm
+    Suppliers:
+        BIOZOL Diagnostica Vertrieb GmbH:
+            PartNo: 075P2NC12-01S
+            Link: 'https://www.lab-club.com/2-way-NC-pinch-valve-type-075P2NC12-01S'
+
+
+pv_tube:
+    Name: Silicon Select tubing
+    Description: Silicon tube (OD = 2,4mm, ID = 0,8mm)
+    Specs:
+        Manufactorer: Bio-Chem Fluidics
+    Suppliers:
+        BIOZOL Diagnostica Vertrieb GmbH:
+            PartNo: 10025-01S
+            Link: 'https://www.lab-club.com/Silicon-Select-tubing-type-10025-01S-50-feet-approx-152-m'
+
+pv_clamp:
+    Name: pinch valve clamp
+    Description: 
+    Specs:
+        Manufactorer: Bio-Chem Fluidics
+    Suppliers:
+        BIOZOL Diagnostica Vertrieb GmbH:
+            PartNo: 075P2NC12-01S
+            Link: 'https://www.lab-club.com/2-way-NC-pinch-valve-type-075P2NC12-01S'
+

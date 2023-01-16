@@ -3,11 +3,10 @@
 ## Method 
 
 
-beweglicher arm
+[solenoid pinch valve](electronic.yml#pv){Qty:1}
 
-solenoids 
+[pinch valve silicon tube](electronic.yml#pv_tube){Qty:1}
 
-valve buzzer
+[pinch valve clamp](electronic.yml#pv_clamp){Qty:1}
 
-leds 
 
