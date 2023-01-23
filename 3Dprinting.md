@@ -2,7 +2,10 @@
 
 ## Printing the main platform
 
-![](PlusMazeWithoutWalls.stl)
+
+
+
+Now print [PlusMazeWithoutWalls.stl](models/PlusMazeWithoutWalls.stl){previewpage}
 
 
 
