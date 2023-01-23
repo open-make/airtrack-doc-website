@@ -29,4 +29,8 @@ M5thread_drill:
 
 metallsaw:
     Name: Metall saw
-    Description: oame saw with a saw blade appropriate for aluminium
+    Description: some saw with a saw blade appropriate for aluminium
+
+sandingsponge:
+    Name: sanding sponge
+    Description: a sponge to sand sharp metall endings
