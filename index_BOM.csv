@@ -1,11 +1,11 @@
 Name in documentation	Qty	Full Name	Supplier 1	Part No	Link
-305,6mm x 50mm plexiglass plates	2	Plexiglass precut			
+310mm x 64mm plexiglass plates	2	Plexiglass precut			
 3mm pozidriv screws	Many	Pozidriv wood screw	RS Components	144-3525	https://de.rs-online.com/web/p/holzschrauben/1443525
 480mm x 326mm plexiglass plate	2	Plexiglass precut			
-480mm x 50mm plexiglass plates	2	Plexiglass precut			
+480mm x 64mm plexiglass plates	2	Plexiglass precut			
 Active Buzzer	1				
 aluminium rod (12mm diameter)	1	Aluminium rod	RS Components	124-3623	https://de.rs-online.com/web/p/metallstangen-und-stabe/1243623
-angle	4	Frame Angle	RS Components	180-9136	https://de.rs-online.com/web/p/innensechskantschrauben/8229170
+angle	12	Frame Angle	RS Components	180-9136	https://de.rs-online.com/web/p/innensechskantschrauben/8229170
 Arduino Uno	1				
 Capcitive sensor mpr121	1				
 connecting clamp	3	Connecting Clamp	RS Components	786-6071	https://de.rs-online.com/web/p/verbindungselemente/7866071
@@ -14,8 +14,9 @@ headfixation	1
 LED	1				
 Linear Actuator	1				
 M5 round rods	3	Round rod M5	Misumi Europe GmbH	ETKLS12-200-F10-SC0-M5-N5	https://de.misumi-ec.com/vona2/detail/110300209240/?PNSearch=ETKLS12-200-F10-SC0-M5-N5&HissuCode=ETKLS12-200-F10-SC0-M5-N5&searchFlow=suggest2products&Keyword=ETKLS12-200-F10-SC0-M5-N5
-M5 screw (6mm)	8	Hexagon socket screw	RS Components	822-9170	https://de.rs-online.com/web/p/innensechskantschrauben/8229170
+M5 screw (6mm)	24	Hexagon socket screw	RS Components	822-9170	https://de.rs-online.com/web/p/innensechskantschrauben/8229170
 M5x12mm screws	4	Hexagon socket screw	RS Components	183-8676	https://de.rs-online.com/web/p/innensechskantschrauben/1838676
+nut	8	Frame nut	RS Components	180-9104	https://de.rs-online.com/web/p/innensechskantschrauben/1838676
 nuts	12	Frame nut	RS Components	180-9104	https://de.rs-online.com/web/p/innensechskantschrauben/1838676
 pinch valve clamp	2				
 pinch valve silicon tube	2				
