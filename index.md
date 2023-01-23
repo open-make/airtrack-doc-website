@@ -25,6 +25,12 @@ Further Information is provided on the website of the [Airtrack](http://www.neur
 #### [Setup of the electronics](electronic.md){step}
 
 
+#### [Installation of scripts](script_setup.md){step}
+
+
+#### [3D printing instructions](3Dprinting.md){step}
+
+
 #### [List of all necessary components]{BOM}
 
 
@@ -39,7 +45,7 @@ The following setup is described in [Air-Track: a real-world floating environmen
 It consists out of a central air table with the possibility of modification. In this version a mouse moves on a floating lightweight plus maze while being head fixed in the center above the platform. Below the table a camera tracks the movement of the plus maze with different coloring on the bottom side and at one side of the table a moveable reward system is placed with two licking spots. To detect with spot was licked a capacitive sensor is used. The Airtrack was used to perform Go/No-Go and two-alternative forced choice tasks with mice. The lanes on the maze are equipped with different features to distinguish them and correspond with the tasks. They can either be smooth or with gratings etched. Further for the performed tasks a LED and buzzer are installed to provide position feedback. The position tracking was done with a Pixy camera (CMUcam5 Image Sensor) by detecting  different colouring on the bottom side of the plus maze. The Pixy camera processes colour information in real time.
 The central table consists out of a plexiglass box with air flowing through. On the upper side many holes are placed to create an air cushion on the surface the platform can float on. The table is mounted on aluminium legs to reach the desired height and space for the camera. On the framework is a lot space to place e.g. further tracking devices. The computational tasks are performed with a Arduino Uno microcontroller.
 
-![](airtrack_platform_small.jpg)
+![](images/airtrack_platform_small.jpg)
 
 
 Source ???
