@@ -19,6 +19,25 @@ m5x6mm_screw:
             PartNo: 822-9170
             Link: 'https://de.rs-online.com/web/p/innensechskantschrauben/8229170'
 
+m4x6mm_screw:
+    Name: Hexagon socket screw
+    Description: M4 Hexagon socket screw 6mm
+    Specs:
+        Material: steel  
+    Suppliers:
+        RS Components:
+            PartNo: 822-9164
+            Link: 'https://de.rs-online.com/web/p/innensechskantschrauben/8229164'
+
+m4x8mm_screw:
+    Name: Hexagon socket screw
+    Description: M4 Hexagon socket screw 8mm
+    Specs:
+        Material: steel  
+    Suppliers:
+        RS Components:
+            PartNo: 483-9571
+            Link: 'https://de.rs-online.com/web/p/innensechskantschrauben/4839571'
 
 m5x12mm_screw:
     Name: Hexagon socket screw
