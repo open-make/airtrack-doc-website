@@ -32,5 +32,18 @@ After connecting the air table with the framework there is no need in accessing 
 You have build the [center air table]{output, qty:1} now.
 
 
+## Some pictures of this state
+
+![](images/desc_01.jpeg)
+![](images/desc_02.jpeg)
+![](images/desc_03.jpeg)
+![](images/desc_04.jpeg)
+![](images/desc_05.jpeg)
+![](images/desc_06.jpeg)
+
+
+
+
+
 # Note
 [M5 screw (6mm)](screws.yml#m5x6mm_screw) and [nut](connectors.yml#5mmNuts) to be exchanged. Further testing needed.

@@ -46,8 +46,10 @@ It consists out of a central air table with the possibility of modification. In 
 The central table consists out of a plexiglass box with air flowing through. On the upper side many holes are placed to create an air cushion on the surface the platform can float on. The table is mounted on aluminium legs to reach the desired height and space for the camera. On the framework is a lot space to place e.g. further tracking devices. The computational tasks are performed with a Arduino Uno microcontroller.
 
 ![](images/airtrack_platform_small.jpg)
-
+![](models/airtrack_480x366001.stl){color: grey}
 
 Source ???
 
 References: [Nashaat MA, Oraby H, Sachdev RN, Winter Y, Larkum ME. Air-Track: a real-world floating environment for active sensing in head-fixed mice. J Neurophysiol. 116(4):1542-1553, 2016](https://pubmed.ncbi.nlm.nih.gov/27486102/)
+
+

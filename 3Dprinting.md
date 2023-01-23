@@ -86,10 +86,10 @@ This variant has removable walls. The walls need to be printed extra and can hav
 ![](models/LMazeGroundandWall02.stl){color: deeppink}
 
 The STL-file without walls.
-[Platform with wall mount](models/LPlusMazeWithoutWalls.stl){previewpage}
+[Platform with wall mount](models/LMazeGroundandWall02_1.stl){previewpage}
 
 The STL-files of the walls including different surfaces. It's recommended to adapt the shape of the walls to your research question.
-[Walls STL-File](models/LPlusMazeWithoutWalls.stl){previewpage}
+[Walls STL-File](models/LMazeGroundandWall02_2.stl){previewpage}
 
 #### Print settings:
 
