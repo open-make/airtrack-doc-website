@@ -22,16 +22,16 @@ Instead of 3D printing, similar materials can be used, too.
 
 
 #### Whole large platform (variant 1)
-![Whole large platform(variant 1)](models/l_Mazeall.stl){color: grey}
+![Whole large platform(variant 1)](models/l_Maze_all.stl){color: grey}
 #### Whole large platform(variant 2)
-![Whole large platform (variant 2)](models/l_Mazexall02.stl){color: grey}
+![Whole large platform (variant 2)](models/l_Maze_X_all_02.stl){color: grey}
 #### Ground of large Platform
-![Ground of large platform](models/l_MazeXground.stl){color: grey}
+![Ground of large platform](models/l_Maze_X_ground.stl){color: grey}
 #### Walls mounts of large platform (variant 1)
-![Walls mounts of large platform](models/l_MazeXwallmount.stl){color: grey}
+![Walls mounts of large platform](models/l_Maze_X_wallmount.stl){color: grey}
 #### Walls of large platform (variant 1)
 - contain example shapes of the walls 
-![Walls of large platform](models/l_Mazexwalls.stl){color: grey}
+![Walls of large platform](models/l_Maze_X_walls.stl){color: grey}
 
 #### Print settings:
 
