@@ -20,8 +20,7 @@ XXXXXXXX
 The components need to be printed independently and get glued afterwards.
 Instead of 3D printing, similar materials can be used, too.
 
-
-#### Whole large platform (variant 1)
+#### Whole large platform
 ![](models/l_Maze_all.stl){color: grey}
 #### Whole large platform(variant 2)
 ![](models/l_Maze_X_all_02.stl){color: grey}
@@ -30,7 +29,6 @@ Instead of 3D printing, similar materials can be used, too.
 #### Walls mounts of large platform (variant 1)
 ![](models/l_Maze_X_wallmount.stl){color: grey}
 #### Walls of large platform (variant 1)
-- contain example shapes of the walls 
 ![](models/l_Maze_X_walls.stl){color: grey}
 
 #### Print settings:
@@ -79,7 +77,10 @@ Instead of 3D printing, similar materials can be used, too.
 ![](models/s_Mazewall_mount.stl){color: grey}
 
 
-
+
+
+
+
 
 #### Print settings:
 
