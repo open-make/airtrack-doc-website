@@ -11,7 +11,7 @@ Place two [nuts](connectors.yml#5mmNuts){Qty:4} inside the two [aluminium strut 
 
 ## Applying the U-formation framework to the central air table {pagestep}
 
-Place two [nuts](connectors.yml#5mmNuts){Qty:4} inside each 48 cm rod of the U-formation frameworks on one side which adjacent to the side with nuts already placed in (90 degrees to both rods which can vary in length), both sides work. Now line these nuts up with the holes inside [480mm x 50mm plexiglass plates](plexiglass.yml#480x50pg) of the central air table box. The holes in the [480mm x 326mm plexiglass plate](plexiglass.yml#480x326pg) need to point in the opposite direction as the two rods which can vary in length.
+Place two [nuts](connectors.yml#5mmNuts){Qty:4} inside each 48 cm rod of the U-formation frameworks on one side which adjacent to the side with nuts already placed in (90 degrees to both rods which can vary in length), both sides work. Now line these nuts up with the holes inside [480mm x 64mm plexiglass plates](plexiglass.yml#480x64pg) of the central air table box. The holes in the [480mm x 326mm plexiglass plate](plexiglass.yml#480x326pg) need to point in the opposite direction as the two rods which can vary in length.
 Connect the air table box and the U-formation framework with two [M5x12mm screws](screws.yml#m5x12mm_screw){Qty:4} from the inside of the air box in each nut. 
 
 Repeat this step with the second U-formation framework on the other side of the air table box.

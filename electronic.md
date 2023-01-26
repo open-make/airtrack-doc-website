@@ -8,7 +8,7 @@
 
 [H bridge L293D](electronic.yml#L293D){Qty:1}
 
-[Pixy Camera](electronic.yml#OixyCam){Qty:1}
+[Pixy Camera](electronic.yml#PixyCam){Qty:1}
 
 [Linear Actuator](electronic.yml#LinActuator50mm){Qty:1}
 
@@ -28,6 +28,4 @@
 
 
 
-
-[XXXXXX](electronic.yml#XXXXXX){Qty:1}
 

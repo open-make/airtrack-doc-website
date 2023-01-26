@@ -67,7 +67,7 @@ pv:
     Description: 2-way normally closed pinch valve
     Specs:
         Manufactorer: Bio-Chem Fluidics
-	Tubing: OD = 2,4mm, ID = 0,8mm
+        Tubing: OD = 2,4mm, ID = 0,8mm
     Suppliers:
         BIOZOL Diagnostica Vertrieb GmbH:
             PartNo: 075P2NC12-01S
@@ -93,4 +93,3 @@ pv_clamp:
         BIOZOL Diagnostica Vertrieb GmbH:
             PartNo: 075P2NC12-01S
             Link: 'https://www.lab-club.com/2-way-NC-pinch-valve-type-075P2NC12-01S'
-

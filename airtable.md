@@ -10,7 +10,7 @@ Drill several holes (0.8 cm diameter) into the [480mm x 326mm plexiglass plate](
 
 
 To connect the central box with the table legs the long side of the central box needs connection points. 
-Therefore drill a hole on each end of both [480mm x 64mm plexiglass plates](plexiglass.yml#480x64pg){Qty:2} with a [5mm plexiglas drill](tools.yml#1mmdrill). Keep a distance of 4.5 cm to the end edge and 1 cm to the top. Drill two more holes inside both [480mm x 50mm plexiglass plates](plexiglass.yml#480x64pg) with a distance of 12.5cm towards the plate's center.
+Therefore drill a hole on each end of both [480mm x 64mm plexiglass plates](plexiglass.yml#480x64pg){Qty:2} with a [5mm plexiglas drill](tools.yml#1mmdrill). Keep a distance of 4.5 cm to the end edge and 1 cm to the top. Drill two more holes inside both [480mm x 64mm plexiglass plates](plexiglass.yml#480x64pg) with a distance of 12.5cm towards the plate's center.
 
 
 ## Cleaning the plexiglass {pagestep}
