@@ -12,7 +12,7 @@ The large platform has a flat ground because it needs to push the balls within t
 
 
 
-
+XXXXXXXX
 
 
 ## Large platform {pagestep}
