@@ -68,16 +68,18 @@ Instead of 3D printing, similar materials can be used, too.
 
 
 #### Whole small platform
-![](models/s_MazeXall.stl){color: grey}
+![](models/s_Maze_X_all.stl){color: grey}
 #### Rim
-![](models/s_MazeXrim.stl){color: grey}
+![](models/s_Maze_X_rim.stl){color: grey}
 #### Ground of large Platform
-![](models/s_Mazexground.stl){color: grey}
+![](models/s_Maze_X_ground.stl){color: grey}
 #### Walls of the small platform
-![](models/s_Mazewalls.stl){color: grey}
+![](models/s_Maze_walls.stl){color: grey}
 #### Wall mounts of the small platform
-![](models/s_Mazewallmount.stl){color: grey}
+![](models/s_Mazewall_mount.stl){color: grey}
 
+
+
 
 #### Print settings:
 
