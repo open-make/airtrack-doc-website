@@ -14,6 +14,14 @@ L293D:
             PartNo: 497-2936-5-ND
             Link: 'https://www.digikey.de/de/products/detail/stmicroelectronics/L293D/634700'
 
+circuit_board:
+    Name: BB-32621
+    Description: circuit board
+    Suppliers:
+        Digi-Key Electronics:
+            PartNo: 377-2094-ND
+            Link: 'https://www.digikey.de/de/products/detail/bud-industries/BB-32621/4156445'
+
 
 
 PixyCam:

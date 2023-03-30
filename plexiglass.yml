@@ -31,3 +31,15 @@
     Description: 250mm x 15mm x 8mm
     Specs:
         Material: Polymethylmethacrylat
+
+286x30pg:
+    Name: Plexiglass precut
+    Description: 286mm x 30mm x 8mm
+    Specs:
+        Material: Polymethylmethacrylat
+
+326x30pg:
+    Name: Plexiglass precut
+    Description: 286mm x 30mm x 8mm
+    Specs:
+        Material: Polymethylmethacrylat

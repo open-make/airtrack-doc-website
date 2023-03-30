@@ -25,7 +25,17 @@ screwdriver:
 
 M5thread_drill:
     Name: M5 thread drill
-    Description: A thread drill specific for aluminium with a M5 tread 
+    Description: A thread drill specific for aluminium with a M5 thread 
+
+
+G1_8_thread_drill:
+    Name: G 1/8" thread drill
+    Description: A thread drill specific for a G/R 1/8" thread (Withworth)
+
+G1_4_thread_drill:
+    Name: G 1/4" thread drill
+    Description: A thread drill specific for a G/R 1/4" thread (Withworth)
+ 
 
 metallsaw:
     Name: Metall saw

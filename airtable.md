@@ -19,7 +19,7 @@ Before beginning any gluing work, the pieces must be degreased (soap and water) 
 
 ## Glueing {pagestep}
 
-The first step is to build the central plexiglas box where the air is floating through. Therefore use the acrylic glue to combine the predrilled [480mm x 326mm plexiglass plate](plexiglass.yml#480x326pg) with 2 [310mm x 64mm plexiglass plates](plexiglass.yml#310x64pg){Qty:2}. These are placed on the shorter edge of the [480mm x 326mm plexiglass plate](plexiglass.yml#480x326pg) with a space of 8mm on both sides. You are able to mark the corner spaces with a pen on the 8mm height of the largest plexiglas plate. Then use the [arcylic glue](tools.yml#acrifix_192) [i](glueingadvise.md) to connect the components. Now [glue](tools.yml#acrifix_192) the [480mm x 64mm plexiglass plates](plexiglass.yml#480x64pg). Don't forget to put glue between both plexiglass components with 6.4 cm height. You now have the upper side of the air table center. The bottom plate will be glued later.
+The first step is to build the central plexiglas box where the air is floating through. Therefore use the acrylic glue to combine the predrilled [480mm x 326mm plexiglass plate](plexiglass.yml#480x326pg) with two [310mm x 64mm plexiglass plates](plexiglass.yml#310x64pg){Qty:2}. These are placed on the shorter edge of the [480mm x 326mm plexiglass plate](plexiglass.yml#480x326pg) with a space of 8mm on both sides. You are able to mark the corner spaces with a pen on the 8mm height of the largest plexiglas plate. Then use the [arcylic glue](tools.yml#acrifix_192) [i](glueingadvise.md) to connect the components. Now [glue](tools.yml#acrifix_192) the [480mm x 64mm plexiglass plates](plexiglass.yml#480x64pg). Don't forget to put glue between both plexiglass components with 6.4 cm height. You now have the upper side of the air table center. The bottom plate will be glued later.
 
 ## Screwing {pagestep}
 
@@ -32,8 +32,7 @@ The bottom plate is meant to disconnect first if the pressure in the box gets to
 
 ## Inserting of hose connection gland and pressure relief valve {pagestep}
 
-
-
+Choose one short side of the box and drill in the center of the the plexiglass a hole with a [G 1/4" thread drill](tools.yml#G1_4_thread_drill). Now insert the [reducing_fitting](connectors.yml#R_1_4_R_1_4_reducing_fitting){Qty:1}. Place with distance of 7,5cm two more threads with a [G 1/8" thread drill](tools.yml#G1_8_thread_drill) on both side of the last thread. Place inside these threads the [hose connection glands](connectors.yml#SV_Ges_8_R_1_8){Qty:2}. You can place on the [reducing_fitting](connectors.yml#R_1_4_R_1_4_reducing_fitting) the [pressure relief valve](connectors.yml#pressure_relief_valve){Qty:1}. It's recommended to remove it during works on the Airtable. Further combine two 20cm [compressed air hose](connectors.yml#compressed_air_hose){Qty:many} with an [Y-hose connector](connectors.yml#YS_Ges_8){Qty:1}. Append to the in one direction pointing end of the [Y-hose connector](connectors.yml#YS_Ges_8) another [compressed air hose](connectors.yml#compressed_air_hose) with the length of your need. Connect both 20cm [compressed air hose](connectors.yml#compressed_air_hose) with the [hose connection glands](connectors.yml#SV_Ges_8_R_1_8).
 
 
 
