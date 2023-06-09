@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Construction guidance of an Airtrack</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./static/Logo/favicon.ico" />
+<link rel="icon" type="image/png" href="./static/Logo/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="./static/Logo/favicon-16x16.png" sizes="16x16" />
+
+    <link href="./static/style.css" rel="stylesheet">
+            <script type="text/javascript" src="./static/3d-viewer.js"></script>
+    </head>
+<body>
+<header class="site-header">
+    <div class="wrapper">
+        <div class=header-text>
+   
+    <h1 class="site-title">Construction guidance of an Airtrack</h1>
+</div>
+            </div>
+</header>
+<div class="page-content">
+            <div>
+            <nav class="sidebar">
+                <a href="#" class="menu-icon">
+                <svg viewBox="0 0 18 15">
+                    <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+                    <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+                    <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+                </svg>
+                </a>
+                <ul class="nav-list">
+                <li>
+    <a class="navhome" href="./">
+        Construction guidance of an Airtrack
+    </a>
+</li>
+<li class="not-active">
+    <a class="not-active" href="./index_BOM.html">
+        Bill of Materials
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./airtable.html">
+        Construction of the air table center
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./basicframework.html">
+        Construction of the framework
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./headandcamera.html">
+        Construction of the head fixation and platform tracking
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./rewardsystem.html">
+        Construction of the rewarding system
+    </a>
+    </li>
+<li class="active">
+    <a class="active" href="./actuator_head.html">
+        Construction of the linear actuator front
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./electronic.html">
+        Set up of the electric system
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./script_setup.html">
+        Installation of scripts
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./3Dprinting.html">
+        Floating platform
+    </a>
+    </li>
+
+                </ul>
+            </nav>
+        </div>
+        <div class="wrapper">
+    <h1 id="construction-of-the-linear-actuator-front">Construction of the linear actuator front</h1>
+<h2 class="page-step" id="preparation-3d-prints">Step 1: Preparation: 3D prints</h2>
+<ul>
+<li>Print all following parts, some need to be printed twice.</li>
+</ul>
+<h3 id="core-components">Core components</h3>
+<noscript><a href="models/rewards_center_01.stl"></a></noscript>
+<p><gb3d-viewer src="models/rewards_center_01.stl" color="grey"></gb3d-viewer></p>
+<noscript><a href="models/rewards_center_02.stl"></a></noscript>
+<p><gb3d-viewer src="models/rewards_center_02.stl" color="grey"></gb3d-viewer></p>
+<h3 id="moveable-needle-hold-2x">Moveable needle hold (2x)</h3>
+<noscript><a href="models/rewards_moveable_needle_hold.stl"></a></noscript>
+<p><gb3d-viewer src="models/rewards_moveable_needle_hold.stl" color="grey"></gb3d-viewer></p>
+<h3 id="needle-fixation-2x">Needle fixation (2x)</h3>
+<noscript><a href="models/rewards_needle_fixation.stl"></a></noscript>
+<p><gb3d-viewer src="models/rewards_needle_fixation.stl" color="grey"></gb3d-viewer></p>
+<h3 id="print-settings">Print settings</h3>
+<p>Print settings used for testing with a good result at a Creality Ender-3 V2</p>
+<ul>
+<li>Layer height: 0.12 mm</li>
+<li>Infill: 70%</li>
+<li>Nuzzle temperatur: 200°C</li>
+<li>Support: Yes, automatic from PrusaSlicer</li>
+<li>Raft: No</li>
+</ul>
+<h3 id="after-printing">After printing</h3>
+<ul>
+<li>Use sandpaper to smooth both parts of the ball joint.</li>
+<li>Clean the holes inside the parts from blocking print artifacts, e.g. with a small drill.</li>
+</ul>
+<h3 id="an-overview-of-all-combined-3d-printed-parts">An overview of all combined 3D printed parts</h3>
+<noscript><a href="models/rewards_all.stl"></a></noscript>
+<p><gb3d-viewer src="models/rewards_all.stl" color="grey"></gb3d-viewer></p>
+<h2 id="combine-the-3d-prints">Combine the 3D prints</h2>
+<p>Use the overview as an orientation. </p>
+<ul>
+<li>
+<p>Use a <a href="screws/m2x16mm_screw.html">M2 screw</a> and a <a href="screws/m2_hexagon_nuts.html">M2 hexagon nuts</a> to combine both core parts. </p>
+<ul>
+<li>
+<p>Before tighten the screw place both moveable needle holds with the ball inside. These should point sidewards and not to the front as shown in the file.</p>
+</li>
+<li>
+<p>Remember to loosen the screws before repositioning the moveable needle holds.</p>
+</li>
+</ul>
+</li>
+</ul>
+<div class="info-block">
+<p>Note</p>
+<p>If the movable needle hold is to unstable for your purposes, at the bottom this page are the two ending parts of the movable needle hold which can be combined by a long M2 screw with a small head.</p>
+</div>
+<h2 class="page-step" id="attaching-at-the-linear-actuator">Step 2: Attaching at the Linear actuator</h2>
+<ul>
+<li>Use a <a href="screws/m2x16mm_screw.html">M2 screw</a> and a <a href="screws/m2_hexagon_nuts.html">M2 hexagon nuts</a> to combine the 3D printed component to the <a href="electronic/LinActuator50mm.html" title="">linear actuator</a>. <ul>
+<li>The screw needs to go through the hole in the bigger core 3D part and the front hole of the moveable part of the linear actuator.</li>
+</ul>
+</li>
+</ul>
+<div class="caution-block">
+<p>Picture</p>
+</div>
+<ul>
+<li>Choose one long side of the U-formation framework and drill a [1/4" thread]</li>
+</ul>
+<h2 id="appendix-moveable-needle-hold-parts">Appendix - moveable needle hold parts:</h2>
+<noscript><a href="models/rewards_mnh_end_01001.stl"></a></noscript>
+<p><gb3d-viewer src="models/rewards_mnh_end_01001.stl" color="grey"></gb3d-viewer></p>
+<noscript><a href="models/rewards_mnh_end_02001.stl"></a></noscript>
+<p><gb3d-viewer src="models/rewards_mnh_end_02001.stl" color="grey"></gb3d-viewer></p>
+<hr />
+<p><a href="rewardsystem.html">Previous page</a> | <a href="electronic.html">Next page</a></p>
+    </div>
+</div>
+<footer class="site-footer">
+    <div class="wrapper">
+        <a target="_blank" rel="noopener noreferrer" href="https://gitbuilding.io">
+    <img class="icon" src="./static/Logo/GitBuilding500x.png" alt="GitBuilding logo">
+    <span class="info">Documentation powered by GitBuilding</span>
+</a>
+
+    </div>
+</footer></body>
+</html>

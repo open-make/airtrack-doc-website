@@ -10,7 +10,8 @@
 <link rel="icon" type="image/png" href="./static/Logo/favicon-16x16.png" sizes="16x16" />
 
     <link href="./static/style.css" rel="stylesheet">
-        </head>
+            <script type="text/javascript" src="./static/3d-viewer.js"></script>
+    </head>
 <body>
 <header class="site-header">
     <div class="wrapper">
@@ -62,6 +63,11 @@
     </a>
     </li>
 <li class="not-active">
+    <a class="not-active" href="./actuator_head.html">
+        Construction of the linear actuator front
+    </a>
+    </li>
+<li class="not-active">
     <a class="not-active" href="./electronic.html">
         Set up of the electric system
     </a>
@@ -84,13 +90,62 @@
     <h1 id="construction-of-the-head-fixation-and-platform-tracking">Construction of the head fixation and platform tracking</h1>
 <p>In order do keep the head and camera in the same place a rigid mount is needed.</p>
 <h2 class="page-step" id="placing-vertical-mounting">Step 1: Placing vertical mounting</h2>
-<p>Place three <a href="connectors/5mmNuts.html">nuts</a> in each 48 cm <a href="framework/20x20Rod.html" title="">aluminium strut profile</a> of the <a href="basicframework.html">center air table</a>. The six nuts must point upwards. Move on both sides the central nut to the center of the 48 cm <a href="framework/20x20Rod.html" title="">aluminium strut profile</a>.  Place in each central nut one of the <a href="framework/M5Rod.html">M5 round rods</a>. Attach on each <a href="framework/M5Rod.html" title="">M5 round rod</a> a <a href="connectors/12mmCC.html">connecting clamp</a> 15 cm  above the table. </p>
+<ul>
+<li>
+<p>Place three <a href="connectors/5mmNuts.html">nuts</a> in each 48 cm <a href="framework/20x20Rod.html" title="">aluminium strut profile</a> of the <a href="basicframework.html">center air table</a>. </p>
+<ul>
+<li>
+<p>The nuts must point upwards. </p>
+</li>
+<li>
+<p>Move on both sides the central nut to the center of the 48 cm <a href="framework/20x20Rod.html" title="">aluminium strut profile</a>.  </p>
+</li>
+</ul>
+</li>
+<li>
+<p>Place in each central nut one of the <a href="framework/M5Rod.html">M5 round rods</a>. Attach on each <a href="framework/M5Rod.html" title="">M5 round rod</a> a <a href="connectors/12mmCC.html">connecting clamp</a> 15 cm  above the table. </p>
+</li>
+</ul>
 <h2 class="page-step" id="attaching-the-head-fixation">Step 2: Attaching the head fixation</h2>
+<ul>
+<li>
 <p>Place one <a href="connectors/12mmCC.html" title="">connecting clamp</a> on each of the upwards pointing rods in a right angle. </p>
+</li>
+<li>
 <p>Cut a 38 cm long piece with a <a href="tools/metallsaw.html" title="">metallsaw</a> from the <a href="framework/12mmRod.html">aluminium rod 12mm diameter</a> and place it in both <a href="connectors/12mmCC.html" title="">connecting clamps</a> on the upwards pointing rods. On this rod attach the headfixation.</p>
+</li>
+</ul>
 <p>If the head fixation for the study needed is incompatible with this construction, a placement on the vertical <a href="framework/M5Rod.html" title="">M5 thread rod</a> might work.</p>
 <h2 class="page-step" id="attaching-the-camera">Step 3: Attaching the camera</h2>
-<p>Insert the <a href="electronic/PixyCam.html">Pixy Camera</a> in its <a href="3d_prints/pixy_hold.html">3D printed mounting</a> and place it in the center below the table on the <a href="framework/20x20Rod.html" title="">aluminium strut profile</a>.</p>
+<ul>
+<li>3D print the following file: <ul>
+<li>Settings: <a href="3D_settings_plate.html" title=""><img alt="info" class="smallicon" src="static/Icons/info.png" title="More information" /></a></li>
+</ul>
+</li>
+</ul>
+<noscript><a href="models/3_5mm_plate.stl"></a></noscript>
+<p><gb3d-viewer src="models/3_5mm_plate.stl" color="grey"></gb3d-viewer></p>
+<ul>
+<li>
+<p>Place the two nuts, which are already in the lower center <a href="framework/20x20Rod.html" title="">aluminium strut profile</a>, with a distance of 3.5cm. Mark two points with the distance of the threads on the 3.5mm plate 3D printed plate along one long side with 5 to 10 mm distance from the edge. </p>
+<ul>
+<li>Use a <a href="tools/5mmdrill.html" title="">5mm drill</a> at both places.</li>
+</ul>
+</li>
+<li>
+<p>Take the <a href="electronic/PixyCam.html" title="">Pixy Camera</a> to mark on the other long side two more drill places with the distance of both holes from the fixation part of the <a href="electronic/PixyCam.html" title="">Pixy Camera</a>. The distance should be around 7 mm.</p>
+<ul>
+<li>Use a <a href="tools/5mmdrill.html" title="">3mm drill</a> at both places.</li>
+</ul>
+</li>
+<li>
+<p>Connect the 3.5mm plate by using <a href="screws/m5x6mm_screw.html">M5 screws</a> with the <a href="framework/20x20Rod.html" title="">aluminium strut profile</a>.</p>
+</li>
+<li>
+<p>Connect the <a href="electronic/PixyCam.html">Pixy Camera</a> to the 3.5mm plate by using <a href="screws/m3x5mm_screw.html">M3 screws</a> and <a href="screws/m3_hexagon_nuts.html">M3 hexagon nuts</a>.</p>
+</li>
+</ul>
+<p>You might want to shift the <a href="framework/20x20Rod.html" title="">aluminium strut profile</a> in the center a bit to have the <a href="electronic/PixyCam.html" title="">Pixy Camera</a> in the center.</p>
 <hr />
 <p><a href="basicframework.html">Previous page</a> | <a href="rewardsystem.html">Next page</a></p>
     </div>
