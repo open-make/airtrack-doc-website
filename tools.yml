@@ -17,6 +17,14 @@ screwdriver:
     Name: 1mm drill
     Description: A drill specific for acyrlglass or a metall drill with similar angles as for acrylglas 
 
+3mmdrill:
+    Name: 3mm drill
+    Description: A drill specific for acyrlglass or a metall drill with similar angles as for acrylglas 
+
+4mmdrill:
+    Name: 4mm drill
+    Description: A drill specific for acyrlglass or a metall drill with similar angles as for acrylglas 
+
 
 5mmdrill:
     Name: 5mm drill
@@ -35,6 +43,12 @@ G1_8_thread_drill:
 G1_4_thread_drill:
     Name: G 1/4" thread drill
     Description: A thread drill specific for a G/R 1/4" thread (Withworth)
+
+1_4_thread_drill:
+    Name:  1/4" thread drill
+    Description: A thread drill specific for a 1/4" thread
+
+
  
 
 metallsaw:

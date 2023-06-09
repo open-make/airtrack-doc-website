@@ -3,7 +3,7 @@
 ## Source of the code
 https://github.com/larkum-lab/airtrack
 
-## Setup of the Arduino Uno {pagestep}
+## Setup of the Arduino Uno 
 
 1. Install the Arduino IDE: Download and install the Arduino IDE from the official Arduino website (https://www.arduino.cc/en/software).
 2. Create a new Arduino sketch: Open the Arduino IDE, and create a new sketch by clicking "File" > "New". 

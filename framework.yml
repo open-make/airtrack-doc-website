@@ -39,3 +39,25 @@ moving_arm:
         RS Components:
             PartNo: 124-3623
             Link: 'https://de.rs-online.com/web/p/metallstangen-und-stabe/1243623'
+
+
+
+smallrig_articulated_arm:
+    Name: Articulated arm by SmallRig
+    Description: Articulated arm with 1/4" thread on both sides
+    Suppliers:
+        SmallRig:
+            PartNo: 2066B
+            Link: 'https://smallrig.com.de/smallrig-articulating-arm-9-5-inches-2066.html'
+
+
+smallrig_super_clamp:
+    Name: Super clamp by SmallRig
+    Description: Super clamp with 1/4" and 3/8" thread
+    Suppliers:
+        SmallRig:
+            PartNo: 735
+            Link: 'https://smallrig.com.de/smallrig-super-clamp-w-1-4-and-3-8-thread-735.html'
+
+
+

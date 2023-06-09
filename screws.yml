@@ -48,3 +48,88 @@ m5x12mm_screw:
         RS Components:
             PartNo: 183-8676
             Link: 'https://de.rs-online.com/web/p/innensechskantschrauben/1838676'
+
+m3x5mm_screw:
+    Name: Lens head Pozidriv screw
+    Description: M3 lens head Pozidriv screw 5mm
+    Specs:
+        Material: steel  
+    Suppliers:
+        RS Components:
+            PartNo: 908-7668
+            Link: 'https://de.rs-online.com/web/p/maschinenschrauben/9087668'
+
+
+m3_hexagon_nuts:
+    Name: Heaxagon nuts
+    Description: M3 hexagon nuts 5.5mm
+    Specs:
+        Material: steel  
+    Suppliers:
+        RS Components:
+            PartNo: 560-293
+            Link: 'https://de.rs-online.com/web/p/sechskantmuttern/0560293'
+
+
+
+m2x16mm_screw:
+    Name: Lens head Pozidriv screw
+    Description: M2 lens head Pozidriv screw 16mm
+    Specs:
+        Material: steel  
+    Suppliers:
+        RS Components:
+            PartNo: 179-5689
+            Link: 'https://de.rs-online.com/web/p/maschinenschrauben/1795689'
+
+
+m2_hexagon_nuts:
+    Name: Heaxagon nuts
+    Description: M2 hexagon nuts 4mm
+    Specs:
+        Material: steel  
+    Suppliers:
+        RS Components:
+            PartNo: 560-271
+            Link: 'https://de.rs-online.com/web/p/sechskantmuttern/0560271'
+
+
+
+m4x20mm_screw:
+    Name: Lens head Pozidriv screw
+    Description: M4 lens head Pozidriv screw 20mm
+    Specs:
+        Material: steel  
+    Suppliers:
+        RS Components:
+            PartNo: 553-560
+            Link: 'https://de.rs-online.com/web/p/maschinenschrauben/0553560'
+
+
+m4_hexagon_nuts:
+    Name: Heaxagon nuts
+    Description: M4 hexagon nuts 7mm
+    Specs:
+        Material: steel  
+    Suppliers:
+        RS Components:
+            PartNo: 525-896
+            Link: 'https://de.rs-online.com/web/p/sechskantmuttern/0525896'
+
+
+
+m5_hexagon_nuts:
+    Name: Heaxagon nuts
+    Description: M5 hexagon nuts 8mm
+    Specs:
+        Material: steel  
+    Suppliers:
+        RS Components:
+            PartNo: 525-903
+            Link: 'https://de.rs-online.com/web/p/sechskantmuttern/0525903'
+
+
+
+
+
+
