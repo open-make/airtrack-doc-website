@@ -58,20 +58,19 @@ Use the overview as an orientation.
 
 >i Note
 >i
->i If the movable needle hold is to unstable for your purposes, at the bottom this page are the two ending parts of the movable needle hold which can be combined by a long M2 screw with a small head.
+>i If the movable needle hold is to unstable for your purposes, at the bottom of  this page are the two ending parts of the movable needle hold which can be combined by a long M2 screw with a small head.
 
 
 
 ## Attaching at the Linear actuator {pagestep}
 
 
-- Use a [M2 screw](screws.yml#m2x16mm_screw){Qty: 1} and a [M2 hexagon nuts](screws.yml#m2_hexagon_nuts){Qty: 1} to combine the 3D printed component to the [linear actuator](electronic.yml#LinActuator50mm). 
+- Use a [M4 screw](screws.yml#m4x20mm_screw){Qty: 1} and a [M4 hexagon nuts](screws.yml#m4_hexagon_nuts){Qty: 1} to combine the 3D printed component to the [linear actuator](electronic.yml#LinActuator50mm). 
     - The screw needs to go through the hole in the bigger core 3D part and the front hole of the moveable part of the linear actuator.
 
 >! Picture
 
 
-- Choose one long side of the U-formation framework and drill a [1/4" thread]
 
 
 ## Appendix - moveable needle hold parts:

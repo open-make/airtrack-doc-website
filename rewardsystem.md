@@ -63,7 +63,7 @@ The following modification will be placed on the opposite of the pressure relief
 - Choose one long side of the U-formation framework and drill a [1/4" thread](tools.yml#1_4_thread_drill) inside the upper [aluminium strut profiles](framework.yml#20x20Rod) on the opposite side of the pressure relief valve.
      - Keep a 5 cm distance from the end of the [aluminium strut profiles](framework.yml#20x20Rod).
 
-- Drill the [SmallRig articulated_arm](framework.yml#smallrig_articulated_arm){Qty:1} in the thread with one side. 
+- Place the [SmallRig articulated_arm](framework.yml#smallrig_articulated_arm){Qty:1} in the thread with one side. 
 - On the other side of the [SmallRig articulated arm](framework.yml#smallrig_articulated_arm) place the [SmallRig super clamp](framework.yml#smallrig_super_clamp){Qty:1}. 
 
 - Place the [linear actuator](electronic.yml#LinActuator50mm){Qty:1} in the [SmallRig Super Clamp](framework.yml#smallrig_super_clamp) close to the center end of the not moving part. 
