@@ -1,39 +1,59 @@
-# Construction of the air table center
+# Construction of the air table
 
-## Predrill of plexiglass plates {pagestep}
+## Predrill of Top plexiglass plates {pagestep}
 
-- Drill several holes (0.8 cm diameter) into the [480mm x 326mm plexiglass plate](plexiglass.yml#480x326pg){Qty:1} as shown in the following drawing. 
+- Drill 28 holes (0.8 cm diameter) into the [480mm x 326mm plexiglass plate](plexiglass.yml#480x326pg){Qty:1}, as shown in the following drawing.
 
-     - The given distances in the first picture can be transferred to all other holes.
+     - 4 columns: 5.4, 10.4, 22.2, 27.2 cm of the border
+     - 7 raws: 6.3, 12.2, 18.1, 24.0, 29.9, 36.8, 41.7 cm of the border
+
+![](images/Top_plexiglas_drill_distances_all001.jpeg)
  
-- After drilling remove remains of drilling. 
+- Remove remains of drilling. 
 
-Now you have a predrilled 480mm x 326mm plexiglass plate. 
+- Now you have a [predrilled 480mm x 326mm plexiglass plate]{output, qty:1}. 
 
-To connect the central box with the table legs the long side of the central box needs connection points. 
+## Predrill lond sides {pagestep}
 
-- Therefore drill a hole on each end of both [480mm x 64mm plexiglass plates](plexiglass.yml#480x64pg)- {Qty:2} with a [5mm plexiglas drill](tools.yml#1mmdrill). 
-     - Keep a distance of 4.5 cm to the end edge and 1 cm to the top. 
+>!! **TODO**
+>!!
+>!! this is not understandable
+
+
+
+To connect the air table with the table legs, the long side of the central box needs connection points. 
+
+- Drill a hole on each end of both [480mm x 64mm plexiglass plates](plexiglass.yml#480x64pg)- {Qty:2} with a [5mm plexiglas drill](tools.yml#1mmdrill). 
+
+- Keep a distance of 4.5 cm to the end edge and 1 cm to the top. 
 
 - Drill two more holes inside both [480mm x 64mm plexiglass plates](plexiglass.yml#480x64pg) with a distance of 12.5cm towards the plate's center.
 
-![](images/Top_plexiglas_drill_distances.jpeg)
-![](images/Top_plexiglas_drill_distances_all001.jpeg)
+
+>!! **TODO**
+>!!
+>!! are they identical or symtrical ?
+- Now you have two [predrilled 480x64 plexiglass plate]{output, qty:2}.
 
 ## Cleaning the plexiglass {pagestep}
 
-Before beginning any gluing work, the pieces must be degreased (soap and water) and without any remaining screwing or other dirt.
+Before beginning any gluing work, the pieces must be degreased (with soap and water) and free of any remaining screwing or other dirt.
 
 ## Glueing {pagestep}
+>!! **TODO**
+>!!
+>!! always put reference for each part, not using made up names. Use the one created in the previous part of the doc.
+>!! This needs pictures or schematics or video (and?)
+
 
 The first step is to build the central plexiglas box where the air is floating through. 
 
 - Use the acrylic glue to combine the predrilled [480mm x 326mm plexiglass plate](plexiglass.yml#480x326pg) with two [310mm x 64mm plexiglass plates](plexiglass.yml#310x64pg){Qty:2}. 
      - These are placed on the shorter edge of the [480mm x 326mm plexiglass plate](plexiglass.yml#480x326pg) with a space of 8mm on both sides. You are able to mark the corner spaces with a pen on the 8mm height of the largest plexiglas plate. 
 
-- Then use the [arcylic glue](tools.yml#acrifix_192) [i](glueingadvise.md) to connect the components. 
+- Use the [arcylic glue](tools.yml#acrifix_192) [i](glueingadvise.md) to connect the components. 
 
-- Now use the [arcylic glue](tools.yml#acrifix_192) [i](glueingadvise.md) to add the [480mm x 64mm plexiglass plates](plexiglass.yml#480x64pg).
+- Use the [arcylic glue](tools.yml#acrifix_192) [i](glueingadvise.md) to add the [480mm x 64mm plexiglass plates](plexiglass.yml#480x64pg).
 
      - Don't forget to put glue between both plexiglass components with 6.4 cm height. 
 
@@ -52,7 +72,11 @@ To further stabilize the box you need to drill screws from the side into the box
 
 Now drill [3mm pozidriv screws](screws.yml#3mm_pozidriv){Qty:Many} in each hole.
 
-The bottom plate is meant to disconnect first if the pressure in the box gets too high. Therefore the bottom plate is not screwed down.
+## Glue bottom plate
+
+The bottom plate is meant to disconnect first if the pressure in the box gets too high. Therefore the bottom plate is not screwed.
+
+- Glue the not predrilled bottom plate [480mm x 326mm plexiglass plate](plexiglass.yml#480x326pg){Qty:1} below the box.
 
 ## Inserting of hose connection gland and pressure relief valve {pagestep}
 
