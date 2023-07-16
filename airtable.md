@@ -1,45 +1,17 @@
 # Construction of the air table
 
-## Predrill of Top plexiglass plates {pagestep}
+## Predrill plexiglass plates {pagestep}
 
-- Drill 28 holes (0.8 cm diameter) into the [480mm x 326mm plexiglass plate](plexiglass.yml#480x326pg){Qty:1}, as shown in the following drawing.
-
-     - 4 columns: 5.4, 10.4, 22.2, 27.2 cm of the border
-     - 7 raws: 6.3, 12.2, 18.1, 24.0, 29.9, 36.8, 41.7 cm of the border
-
-![](images/Top_plexiglas_drill_distances_all001.jpeg)
- 
-- Remove remains of drilling. 
-
-- Now you have a [predrilled 480mm x 326mm plexiglass plate]{output, qty:1}. 
-
-## Predrill lond sides {pagestep}
-
->!! **TODO**
->!!
->!! this is not understandable
-
-
-
-To connect the air table with the table legs, the long side of the central box needs connection points. 
-
-- Drill a hole on each end of both [480mm x 64mm plexiglass plates](plexiglass.yml#480x64pg)- {Qty:2} with a [5mm plexiglas drill](tools.yml#1mmdrill). 
-
-- Keep a distance of 4.5 cm to the end edge and 1 cm to the top. 
-
-- Drill two more holes inside both [480mm x 64mm plexiglass plates](plexiglass.yml#480x64pg) with a distance of 12.5cm towards the plate's center.
-
-
->!! **TODO**
->!!
->!! are they identical or symtrical ?
-- Now you have two [predrilled 480x64 plexiglass plate]{output, qty:2}.
+Follow the [instruction](Predrill.md) to prapre the top and side plexiglass plates.
 
 ## Cleaning the plexiglass {pagestep}
 
 Before beginning any gluing work, the pieces must be degreased (with soap and water) and free of any remaining screwing or other dirt.
 
 ## Glueing {pagestep}
+
+{{BOM}}
+
 >!! **TODO**
 >!!
 >!! always put reference for each part, not using made up names. Use the one created in the previous part of the doc.
@@ -48,29 +20,24 @@ Before beginning any gluing work, the pieces must be degreased (with soap and wa
 
 The first step is to build the central plexiglas box where the air is floating through. 
 
-- Use the acrylic glue to combine the predrilled [480mm x 326mm plexiglass plate](plexiglass.yml#480x326pg) with two [310mm x 64mm plexiglass plates](plexiglass.yml#310x64pg){Qty:2}. 
-     - These are placed on the shorter edge of the [480mm x 326mm plexiglass plate](plexiglass.yml#480x326pg) with a space of 8mm on both sides. You are able to mark the corner spaces with a pen on the 8mm height of the largest plexiglas plate. 
+- Use the [arcylic glue](tools.yml#acrifix_192){qty:some, Cat:tool} to combine the [predrilled 480mmx326mm plexiglass plate](fromstep){Qty:1} with two [310mm x 64mm plexiglass plates](plexiglass.yml#310x64pg){Qty:2}, on the shorter edges. 8 mm should remain on both sides. 
 
-- Use the [arcylic glue](tools.yml#acrifix_192) [i](glueingadvise.md) to connect the components. 
 
-- Use the [arcylic glue](tools.yml#acrifix_192) [i](glueingadvise.md) to add the [480mm x 64mm plexiglass plates](plexiglass.yml#480x64pg).
+- Use the [arcylic glue](tools.yml#acrifix_192) [i](glueingadvise.md) to add the [predrilled 480x64 plexiglass plate](fromstep){qty:2}. Put some glue on the 3 edges touching other plexiglas plates.
 
-     - Don't forget to put glue between both plexiglass components with 6.4 cm height. 
-
-You now have the upper side of the air table center. The bottom plate will be glued later.
+Wait for the glue to be dry before going to the next step.
 
 ## Screwing {pagestep}
 
 To further stabilize the box you need to drill screws from the side into the box from several places. 
 
-- Every place for a screw must be predrilled with a [1mm plexiglas drill](tools.yml#1mmdrill).  
+- Mark every place for a screw
+    - For the long sides, mark 8 holes with a distance of 59 mm between them, starting at the corner (at 4 mm of the border of the plate)
+    - For the short sides, mark 5 new holes at 54, 104, 163,222,272,322 mm of the side.
 
-- Start with the long sides, predrill from the top into the upper plexiglas with a distance of 5.9 cm between each screw. 
-    - The corner hole has a center distance of 4mm on both sides. 
+- Predrilled each mark with a [1mm plexiglas drill](tools.yml#1mmdrill){qty:1, cat:tool}.  
 
-- Continue with the short upper side, keep a distance of 5 cm between holes. The center hole has a distance of 5.9 cm to both neighbor screws
-
-Now drill [3mm pozidriv screws](screws.yml#3mm_pozidriv){Qty:Many} in each hole.
+- Drill a [3mm pozidriv screws](screws.yml#3mm_pozidriv){Qty:26} in each hole.
 
 ## Glue bottom plate
 
