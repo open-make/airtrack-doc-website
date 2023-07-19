@@ -19,18 +19,25 @@ This guide is part of the output from the [open.make project](https://www.openma
 
 
 #### [Construction of the airtable](airtable.md){step}
+##### [Predrill](predrill.md){step}
+##### [Glue and screw](glue.md){step}
 
 
 #### [Construction of the basic framework](basicframework.md){step}
 
 
-#### [Construction of the head fixation and platform tracking](headandcamera.md){step}
+##### [Construction of platform tracking](headandcamera.md){step}
+
+
+##### [Construction of the head fixation](headfixation.md){step}
+
+
 
 
 #### [Construction of the rewarding system](rewardsystem.md){step}
 
 
-#### [Construction of linear actuator front](actuator_head.md){step}
+##### [Construction of linear actuator front](actuator_head.md){step}
 
 
 #### [Setup of the electronics](electronic.md){step}
