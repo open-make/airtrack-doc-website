@@ -34,10 +34,10 @@ This guide is part of the output from the [open.make project](https://www.openma
 
 
 
-#### [Construction of the rewarding system](rewardsystem.md){step}
+##### [Construction of the rewarding system](rewardsystem.md){step}
 
 
-##### [Construction of linear actuator front](actuator_head.md){step}
+###### [Construction of linear actuator front](actuator_head.md){step}
 
 
 #### [Setup of the electronics](electronic.md){step}
