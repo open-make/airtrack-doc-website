@@ -91,6 +91,9 @@ Some parts are more difficult to construct than others. Mainly the central plexi
 
 ![](models/airtrack_480x366001.stl){color: grey}
 
+## Size and stunts
+
+The amount of stunts you will need depends on the hight of the table, and how well you can cut the 2 m stunts into pieces. For the default table (height = 400 mm  
 
 
 References: [Nashaat MA, Oraby H, Sachdev RN, Winter Y, Larkum ME. Air-Track: a real-world floating environment for active sensing in head-fixed mice. J Neurophysiol. 116(4):1542-1553, 2016](https://pubmed.ncbi.nlm.nih.gov/27486102/)

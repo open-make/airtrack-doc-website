@@ -2,12 +2,16 @@
 
 We will fix here a linear actuator that will bring the reward to the animal. The reward itself is delivered with two solenoid valves.
 
+A buzzer is added to the system but do not need to be fixed to the table.
+
 {{BOM}}
 
 >!! **TODO**
 >!!
 >!! no new plexiglas plate, correct
 >!! angles /angle, nuts/nut
+>!!
+>!! Why 2 valves ? Why attaching them on 2 different strut?
 
 ## Additional framework {pagestep}
 
