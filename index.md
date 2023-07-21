@@ -84,6 +84,10 @@ The table is mounted on aluminium legs to reach the desired height and space for
 On the framework is a lot space to place e.g. further tracking devices.
 The computational tasks are performed with a Arduino Uno microcontroller.
 
+### Disclaimer: Construction complexity
+
+Some parts are more difficult to construct than others. Mainly the central plexiglass box is difficult to build with a improvised work place. Precise cutting of the plexiglass	 is needed to ensure airtight manufacturing. If you have access to a workshop, we recommend you to get the air table constructed there. In general it's better to have large parts of the Airtrack manufactured professionally. 
+
 
 ![](models/airtrack_480x366001.stl){color: grey}
 
