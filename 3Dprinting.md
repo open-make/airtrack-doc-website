@@ -1,16 +1,14 @@
 # Floating platform
 
-There are several platforms you can use on the Airtrack. The shape of the platfrom varies depending on your research question. 
+There are several platforms you can use on the Airtrack. The size of the platfrom and the design of the upper part varies depending on your research question. 
 
-It's important to be aware about the influence of the material's surface to the mouse. The layer height and the material of the print are the main factors of the surface's shape after printing. In the context of your experiment it's recommended to modify the surface of the platform after printing it.
+The below part design depends on the type or Air table you are using. For small tables, air is flowing directly and the platform needs to have a rim on its lower part. In large tables the platform should be completely flat because it pressures down balls in the plexiglass surface. The balls are used to limit the air flow and by this the needed pressure is reduced to maintain the platform floating.
+
+It's important to be aware about the influence of the material's surface to the mouse. The layer height in the print settings and the material used for the print are the main factors determining the surface's shape.
+
 A 3D printed platform mostly has a flat and slippery surface which doesn't allow the mouse to move as expected. It's recommended to attach some grips or slip-proof materials to allow the mouse to move naturally on the platform.
 
 All recommended printing settings provided the best output on a FLASHFORGE CREATOR 3.
-
-The large platforms have been designed for the Airtrack with the dimensions in the guide. However, small Airtracks have been designed and have their usability.
-The large platform has a flat ground because it needs to push the balls within the upper air table down. In contrast, the small platform has a rim because no balls are needed for smaller Airtracks. The balls are used to limit the air flow and by this the needed pressure is reduced to maintain the platform floating.
-
-
 
 ## Large platform {pagestep}
 
@@ -22,12 +20,12 @@ Instead of 3D printing, similar materials can be used, too.
 
 #### Ground of large Platform
 ![](models/l_Maze_X_ground.stl){color: grey}
-#### Walls mounts of large platform (variant 1)
+#### Walls mounts of large platform 
+Directly after printing, open the small gap to ensure the wall fits in between later. 
 ![](models/l_Maze_X_wallmount.stl){color: grey}
-#### Walls of large platform (variant 1)
+#### Walls of large platform 
 ![](models/l_Maze_X_walls.stl){color: grey}
-#### Whole large platform (variant 2)
-![](models/l_Maze_X_all_02.stl){color: grey}
+
 
 #### Print settings:
 

@@ -1,5 +1,7 @@
 # Set up of the electric system
 
+{{BOM}}
+
 ## Wiring of devices
 
 - In order to connect the devices you need a circuit board, e.g. this [circuit board](electronic.yml#circuit_board){Qty:1}. 
