@@ -14,20 +14,33 @@ screwdriver:
     Description: A tool to drive screws with a max. torque around 50-100 Nm
 
 1mmdrill:
-    Name: 1mm drill
+    Name: 1 mm drill
+    Description: A drill specific for acyrlglass or a metall drill with similar angles as for acrylglas
+
+1_5mmdrill:
+    Name: 1.5 mm drill
     Description: A drill specific for acyrlglass or a metall drill with similar angles as for acrylglas 
 
+2mmdrill:
+    Name: 2 mm drill
+    Description: A drill specific for acyrlglass or a metall drill with similar angles as for acrylglas
+
+
 3mmdrill:
-    Name: 3mm drill
+    Name: 3 mm drill
     Description: A drill specific for acyrlglass or a metall drill with similar angles as for acrylglas 
 
 4mmdrill:
-    Name: 4mm drill
+    Name: 4 mm drill
     Description: A drill specific for acyrlglass or a metall drill with similar angles as for acrylglas 
 
 
 5mmdrill:
-    Name: 5mm drill
+    Name: 5 mm drill
+    Description: A drill specific for acyrlglass or a metall drill with similar angles as for acrylglas 
+
+8mmdrill:
+    Name: 8 mm drill
     Description: A drill specific for acyrlglass or a metall drill with similar angles as for acrylglas 
 
 
