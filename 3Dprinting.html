@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Construct your Airtrack setup !</title>
+    <title>Construction guidance of an Airtrack</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="./static/Logo/favicon.ico" />
@@ -18,7 +18,7 @@
     <div class="wrapper header-wrapper" >
         <div class=header-text>
    
-    <h1 class="site-title">Construct your Airtrack setup !</h1>
+    <h1 class="site-title">Construction guidance of an Airtrack</h1>
 </div>
             </div>
 </header>
@@ -35,22 +35,12 @@
                 <ul class="nav-list">
                 <li>
     <a class="navhome" href="./">
-        Construct your Airtrack setup !
+        Construction guidance of an Airtrack
     </a>
 </li>
 <li class="not-active">
     <a class="not-active" href="./airtable.html">
-        Construction of the air table
-    </a>
-    </li>
-<li class="not-active">
-    <a class="not-active" href="./predrill.html">
-        Airtable part 1: Predrill and precut
-    </a>
-    </li>
-<li class="not-active">
-    <a class="not-active" href="./glue.html">
-        Airtable part 2: Glueing and screwing
+        Construction of the air table center
     </a>
     </li>
 <li class="not-active">
@@ -60,12 +50,7 @@
     </li>
 <li class="not-active">
     <a class="not-active" href="./headandcamera.html">
-        Attaching the camera
-    </a>
-    </li>
-<li class="not-active">
-    <a class="not-active" href="./headfixation.html">
-        Construction of the head fixation 
+        Construction of the head fixation and platform tracking
     </a>
     </li>
 <li class="not-active">
@@ -84,11 +69,6 @@
     </a>
     </li>
 <li class="not-active">
-    <a class="not-active" href="./air_flow.html">
-        Incoming air and pressure control
-    </a>
-    </li>
-<li class="not-active">
     <a class="not-active" href="./script_setup.html">
         Installation of scripts
     </a>
@@ -104,11 +84,12 @@
         </div>
         <div class="wrapper">
     <h1 id="floating-platform">Floating platform</h1>
-<p>There are several platforms you can use on the Airtrack. The size of the platfrom and the design of the upper part varies depending on your research question. </p>
-<p>The below part design depends on the type or Air table you are using. For small tables, air is flowing directly and the platform needs to have a rim on its lower part. In large tables the platform should be completely flat because it pressures down balls in the plexiglass surface. The balls are used to limit the air flow and by this the needed pressure is reduced to maintain the platform floating.</p>
-<p>It's important to be aware about the influence of the material's surface to the mouse. The layer height in the print settings and the material used for the print are the main factors determining the surface's shape.</p>
-<p>A 3D printed platform mostly has a flat and slippery surface which doesn't allow the mouse to move as expected. It's recommended to attach some grips or slip-proof materials to allow the mouse to move naturally on the platform.</p>
+<p>There are several platforms you can use on the Airtrack. The shape of the platfrom varies depending on your research question. </p>
+<p>It's important to be aware about the influence of the material's surface to the mouse. The layer height and the material of the print are the main factors of the surface's shape after printing. In the context of your experiment it's recommended to modify the surface of the platform after printing it.
+A 3D printed platform mostly has a flat and slippery surface which doesn't allow the mouse to move as expected. It's recommended to attach some grips or slip-proof materials to allow the mouse to move naturally on the platform.</p>
 <p>All recommended printing settings provided the best output on a FLASHFORGE CREATOR 3.</p>
+<p>The large platforms have been designed for the Airtrack with the dimensions in the guide. However, small Airtracks have been designed and have their usability.
+The large platform has a flat ground because it needs to push the balls within the upper air table down. In contrast, the small platform has a rim because no balls are needed for smaller Airtracks. The balls are used to limit the air flow and by this the needed pressure is reduced to maintain the platform floating.</p>
 <h2 class="page-step" id="large-platform">Step 1: Large platform</h2>
 <p>The components need to be printed independently and get glued afterwards.
 Instead of 3D printing, similar materials can be used, too.</p>
@@ -118,13 +99,15 @@ Instead of 3D printing, similar materials can be used, too.</p>
 <h4 id="ground-of-large-platform">Ground of large Platform</h4>
 <noscript><a href="models/l_Maze_X_ground.stl"></a></noscript>
 <p><gb3d-viewer src="models/l_Maze_X_ground.stl" color="grey"></gb3d-viewer></p>
-<h4 id="walls-mounts-of-large-platform">Walls mounts of large platform</h4>
-<p>Directly after printing, open the small gap to ensure the wall fits in between later. </p>
+<h4 id="walls-mounts-of-large-platform-variant-1">Walls mounts of large platform (variant 1)</h4>
 <noscript><a href="models/l_Maze_X_wallmount.stl"></a></noscript>
 <p><gb3d-viewer src="models/l_Maze_X_wallmount.stl" color="grey"></gb3d-viewer></p>
-<h4 id="walls-of-large-platform">Walls of large platform</h4>
+<h4 id="walls-of-large-platform-variant-1">Walls of large platform (variant 1)</h4>
 <noscript><a href="models/l_Maze_X_walls.stl"></a></noscript>
 <p><gb3d-viewer src="models/l_Maze_X_walls.stl" color="grey"></gb3d-viewer></p>
+<h4 id="whole-large-platform-variant-2">Whole large platform (variant 2)</h4>
+<noscript><a href="models/l_Maze_X_all_02.stl"></a></noscript>
+<p><gb3d-viewer src="models/l_Maze_X_all_02.stl" color="grey"></gb3d-viewer></p>
 <h4 id="print-settings">Print settings:</h4>
 <p>Layer height: 0,15 mm</p>
 <p>Infill: 60%</p>

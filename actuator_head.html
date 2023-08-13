@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Construct your Airtrack setup !</title>
+    <title>Construction guidance of an Airtrack</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="./static/Logo/favicon.ico" />
@@ -18,7 +18,7 @@
     <div class="wrapper header-wrapper" >
         <div class=header-text>
    
-    <h1 class="site-title">Construct your Airtrack setup !</h1>
+    <h1 class="site-title">Construction guidance of an Airtrack</h1>
 </div>
             </div>
 </header>
@@ -35,22 +35,12 @@
                 <ul class="nav-list">
                 <li>
     <a class="navhome" href="./">
-        Construct your Airtrack setup !
+        Construction guidance of an Airtrack
     </a>
 </li>
 <li class="not-active">
     <a class="not-active" href="./airtable.html">
-        Construction of the air table
-    </a>
-    </li>
-<li class="not-active">
-    <a class="not-active" href="./predrill.html">
-        Airtable part 1: Predrill and precut
-    </a>
-    </li>
-<li class="not-active">
-    <a class="not-active" href="./glue.html">
-        Airtable part 2: Glueing and screwing
+        Construction of the air table center
     </a>
     </li>
 <li class="not-active">
@@ -60,12 +50,7 @@
     </li>
 <li class="not-active">
     <a class="not-active" href="./headandcamera.html">
-        Attaching the camera
-    </a>
-    </li>
-<li class="not-active">
-    <a class="not-active" href="./headfixation.html">
-        Construction of the head fixation 
+        Construction of the head fixation and platform tracking
     </a>
     </li>
 <li class="not-active">
@@ -84,11 +69,6 @@
     </a>
     </li>
 <li class="not-active">
-    <a class="not-active" href="./air_flow.html">
-        Incoming air and pressure control
-    </a>
-    </li>
-<li class="not-active">
     <a class="not-active" href="./script_setup.html">
         Installation of scripts
     </a>
@@ -104,27 +84,19 @@
         </div>
         <div class="wrapper">
     <h1 id="construction-of-the-linear-actuator-front">Construction of the linear actuator front</h1>
-<p>Within this section a small hold for needles is built. It's placed at the front of the linear actuator and therefore can be moved towards the mouse if rewards should be provided. </p>
 <h2 class="page-step" id="preparation-3d-prints">Step 1: Preparation: 3D prints</h2>
 <ul>
 <li>Print all following parts, some need to be printed twice.</li>
-<li>It's recommended to print the "rotatable needle hold end" multiple times because the drilling inside is a bit tricky.</li>
 </ul>
-<h2 class="page-step" id="print-core-components">Step 2: Print core components</h2>
-<h3 id="upper-core">Upper core</h3>
+<h3 id="core-components">Core components</h3>
 <noscript><a href="models/rewards_center_01.stl"></a></noscript>
 <p><gb3d-viewer src="models/rewards_center_01.stl" color="grey"></gb3d-viewer></p>
-<h3 id="lower-core">Lower core</h3>
 <noscript><a href="models/rewards_center_02.stl"></a></noscript>
 <p><gb3d-viewer src="models/rewards_center_02.stl" color="grey"></gb3d-viewer></p>
-<h2 class="page-step" id="print-rotatable-needle-hold-2x">Step 3: Print rotatable needle hold (2x)</h2>
-<h3 id="rotatable-needle-hold-end">Rotatable needle hold end</h3>
-<noscript><a href="models/rewards_mnh_end_01001.stl"></a></noscript>
-<p><gb3d-viewer src="models/rewards_mnh_end_01001.stl" color="grey"></gb3d-viewer></p>
-<h3 id="rotatable-needle-hold-core">Rotatable needle hold core</h3>
-<noscript><a href="models/rewards_mnh_end_02001.stl"></a></noscript>
-<p><gb3d-viewer src="models/rewards_mnh_end_02001.stl" color="grey"></gb3d-viewer></p>
-<h2 class="page-step" id="print-needle-fixation-2x">Step 4: Print needle fixation (2x)</h2>
+<h3 id="moveable-needle-hold-2x">Moveable needle hold (2x)</h3>
+<noscript><a href="models/rewards_moveable_needle_hold.stl"></a></noscript>
+<p><gb3d-viewer src="models/rewards_moveable_needle_hold.stl" color="grey"></gb3d-viewer></p>
+<h3 id="needle-fixation-2x">Needle fixation (2x)</h3>
 <noscript><a href="models/rewards_needle_fixation.stl"></a></noscript>
 <p><gb3d-viewer src="models/rewards_needle_fixation.stl" color="grey"></gb3d-viewer></p>
 <h3 id="print-settings">Print settings</h3>
@@ -136,64 +108,48 @@
 <li>Support: Yes, automatic from PrusaSlicer</li>
 <li>Raft: No</li>
 </ul>
-<h2 class="page-step" id="after-printing">Step 5: After printing</h2>
+<h3 id="after-printing">After printing</h3>
 <ul>
 <li>Use sandpaper to smooth both parts of the ball joint.</li>
-<li>
-<p>Clean the holes inside the parts from blocking print artifacts and support structures, e.g. with a small drill.</p>
-</li>
-<li>
-<p>The "rotatable needle hold end" needs to have hole which is tight for a M2 screw. This hole is already in the STL files but gets filled with support most likely. </p>
-<ul>
-<li>Use a <a href="tools/1_5mmdrill.html" title="">1.5 mm drill</a> to make a 5 mm deep hole, like in the STL file, and use a <a href="tools/2mmdrill.html" title="">2 mm drill</a> to make the entrance larger, go like 1 mm inside. By this it's easier to insert the screw.</li>
+<li>Clean the holes inside the parts from blocking print artifacts, e.g. with a small drill.</li>
 </ul>
-</li>
-</ul>
-<h2 class="page-step" id="combine-the-3d-prints">Step 6: Combine the 3D prints</h2>
 <h3 id="an-overview-of-all-combined-3d-printed-parts">An overview of all combined 3D printed parts</h3>
-<p>Use the overview as an orientation for combining.</p>
 <noscript><a href="models/rewards_all.stl"></a></noscript>
 <p><gb3d-viewer src="models/rewards_all.stl" color="grey"></gb3d-viewer></p>
-<p>Do the following step twice: </p>
+<h2 id="combine-the-3d-prints">Combine the 3D prints</h2>
+<p>Use the overview as an orientation. </p>
 <ul>
-<li>Use a <a href="screws/m2x16mm_screw.html">M2 screw</a> and place it trough the "rotatable needle hold core". Then turn the  "rotatable needle hold end" on the thread of the M2 screw.</li>
-</ul>
+<li>
 <p>Use a <a href="screws/m2x16mm_screw.html">M2 screw</a> and a <a href="screws/m2_hexagon_nuts.html">M2 hexagon nuts</a> to combine both core parts. </p>
 <ul>
 <li>
 <p>Before tighten the screw place both moveable needle holds with the ball inside. These should point sidewards and not to the front as shown in the file.</p>
 </li>
 <li>
-<p>Remember to loosen the screws before reorientating the moveable needle holds.</p>
+<p>Remember to loosen the screws before repositioning the moveable needle holds.</p>
 </li>
 </ul>
-<h3 id="the-combined-needle-hold">The combined needle hold:</h3>
-<p><img alt="" src="images/hold_03001.jpg" title="" /></p>
+</li>
+</ul>
 <div class="info-block">
 <p>Note</p>
-<p>If the holes in the 3D printed parts are slightly to large for the needles and screws you can use <a href="tools/acrifix_192.html" title="">arcylic glue</a> as support.</p>
+<p>If the movable needle hold is to unstable for your purposes, at the bottom of  this page are the two ending parts of the movable needle hold which can be combined by a long M2 screw with a small head.</p>
 </div>
-<div class="info-block">
-<p>Note</p>
-<p>An alternative way of the rotatable needle hold is at the bottom of this page. It's a STL file with both parts of the rotatable needle hold and the combining screw. It can be printed by this as one part. With this version the arms a more elastic and can break.</p>
-</div>
-<h2 class="page-step" id="attaching-at-the-linear-actuator">Step 7: Attaching at the Linear actuator</h2>
+<h2 class="page-step" id="attaching-at-the-linear-actuator">Step 2: Attaching at the Linear actuator</h2>
 <ul>
 <li>Use a <a href="screws/m4x20mm_screw.html">M4 screw</a> and a <a href="screws/m4_hexagon_nuts.html">M4 hexagon nuts</a> to combine the 3D printed component to the <a href="electronic/LinActuator50mm.html" title="">linear actuator</a>. <ul>
 <li>The screw needs to go through the hole in the bigger core 3D part and the front hole of the moveable part of the linear actuator.</li>
 </ul>
 </li>
 </ul>
-<h3 id="some-pictures-of-this-state">Some pictures of this state:</h3>
-<div class="gallery-thumb">
-    <img onmouseover="getElementById('gallery-show0').src=this.src" src="images/hold_01001.jpg" alt="" />
-    <img onmouseover="getElementById('gallery-show0').src=this.src" src="images/hold_02001.jpg" alt="" />
+<div class="caution-block">
+<p>Picture</p>
 </div>
-<div class="gallery-show"><img id="gallery-show0" src="images/hold_01001.jpg" alt=""/></div>
-
 <h2 id="appendix-moveable-needle-hold-parts">Appendix - moveable needle hold parts:</h2>
-<noscript><a href="models/rewards_moveable_needle_hold.stl"></a></noscript>
-<p><gb3d-viewer src="models/rewards_moveable_needle_hold.stl" color="grey"></gb3d-viewer></p>
+<noscript><a href="models/rewards_mnh_end_01001.stl"></a></noscript>
+<p><gb3d-viewer src="models/rewards_mnh_end_01001.stl" color="grey"></gb3d-viewer></p>
+<noscript><a href="models/rewards_mnh_end_02001.stl"></a></noscript>
+<p><gb3d-viewer src="models/rewards_mnh_end_02001.stl" color="grey"></gb3d-viewer></p>
 <hr />
 <p><a href="rewardsystem.html">Previous page</a> | <a href="electronic.html">Next page</a></p>
     </div>
