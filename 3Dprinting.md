@@ -2,7 +2,7 @@
 
 There are several platforms you can use on the Airtrack. The size of the platfrom and the design of the upper part varies depending on your research question. 
 
-The below part design depends on the type or Air table you are using. For small tables, air is flowing directly and the platform needs to have a rim on its lower part. In large tables, the air is making some balls floating, and the platform should be completeley flat. The balls are used to limit the air flow and by this the needed pressure is reduced to maintain the platform floating.
+The below part design depends on the type or Air table you are using. For small tables, air is flowing directly and the platform needs to have a rim on its lower part. In large tables the platform should be completely flat because it pressures down balls in the plexiglass surface. The balls are used to limit the air flow and by this the needed pressure is reduced to maintain the platform floating.
 
 It's important to be aware about the influence of the material's surface to the mouse. The layer height in the print settings and the material used for the print are the main factors determining the surface's shape.
 
@@ -20,12 +20,12 @@ Instead of 3D printing, similar materials can be used, too.
 
 #### Ground of large Platform
 ![](models/l_Maze_X_ground.stl){color: grey}
-#### Walls mounts of large platform (variant 1)
+#### Walls mounts of large platform 
+Directly after printing, open the small gap to ensure the wall fits in between later. 
 ![](models/l_Maze_X_wallmount.stl){color: grey}
-#### Walls of large platform (variant 1)
+#### Walls of large platform 
 ![](models/l_Maze_X_walls.stl){color: grey}
-#### Whole large platform (variant 2)
-![](models/l_Maze_X_all_02.stl){color: grey}
+
 
 #### Print settings:
 

@@ -8,11 +8,6 @@ If the head fixation system you have is incompatible with this construction, a p
 
 ## Placing vertical mounting {pagestep}
 
->!! **TODO**
->!!
->!! why 3 you only use the center one ?
->!! 
->!! why put the rod in the center, should not the head fixaion being in the middle ?
 
 
 - Place three [nuts](connectors.yml#5mmNuts){Qty:6} in each 480 mm [aluminium strut profile](framework.yml#20x20Rod){qty:2} of the [center air table](fromstep){Qty:1}, pointing upwards. 
@@ -23,11 +18,7 @@ If the head fixation system you have is incompatible with this construction, a p
 
 ## Attaching the head fixation {pagestep}
 
-- Place one [connecting clamp](connectors.yml#12mmCC) on each of the upwards pointing rods in a 90 degree angle. 
-
->!! **TODO**
->!!
->!! 2 or 6 clamps?
+- Turn both [connecting clamps](connectors.yml#12mmCC) on  the upwards pointing rods in a 90 degree angle. 
 
 - Cut a 380 mm long piece of an  [aluminium rod 12mm diameter](framework.yml#12mmRod){Qty:1} with a [metallsaw](tools.yml#metallsaw){Qty:1, cat: tool}, and place it in both [connecting clamps](connectors.yml#12mmCC) on the upwards pointing rods. On this rod attach the headfixation.
 

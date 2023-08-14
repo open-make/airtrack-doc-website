@@ -19,28 +19,32 @@ This guide is part of the output from the [open.make project](https://www.openma
 
 
 #### [Construction of the airtable](airtable.md){step}
-##### [Predrill](predrill.md){step}
-##### [Glue and screw](glue.md){step}
+
+#### [Predrill of plexiglass](predrill.md){step}
+
+#### [Glue and screw](glue.md){step}
 
 
 #### [Construction of the basic framework](basicframework.md){step}
 
 
-##### [Construction of platform tracking](headandcamera.md){step}
+#### [Construction of platform tracking](headandcamera.md){step}
 
 
-##### [Construction of the head fixation](headfixation.md){step}
+#### [Construction of the head fixation](headfixation.md){step}
 
 
 
 
-##### [Construction of the rewarding system](rewardsystem.md){step}
+#### [Construction of the rewarding system](rewardsystem.md){step}
 
 
-###### [Construction of linear actuator front](actuator_head.md){step}
+#### [Construction of linear actuator front](actuator_head.md){step}
 
 
 #### [Setup of the electronics](electronic.md){step}
+
+#### [Air flow and pressure control](air_flow.md){step}
 
 
 #### [Installation of scripts](script_setup.md){step}
@@ -50,6 +54,9 @@ This guide is part of the output from the [open.make project](https://www.openma
 
 
 #### [List of all necessary components]{BOM}
+
+
+
 
 
 
@@ -67,6 +74,12 @@ The developers conclude that the Airtrack system is ideal for eliciting natural 
 
 The Airtrack was used to perform Go/No-Go and two-alternative forced choice tasks with mice.
 
+
+
+
+
+
+
 ### Overview of the setup
 
 The airtrack system consists out of a central air table with the possibility of modification.
@@ -75,7 +88,7 @@ Below the table a camera tracks the movement of the plus maze with different col
 At one side of the table a moveable reward system is placed with two licking spots.
 To detect if a spot was licked, a capacitive sensor is used.
 
- The lanes on the maze are equipped with different features to distinguish them and correspond with the tasks. They can either be smooth or with gratings etched.
+The lanes on the maze are equipped with different features to distinguish them and correspond with the tasks. They can either be smooth or with gratings etched.
 Further for the performed tasks, a LED and buzzer are installed to provide position feedback.
 The position tracking was done with a Pixy camera (CMUcam5 Image Sensor) by detecting  different colouring on the bottom side of the plus maze.
 
@@ -84,16 +97,25 @@ The table is mounted on aluminium legs to reach the desired height and space for
 On the framework is a lot space to place e.g. further tracking devices.
 The computational tasks are performed with a Arduino Uno microcontroller.
 
-### Disclaimer: Construction complexity
 
-Some parts are more difficult to construct than others. Mainly the central plexiglass box is difficult to build with a improvised work place. Precise cutting of the plexiglass	 is needed to ensure airtight manufacturing. If you have access to a workshop, we recommend you to get the air table constructed there. In general it's better to have large parts of the Airtrack manufactured professionally. 
 
 
 ![](models/airtrack_480x366001.stl){color: grey}
 
-## Size and stunts
 
-The amount of stunts you will need depends on the hight of the table, and how well you can cut the 2 m stunts into pieces. For the default table (height = 400 mm  
+
+
+### Disclaimer: Construction complexity
+
+Some parts are more difficult to construct than others. Mainly the central plexiglass box is difficult to build with an improvised work place. Precise cutting of the plexiglass is needed to ensure airtight manufacturing. Further, a workshop might use UV glue for the box which provides a good quality.
+
+If you have access to a workshop, we recommend you to get the air table constructed there. In general it's better to have large fraction of the Airtrack manufactured professionally. 
+
+
+
+## Size and struts
+
+The amount of strut profiles you need depends on the hight of the table, and how well you can cut the 2 m strut profiles into pieces. For the default table (height = 400 mm) it takes 6m (= 3 pieces).  
 
 
 References: [Nashaat MA, Oraby H, Sachdev RN, Winter Y, Larkum ME. Air-Track: a real-world floating environment for active sensing in head-fixed mice. J Neurophysiol. 116(4):1542-1553, 2016](https://pubmed.ncbi.nlm.nih.gov/27486102/)

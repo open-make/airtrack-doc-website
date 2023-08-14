@@ -6,12 +6,7 @@ A buzzer is added to the system but do not need to be fixed to the table.
 
 {{BOM}}
 
->!! **TODO**
->!!
->!! no new plexiglas plate, correct
->!! angles /angle, nuts/nut
->!!
->!! Why 2 valves ? Why attaching them on 2 different strut?
+
 
 ## Additional framework {pagestep}
 
@@ -19,7 +14,7 @@ The following element will be placed on the air table struts opposite of the pre
 
 - Place two outside pointing [nuts](connectors.yml#5mmNuts){Qty:4} in each vertical [aluminium strut profile](framework.yml#20x20Rod) of the [center air table](fromstep){qty:1}. Place one below the lower framework and one close to the top of the [aluminium strut profile](framework.yml#20x20Rod). 
 
-- Attach to all **???** an [angle](connectors.yml#5mmNuts_angle){Qty:4} by using [M5 screws (6mm)](screws.yml#m5x6mm_screw){Qty:4}. The angles must point to each other.
+- Attach to all nuts an [angle](connectors.yml#5mmNuts_angle){Qty:4} by using [M5 screws (6mm)](screws.yml#m5x6mm_screw){Qty:4}. The angles must point to each other.
 
 - Attach to both sides vertical an [aluminium strut profile](framework.yml#20x20Rod) which raises 250 mm above the airtable by using [M5 screws (6mm)](screws.yml#m5x6mm_screw){Qty:4} and [nuts](connectors.yml#5mmNuts){Qty:4}. 
 
