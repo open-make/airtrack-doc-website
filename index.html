@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Construction guidance of an Airtrack</title>
+    <title>Construct your Airtrack setup !</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="./static/Logo/favicon.ico" />
@@ -18,7 +18,7 @@
     <div class="wrapper header-wrapper" >
         <div class=header-text>
    
-    <h1 class="site-title">Construction guidance of an Airtrack</h1>
+    <h1 class="site-title">Construct your Airtrack setup !</h1>
 </div>
             </div>
 </header>
@@ -35,12 +35,22 @@
                 <ul class="nav-list">
                 <li>
     <a class="navhome" href="./">
-        Construction guidance of an Airtrack
+        Construct your Airtrack setup !
     </a>
 </li>
 <li class="not-active">
     <a class="not-active" href="./airtable.html">
-        Construction of the air table center
+        Construction of the air table
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./predrill.html">
+        Airtable part 1: Predrill and precut
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./glue.html">
+        Airtable part 2: Glueing and screwing
     </a>
     </li>
 <li class="not-active">
@@ -50,7 +60,12 @@
     </li>
 <li class="not-active">
     <a class="not-active" href="./headandcamera.html">
-        Construction of the head fixation and platform tracking
+        Attaching the camera
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./headfixation.html">
+        Construction of the head fixation 
     </a>
     </li>
 <li class="not-active">
@@ -69,6 +84,11 @@
     </a>
     </li>
 <li class="not-active">
+    <a class="not-active" href="./air_flow.html">
+        Incoming air and pressure control
+    </a>
+    </li>
+<li class="not-active">
     <a class="not-active" href="./script_setup.html">
         Installation of scripts
     </a>
@@ -83,28 +103,57 @@
             </nav>
         </div>
         <div class="wrapper">
-    <p>This website will guide you through the hole process of building an Airtrack by yourself. This guide is part of the output from the <a href="https://www.openmake.de/" target="_blank" title="">open.make project</a>. This project aims to further establish open hardware in science e.g. by supporting scientist replicating research and providing guides to research hardware. The Airtrack was first published in the paper titled <a href="https://pubmed.ncbi.nlm.nih.gov/27486102/" target="_blank" title="">Air-Track: a real-world floating environment for active sensing in head-fixed mice in Journal of Neurophysiology 1 October 2016 Vol. 116</a>. It was developed within Larkum Lab by Mostafa Nashaat, Hatem Oraby, Robert Sachdev, York Winter and Matthew Larkum as well as Alexander Schill from the Charite Workshop. 
-Further Information is provided on the website of the <a href="http://www.neuro-airtrack.com/" target="_blank" title="">Airtrack</a>.</p>
+    <p>This website will guide you through the whole process of building an Airtrack setup (large platform version).</p>
+<p>The Airtrack was first published in 2016, with a paper titled <a href="https://doi.org/10.1152/jn.00088.2016" target="_blank" title="">Air-Track: a real-world floating environment for active sensing in head-fixed mice</a>.
+It was developed by the authors of the paper with the help of the Charité workshop (Alexander Schill).
+This documentation website was created by Fabio Reeh and reviewed by Julien Colomb.</p>
+<p><img alt="visualisation of an airtrack table with a platform with a 4 arms maze. In the center, an animal head fixation setup is visible, while a reward system is fixed in the front ot the maze and a camera is fixed below the table." src="images/airtrack_platform_small.jpg" title="" /></p>
+<p>This guide is part of the output from the <a href="https://www.openmake.de/" target="_blank" title="">open.make project</a> (see website for more information, including funding information). This project aims to further establish open hardware in academic research, and support
+ scientist in the creation of FAIR research hardware.</p>
 <h2 id="table-of-contents">Table of contents</h2>
 <h4 id="construction-of-the-airtable"><a href="airtable.html" title="">Construction of the airtable</a></h4>
+<h4 id="predrill-of-plexiglass"><a href="predrill.html" title="">Predrill of plexiglass</a></h4>
+<h4 id="glue-and-screw"><a href="glue.html" title="">Glue and screw</a></h4>
 <h4 id="construction-of-the-basic-framework"><a href="basicframework.html" title="">Construction of the basic framework</a></h4>
-<h4 id="construction-of-the-head-fixation-and-platform-tracking"><a href="headandcamera.html" title="">Construction of the head fixation and platform tracking</a></h4>
+<h4 id="construction-of-platform-tracking"><a href="headandcamera.html" title="">Construction of platform tracking</a></h4>
+<h4 id="construction-of-the-head-fixation"><a href="headfixation.html" title="">Construction of the head fixation</a></h4>
 <h4 id="construction-of-the-rewarding-system"><a href="rewardsystem.html" title="">Construction of the rewarding system</a></h4>
 <h4 id="construction-of-linear-actuator-front"><a href="actuator_head.html" title="">Construction of linear actuator front</a></h4>
 <h4 id="setup-of-the-electronics"><a href="electronic.html" title="">Setup of the electronics</a></h4>
+<h4 id="air-flow-and-pressure-control"><a href="air_flow.html" title="">Air flow and pressure control</a></h4>
 <h4 id="installation-of-scripts"><a href="script_setup.html" title="">Installation of scripts</a></h4>
 <h4 id="3d-printing-instructions"><a href="3Dprinting.html" title="">3D printing instructions</a></h4>
 <h4 id="list-of-all-necessary-components"><a href="index_BOM.html" title="HTML">List of all necessary components</a> (<a href="index_BOM.html"><img alt="HTML" class="smallicon" src="static/Icons/html.png" title="HTML Bill of Materials" /></a>, <a href="index_BOM.csv"><img alt="CSV" class="smallicon" src="static/Icons/csv.png" title="CSV Bill of Materials" /></a>)</h4>
 <h3 id="about-the-airtrack">About the Airtrack</h3>
-<p>To investigate the neuronal activities in ordinary behaviour it's eligible to implement modern brain recording equipment. These modern technics frequently require head fixation. The Airtrack is one approach to facilitate analysing natural behaviour in its complexity. Behaviour is depended on permanent sensory feedback from various modalities and to provide the possibility of sensory perception in its totality is a central challenge. The Airtrack aims to facilitate these multiple sensory and motor modality approaches in combination with a simple setup, low costs and less computational processing. The shift from a virtual visual (air ball/ treadmill with VR) to somatosensory modality approach causes a natural tactile representation while having less computational needs besides no errors between perception and movement of the mice and corresponding virtual environment. The virtual environment approaches faces the difficulties of estimating the perceptual experience of the mice or other animals and it's probably impossible to match virtual reality and real world experience. 
+<p>To investigate the neuronal activities in ordinary behaviour, it's eligible to implement modern brain recording equipment.
+These modern technics frequently require head fixation.
+The Airtrack is one approach to facilitate analysing natural behaviour in its complexity.
+Behaviour is depended on permanent sensory feedback from various modalities and to provide the possibility of sensory perception in its totality is a central challenge.
+The Airtrack aims to facilitate these multiple sensory and motor modality approaches in combination with a simple setup, low costs and less computational processing.
+The shift from a virtual visual (air ball/ treadmill with VR) to somatosensory modality approach causes a natural tactile representation while having less computational needs besides no errors between perception and movement of the mice and corresponding virtual environment.
+The virtual environment approaches faces the difficulties of estimating the perceptual experience of the mice or other animals and it's probably impossible to match virtual reality and real world experience. 
 The developers conclude that the Airtrack system is ideal for eliciting natural behaviour in concert with virtually any system for monitoring or manipulating brain activity.</p>
-<p>The following setup is described in <a href="https://pubmed.ncbi.nlm.nih.gov/27486102/" target="_blank" title="">Air-Track: a real-world floating environment for active sensing in head-fixed mice in Journal of Neurophysiology 1 October 2016 Vol. 116</a> and is shown in the picture below.
-It consists out of a central air table with the possibility of modification. In this version a mouse moves on a floating lightweight plus maze while being head fixed in the center above the platform. Below the table a camera tracks the movement of the plus maze with different coloring on the bottom side and at one side of the table a moveable reward system is placed with two licking spots. To detect with spot was licked a capacitive sensor is used. The Airtrack was used to perform Go/No-Go and two-alternative forced choice tasks with mice. The lanes on the maze are equipped with different features to distinguish them and correspond with the tasks. They can either be smooth or with gratings etched. Further for the performed tasks a LED and buzzer are installed to provide position feedback. The position tracking was done with a Pixy camera (CMUcam5 Image Sensor) by detecting  different colouring on the bottom side of the plus maze. The Pixy camera processes colour information in real time.
-The central table consists out of a plexiglass box with air flowing through. On the upper side many holes are placed to create an air cushion on the surface the platform can float on. The table is mounted on aluminium legs to reach the desired height and space for the camera. On the framework is a lot space to place e.g. further tracking devices. The computational tasks are performed with a Arduino Uno microcontroller.</p>
-<p><img alt="" src="images/airtrack_platform_small.jpg" title="" /></p>
+<p>The Airtrack was used to perform Go/No-Go and two-alternative forced choice tasks with mice.</p>
+<h3 id="overview-of-the-setup">Overview of the setup</h3>
+<p>The airtrack system consists out of a central air table with the possibility of modification.
+In this version, a mouse moves on a floating lightweight plus maze, while being head fixed in the center above the platform.
+Below the table a camera tracks the movement of the plus maze with different coloring on the bottom side of the platform.
+At one side of the table a moveable reward system is placed with two licking spots.
+To detect if a spot was licked, a capacitive sensor is used.</p>
+<p>The lanes on the maze are equipped with different features to distinguish them and correspond with the tasks. They can either be smooth or with gratings etched.
+Further for the performed tasks, a LED and buzzer are installed to provide position feedback.
+The position tracking was done with a Pixy camera (CMUcam5 Image Sensor) by detecting  different colouring on the bottom side of the plus maze.</p>
+<p>The central table consists out of a plexiglass box with air flowing through. On the upper side many holes are placed to create an air cushion on the surface the platform can float on.
+The table is mounted on aluminium legs to reach the desired height and space for the camera.
+On the framework is a lot space to place e.g. further tracking devices.
+The computational tasks are performed with a Arduino Uno microcontroller.</p>
 <noscript><a href="models/airtrack_480x366001.stl"></a></noscript>
 <p><gb3d-viewer src="models/airtrack_480x366001.stl" color="grey"></gb3d-viewer></p>
-<p>Source ???</p>
+<h3 id="disclaimer-construction-complexity">Disclaimer: Construction complexity</h3>
+<p>Some parts are more difficult to construct than others. Mainly the central plexiglass box is difficult to build with an improvised work place. Precise cutting of the plexiglass is needed to ensure airtight manufacturing. Further, a workshop might use UV glue for the box which provides a good quality.</p>
+<p>If you have access to a workshop, we recommend you to get the air table constructed there. In general it's better to have large fraction of the Airtrack manufactured professionally. </p>
+<h2 id="size-and-struts">Size and struts</h2>
+<p>The amount of strut profiles you need depends on the hight of the table, and how well you can cut the 2 m strut profiles into pieces. For the default table (height = 400 mm) it takes 6m (= 3 pieces).  </p>
 <p>References: <a href="https://pubmed.ncbi.nlm.nih.gov/27486102/" target="_blank" title="">Nashaat MA, Oraby H, Sachdev RN, Winter Y, Larkum ME. Air-Track: a real-world floating environment for active sensing in head-fixed mice. J Neurophysiol. 116(4):1542-1553, 2016</a></p>
 <hr />
 <p><a href="index_BOM.html">Next page</a></p>

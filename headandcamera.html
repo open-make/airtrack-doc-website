@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Construction guidance of an Airtrack</title>
+    <title>Construct your Airtrack setup !</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="./static/Logo/favicon.ico" />
@@ -18,7 +18,7 @@
     <div class="wrapper header-wrapper" >
         <div class=header-text>
    
-    <h1 class="site-title">Construction guidance of an Airtrack</h1>
+    <h1 class="site-title">Construct your Airtrack setup !</h1>
 </div>
             </div>
 </header>
@@ -35,12 +35,22 @@
                 <ul class="nav-list">
                 <li>
     <a class="navhome" href="./">
-        Construction guidance of an Airtrack
+        Construct your Airtrack setup !
     </a>
 </li>
 <li class="not-active">
     <a class="not-active" href="./airtable.html">
-        Construction of the air table center
+        Construction of the air table
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./predrill.html">
+        Airtable part 1: Predrill and precut
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./glue.html">
+        Airtable part 2: Glueing and screwing
     </a>
     </li>
 <li class="not-active">
@@ -50,7 +60,12 @@
     </li>
 <li class="active">
     <a class="active" href="./headandcamera.html">
-        Construction of the head fixation and platform tracking
+        Attaching the camera
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./headfixation.html">
+        Construction of the head fixation 
     </a>
     </li>
 <li class="not-active">
@@ -69,6 +84,11 @@
     </a>
     </li>
 <li class="not-active">
+    <a class="not-active" href="./air_flow.html">
+        Incoming air and pressure control
+    </a>
+    </li>
+<li class="not-active">
     <a class="not-active" href="./script_setup.html">
         Installation of scripts
     </a>
@@ -83,36 +103,18 @@
             </nav>
         </div>
         <div class="wrapper">
-    <h1 id="construction-of-the-head-fixation-and-platform-tracking">Construction of the head fixation and platform tracking</h1>
-<p>In order do keep the head and camera in the same place a rigid mount is needed.</p>
-<h2 class="page-step" id="placing-vertical-mounting">Step 1: Placing vertical mounting</h2>
+    <h1 id="attaching-the-camera">Attaching the camera</h1>
+<p>This page presents how to set a pixie camera below the setup. The camera should be far enough to record the whole bottom of the air table box. </p>
+<div class="pagebom">
+<h3 id="part">Parts</h3>
 <ul>
-<li>
-<p>Place three <a href="connectors/5mmNuts.html">nuts</a> in each 48 cm <a href="framework/20x20Rod.html" title="">aluminium strut profile</a> of the <a href="basicframework.html">center air table</a>. </p>
-<ul>
-<li>
-<p>The nuts must point upwards. </p>
-</li>
-<li>
-<p>Move on both sides the central nut to the center of the 48 cm <a href="framework/20x20Rod.html" title="">aluminium strut profile</a>.  </p>
-</li>
+<li>2 <a Class="bom" href="screws/m3_hexagon_nuts.html">M3 hexagon nuts</a> </li>
+<li>2 <a Class="bom" href="screws/m3x5mm_screw.html">M3 screws</a> </li>
+<li>2 <a Class="bom" href="screws/m5x6mm_screw.html">M5 screws</a> </li>
+<li>2 <a Class="bom" href="connectors/5mmNuts.html">nuts</a> </li>
+<li>1 <a Class="bom" href="electronic/PixyCam.html">Pixy Camera</a> </li>
 </ul>
-</li>
-<li>
-<p>Place in each central nut one of the <a href="framework/M5Rod.html">M5 round rods</a>. Attach on each <a href="framework/M5Rod.html" title="">M5 round rod</a> a <a href="connectors/12mmCC.html">connecting clamp</a> 15 cm  above the table. </p>
-</li>
-</ul>
-<h2 class="page-step" id="attaching-the-head-fixation">Step 2: Attaching the head fixation</h2>
-<ul>
-<li>
-<p>Place one <a href="connectors/12mmCC.html" title="">connecting clamp</a> on each of the upwards pointing rods in a right angle. </p>
-</li>
-<li>
-<p>Cut a 38 cm long piece with a <a href="tools/metallsaw.html" title="">metallsaw</a> from the <a href="framework/12mmRod.html">aluminium rod 12mm diameter</a> and place it in both <a href="connectors/12mmCC.html" title="">connecting clamps</a> on the upwards pointing rods. On this rod attach the headfixation.</p>
-</li>
-</ul>
-<p>If the head fixation for the study needed is incompatible with this construction, a placement on the vertical <a href="framework/M5Rod.html" title="">M5 thread rod</a> might work.</p>
-<h2 class="page-step" id="attaching-the-camera">Step 3: Attaching the camera</h2>
+</div>
 <ul>
 <li>3D print the following file: <ul>
 <li>Settings: <a href="3D_settings_plate.html" title=""><img alt="info" class="smallicon" src="static/Icons/info.png" title="More information" /></a></li>
@@ -121,29 +123,34 @@
 </ul>
 <noscript><a href="models/3_5mm_plate.stl"></a></noscript>
 <p><gb3d-viewer src="models/3_5mm_plate.stl" color="grey"></gb3d-viewer></p>
+<div class="caution-block">
+<p><strong>TODO</strong></p>
+<p>photos</p>
+</div>
 <ul>
+<li>Place the two <a href="connectors/5mmNuts.html">nuts</a>, which are already in the lower center <a href="framework/20x20Rod.html" title="">aluminium strut profile</a>, with a distance of 35 mm. </li>
 <li>
-<p>Place the two nuts, which are already in the lower center <a href="framework/20x20Rod.html" title="">aluminium strut profile</a>, with a distance of 3.5cm. Mark two points with the distance of the threads on the 3.5mm plate 3D printed plate along one long side with 5 to 10 mm distance from the edge. </p>
-<ul>
-<li>Use a <a href="tools/5mmdrill.html" title="">5mm drill</a> at both places.</li>
-</ul>
+<p>Mark two points with the distance of the threads on the 3.5mm plate 3D printed plate along one long side with 5 to 10 mm distance from the edge. </p>
 </li>
 <li>
-<p>Take the <a href="electronic/PixyCam.html" title="">Pixy Camera</a> to mark on the other long side two more drill places with the distance of both holes from the fixation part of the <a href="electronic/PixyCam.html" title="">Pixy Camera</a>. The distance should be around 7 mm.</p>
-<ul>
-<li>Use a <a href="tools/5mmdrill.html" title="">3mm drill</a> at both places.</li>
-</ul>
+<p>Drill holes with a <a href="tools/5mmdrill.html" title="">5mm drill</a> at both places.</p>
+</li>
+<li>
+<p>Take the <a href="electronic/PixyCam.html">Pixy Camera</a> to mark on the other long side two more drill places with the distance of both holes from the fixation part of the <a href="electronic/PixyCam.html" title="">Pixy Camera</a>. The distance should be around 7 mm.</p>
+</li>
+<li>
+<p>Drill holes with a <a href="tools/3mmdrill.html" title="">3mm drill</a> at both places.</p>
 </li>
 <li>
 <p>Connect the 3.5mm plate by using <a href="screws/m5x6mm_screw.html">M5 screws</a> with the <a href="framework/20x20Rod.html" title="">aluminium strut profile</a>.</p>
 </li>
 <li>
-<p>Connect the <a href="electronic/PixyCam.html">Pixy Camera</a> to the 3.5mm plate by using <a href="screws/m3x5mm_screw.html">M3 screws</a> and <a href="screws/m3_hexagon_nuts.html">M3 hexagon nuts</a>.</p>
+<p>Connect the <a href="electronic/PixyCam.html" title="">Pixy Camera</a> to the 3.5mm plate by using <a href="screws/m3x5mm_screw.html">M3 screws</a> and <a href="screws/m3_hexagon_nuts.html">M3 hexagon nuts</a>.</p>
 </li>
 </ul>
-<p>You might want to shift the <a href="framework/20x20Rod.html" title="">aluminium strut profile</a> in the center a bit to have the <a href="electronic/PixyCam.html" title="">Pixy Camera</a> in the center.</p>
+<p>You might need to shift the <a href="framework/20x20Rod.html" title="">aluminium strut profile</a> in the center a bit to have the <a href="electronic/PixyCam.html" title="">Pixy Camera</a> in the center.</p>
 <hr />
-<p><a href="basicframework.html">Previous page</a> | <a href="rewardsystem.html">Next page</a></p>
+<p><a href="basicframework.html">Previous page</a> | <a href="headfixation.html">Next page</a></p>
     </div>
 </div>
 <footer class="site-footer">
