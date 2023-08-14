@@ -45,12 +45,12 @@
     </li>
 <li class="not-active">
     <a class="not-active" href="./predrill.html">
-        Airtable part 1: Predrill and precut
+        Airtable_1: Predrill and precut
     </a>
     </li>
 <li class="not-active">
     <a class="not-active" href="./glue.html">
-        Airtable part 2: Glueing and screwing
+        Airtable_2: Glueing and screwing
     </a>
     </li>
 <li class="not-active">
@@ -84,11 +84,6 @@
     </a>
     </li>
 <li class="not-active">
-    <a class="not-active" href="./air_flow.html">
-        Incoming air and pressure control
-    </a>
-    </li>
-<li class="not-active">
     <a class="not-active" href="./script_setup.html">
         Installation of scripts
     </a>
@@ -112,15 +107,14 @@ This documentation website was created by Fabio Reeh and reviewed by Julien Colo
  scientist in the creation of FAIR research hardware.</p>
 <h2 id="table-of-contents">Table of contents</h2>
 <h4 id="construction-of-the-airtable"><a href="airtable.html" title="">Construction of the airtable</a></h4>
-<h4 id="predrill-of-plexiglass"><a href="predrill.html" title="">Predrill of plexiglass</a></h4>
-<h4 id="glue-and-screw"><a href="glue.html" title="">Glue and screw</a></h4>
+<h5 id="predrill"><a href="predrill.html" title="">Predrill</a></h5>
+<h5 id="glue-and-screw"><a href="glue.html" title="">Glue and screw</a></h5>
 <h4 id="construction-of-the-basic-framework"><a href="basicframework.html" title="">Construction of the basic framework</a></h4>
-<h4 id="construction-of-platform-tracking"><a href="headandcamera.html" title="">Construction of platform tracking</a></h4>
-<h4 id="construction-of-the-head-fixation"><a href="headfixation.html" title="">Construction of the head fixation</a></h4>
-<h4 id="construction-of-the-rewarding-system"><a href="rewardsystem.html" title="">Construction of the rewarding system</a></h4>
-<h4 id="construction-of-linear-actuator-front"><a href="actuator_head.html" title="">Construction of linear actuator front</a></h4>
+<h5 id="construction-of-platform-tracking"><a href="headandcamera.html" title="">Construction of platform tracking</a></h5>
+<h5 id="construction-of-the-head-fixation"><a href="headfixation.html" title="">Construction of the head fixation</a></h5>
+<h5 id="construction-of-the-rewarding-system"><a href="rewardsystem.html" title="">Construction of the rewarding system</a></h5>
+<h6 id="construction-of-linear-actuator-front"><a href="actuator_head.html" title="">Construction of linear actuator front</a></h6>
 <h4 id="setup-of-the-electronics"><a href="electronic.html" title="">Setup of the electronics</a></h4>
-<h4 id="air-flow-and-pressure-control"><a href="air_flow.html" title="">Air flow and pressure control</a></h4>
 <h4 id="installation-of-scripts"><a href="script_setup.html" title="">Installation of scripts</a></h4>
 <h4 id="3d-printing-instructions"><a href="3Dprinting.html" title="">3D printing instructions</a></h4>
 <h4 id="list-of-all-necessary-components"><a href="index_BOM.html" title="HTML">List of all necessary components</a> (<a href="index_BOM.html"><img alt="HTML" class="smallicon" src="static/Icons/html.png" title="HTML Bill of Materials" /></a>, <a href="index_BOM.csv"><img alt="CSV" class="smallicon" src="static/Icons/csv.png" title="CSV Bill of Materials" /></a>)</h4>
@@ -147,13 +141,12 @@ The position tracking was done with a Pixy camera (CMUcam5 Image Sensor) by dete
 The table is mounted on aluminium legs to reach the desired height and space for the camera.
 On the framework is a lot space to place e.g. further tracking devices.
 The computational tasks are performed with a Arduino Uno microcontroller.</p>
+<h3 id="disclaimer-construction-complexity">Disclaimer: Construction complexity</h3>
+<p>Some parts are more difficult to construct than others. Mainly the central plexiglass box is difficult to build with a improvised work place. Precise cutting of the plexiglass  is needed to ensure airtight manufacturing. If you have access to a workshop, we recommend you to get the air table constructed there. In general it's better to have large parts of the Airtrack manufactured professionally. </p>
 <noscript><a href="models/airtrack_480x366001.stl"></a></noscript>
 <p><gb3d-viewer src="models/airtrack_480x366001.stl" color="grey"></gb3d-viewer></p>
-<h3 id="disclaimer-construction-complexity">Disclaimer: Construction complexity</h3>
-<p>Some parts are more difficult to construct than others. Mainly the central plexiglass box is difficult to build with an improvised work place. Precise cutting of the plexiglass is needed to ensure airtight manufacturing. Further, a workshop might use UV glue for the box which provides a good quality.</p>
-<p>If you have access to a workshop, we recommend you to get the air table constructed there. In general it's better to have large fraction of the Airtrack manufactured professionally. </p>
-<h2 id="size-and-struts">Size and struts</h2>
-<p>The amount of strut profiles you need depends on the hight of the table, and how well you can cut the 2 m strut profiles into pieces. For the default table (height = 400 mm) it takes 6m (= 3 pieces).  </p>
+<h2 id="size-and-stunts">Size and stunts</h2>
+<p>The amount of stunts you will need depends on the hight of the table, and how well you can cut the 2 m stunts into pieces. For the default table (height = 400 mm  </p>
 <p>References: <a href="https://pubmed.ncbi.nlm.nih.gov/27486102/" target="_blank" title="">Nashaat MA, Oraby H, Sachdev RN, Winter Y, Larkum ME. Air-Track: a real-world floating environment for active sensing in head-fixed mice. J Neurophysiol. 116(4):1542-1553, 2016</a></p>
 <hr />
 <p><a href="index_BOM.html">Next page</a></p>
