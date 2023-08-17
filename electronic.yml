@@ -16,7 +16,7 @@ L293D:
 
 circuit_board:
     Name: BB-32621
-    Description: circuit board
+    Description: Circuit board
     Suppliers:
         Digi-Key Electronics:
             PartNo: 377-2094-ND
