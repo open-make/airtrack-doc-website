@@ -12,13 +12,11 @@ We will first build two U-shaped framework which will be connected to the airtab
 You can decide of the length of the other two elements that will become the feets of the table.
 We usually use 400 mm, and if should not be less than 250 mm to get enough distance for the camera fixed below. 
 
-- Cut the [aluminium strut profile](framework.yml#20x20Rod)into two 480 mm pieces and four pieces with a length larger than 250 mm (recommended length 400 mm, see above).
-
  
 
-- Place two [nuts](connectors.yml#5mmNuts){Qty:4} inside two [aluminium strut profile](framework.yml#20x20Rod) pieces used as feets, fixate on each an [angle](connectors.yml#5mmNuts_angle){Qty:4} with a [M5 screw (6mm)](screws.yml#m5x6mm_screw){Qty:4} at one end. Now connect both with the 480 mm long [aluminium strut profile](framework.yml#20x20Rod) by using [nuts](connectors.yml#5mmNuts){Qty:4} and a [M5 screw (6mm)](screws.yml#m5x6mm_screw){Qty:4}.
-- Repeat the previous step with the remaining 3 struts.
-
+- Place one [nut](connectors.yml#5mmNuts){Qty:4} inside each of four [aluminium strut profiles (length: 400mm)](fromstep){Qty:4} used as feets. 
+- Fixate on each an [angle](connectors.yml#5mmNuts_angle){Qty:4} with a [M5 screw (6mm)](screws.yml#m5x6mm_screw){Qty:4} at one end of the strut. 
+-  Do this twice: Connect two of the four struts with a nut and angle with one of the 480 mm long [aluminium strut profiles (length: 480mm)](fromstep){Qty:2} by using [nuts](connectors.yml#5mmNuts){Qty:4} and a [M5 screw (6mm)](screws.yml#m5x6mm_screw){Qty:4}.
 
 
 
@@ -47,25 +45,32 @@ Repeat this step with the second U-formation framework on the other side of the 
 To guarantee a higher stability it's recommended to place a second framework circle 5-10cm above the ground. The second framework circle is shown in the picture below.
 
 
-
+#### Picture of the second frame circle
 
 ![](images/lower_frame001.jpg)
 
-- Therefore cut the [aluminium strut profile](framework.yml#20x20Rod) in two pieces with a length of 440 mm and three with a length of 326 mm. 
-
-- Place on both ends of each [aluminium strut profile](framework.yml#20x20Rod) a [nut](connectors.yml#5mmNuts){Qty:10}. 
-
-- Put an extra [nuts](connectors.yml#5mmNuts){Qty:2} in the 440 mm [aluminium strut profile](framework.yml#20x20Rod). It will point to the center later. 
 
 
+- Place on both ends of the [aluminium strut profiles (length: 440mm)](fromstep){Qty:2} and on both ends of the [aluminium strut profiles (length: 286mm)](fromstep){Qty:2} a [nut](connectors.yml#5mmNuts){Qty:8}. 
 
-- Connect the [nuts](connectors.yml#5mmNuts) and an [angle](connectors.yml#5mmNuts_angle){Qty:10} with a [M5 screw (6mm)](screws.yml#m5x6mm_screw){Qty:10}. Place [nuts](connectors.yml#5mmNuts){Qty:8} at the wished height inside the to the Airtable mounted [aluminium strut profile](framework.yml#20x20Rod). 
+
+- Put an extra [nut](connectors.yml#5mmNuts){Qty:2} in both 440 mm aluminium strut profiles. It must point to the center later (90° shifted from the other two nuts). 
+
+
+
+- Connect the [nuts](connectors.yml#5mmNuts) and an [angle](connectors.yml#5mmNuts_angle){Qty:8} with a [M5 screw (6mm)](screws.yml#m5x6mm_screw){Qty:8}. 
+
+- Place [nuts](connectors.yml#5mmNuts){Qty:8} at the wished height inside the to the Airtable mounted [aluminium strut profile](framework.yml#20x20Rod). The nuts need to point towards the other vertical struts.
 
 - Now connect the [aluminium strut profiles ](framework.yml#20x20Rod) with [angles](connectors.yml#5mmNuts_angle) to the at the Airtable mounted [aluminium strut profile](framework.yml#20x20Rod) with a [M5 screw (6mm)](screws.yml#m5x6mm_screw){Qty:8}. 
 
-- Put two [nuts](connectors.yml#5mmNuts){Qty:2} inside the third 326 mm [aluminium strut profile](framework.yml#20x20Rod). These both need to point upwards in the next step.
 
-- Place the third 326 mm [aluminium strut profile](framework.yml#20x20Rod) in the center at the two unused nuts and connect it with two more [M5 screw (6mm)](screws.yml#m5x6mm_screw){Qty:2}. 
+
+
+
+- Put two [nuts](connectors.yml#5mmNuts){Qty:2} inside the third of the  [aluminium strut profiles (length: 286mm)](fromstep){Qty:1}. These nuts need to point upwards in the next step.
+
+- Place the third 326 mm [aluminium strut profile](framework.yml#20x20Rod) in the center at the two unused nuts and connect it with two [angles](connectors.yml#5mmNuts_angle){Qty: 2} and two more [M5 screw (6mm)](screws.yml#m5x6mm_screw){Qty:2}. 
 
 
 

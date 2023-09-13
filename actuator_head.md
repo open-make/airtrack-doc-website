@@ -83,9 +83,15 @@ Use a [M2 screw](screws.yml#m2x16mm_screw){Qty: 1} and a [M2 hexagon nuts](screw
 - Remember to loosen the screws before reorientating the moveable needle holds.
 
 
-### The combined needle hold:
+#### Combined needle hold
+ 
 
 ![](images/hold_03001.jpg)
+
+
+
+
+
 
 
 
@@ -110,7 +116,7 @@ Use a [M2 screw](screws.yml#m2x16mm_screw){Qty: 1} and a [M2 hexagon nuts](screw
 - Use a [M4 screw](screws.yml#m4x20mm_screw){Qty: 1} and a [M4 hexagon nuts](screws.yml#m4_hexagon_nuts){Qty: 1} to combine the 3D printed component to the [linear actuator](electronic.yml#LinActuator50mm). 
     - The screw needs to go through the hole in the bigger core 3D part and the front hole of the moveable part of the linear actuator.
 
-### Some pictures of this state:
+#### Two pictures of this state:
 
 ![](images/hold_01001.jpg)
 ![](images/hold_02001.jpg)

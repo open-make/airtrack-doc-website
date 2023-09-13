@@ -1,0 +1,7 @@
+PrimaryColor: '#f1502f'
+SecondaryColor: '#cccccc'
+HoverColor: '#555555'
+DefaultCategory: part
+AutoCompleteSubNav: true
+RemoveImagesBorder: true
+RemoveImagesBackground: true

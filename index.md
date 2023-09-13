@@ -20,6 +20,8 @@ This guide is part of the output from the [open.make project](https://www.openma
 
 #### [Construction of the airtable](airtable.md){step}
 
+#### [Precut of aluminium profile strut](precut.md){step}
+
 #### [Predrill of plexiglass](predrill.md){step}
 
 #### [Glue and screw](glue.md){step}

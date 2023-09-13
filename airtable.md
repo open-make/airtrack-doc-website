@@ -5,7 +5,11 @@ We usually get this construction done in the workshop, because they have better 
 
 >!! **Safety instruction**
 >!!
->!! The upper part should be screwed and the lower part only glued. In the case of malfunction with the air pressure, the lower part will break. That limits the risk of injuries.
+>!! The upper part of the air table should be screwed and the lower part only glued. In the case of malfunction with the air pressure, the lower part will break. That limits the risk of injuries.
+
+## Precut of aluminium strut profiles {pagestep}
+
+Follow the [instruction](precut.md) to prepare the top and side plexiglass plates.
 
 
 ## Predrill plexiglass plates {pagestep}

@@ -2,6 +2,7 @@
 
 {{BOM}}
 
+#### Picture of the pressure relief valve and incoming air pressure tubes
 ![](images/desc_06001.jpeg)
 
 ## Inserting of hose connection gland and pressure relief valve {pagestep}

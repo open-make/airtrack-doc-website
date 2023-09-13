@@ -1,17 +1,20 @@
-# Airtable part 2: Glueing and screwing
+# Airtable part 3: Glueing and screwing
 
 {{BOM}}
 
 >!! **TODO**
 >!!
 >!! first glue or screw?
+>!! I think screwing while the ghlue drys
 
 ## Predrill side plexiglass plates {pagestep}
 
 Use the following drawing as an orientation to predrill both [310mm x 64mm plexiglass plates](plexiglass.yml#310x64pg){Qty:2} and both [predrilled 480x64 plexiglass plate](fromstep){qty:2}. 
 The drawing is looking from the top at the plexiglasses. Keep in mind the orientation of the [predrilled 480x64 plexiglass plate](fromstep). It's earlier holes should be close to the upper side.
 
-- Use a [1mm plexiglas drill](tools.yml#1mmdrill){qty:1, cat:tool} for drilling.
+
+#### Constructional drawing (distances in millimeter)
+- Use a [1mm plexiglas drill](tools.yml#1mmdrill){qty: one,cat:tool} for drilling.
 
 
 ![](images/side_plates.jpg)

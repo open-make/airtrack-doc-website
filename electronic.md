@@ -13,7 +13,7 @@
 - To keep a structure between the [Arduino Uno](electronic.yml#Arduino_Uno){Qty:1}, [Capcitive sensor mpr121](electronic.yml#mpr121){Qty:1}, [Active Buzzer](electronic.yml#Keyes_KY-012){Qty:1}
  and [H bridge L293D](electronic.yml#L293D){Qty:1} you can use a large breadboard.
 
-
+#### Wiring configuration
 ![](images/arduino_schematic.png)
 
 
