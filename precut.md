@@ -21,9 +21,6 @@ For cutting the struts a [metall saw](tools.yml#metallsaw){Qty: 1, Cat:tool} is 
 
 
 
-Use three [aluminium strut profiles (length: 2000mm)](framework.yml#20x20Rod){qty:3}. 
-
-
 
 
 ### Pieces out of  2000mm aluminium strut profile #1
