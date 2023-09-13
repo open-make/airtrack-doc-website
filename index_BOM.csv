@@ -1,5 +1,5 @@
 Name in documentation	Category	Qty	Full Name	Notes	Supplier 1	Part No	Link	Supplier 2	Part No	Link
-1mm plexiglas drill	tool	1	1 mm drill							
+1mm plexiglas drill	tool	one	1 mm drill							
 310mm x 64mm plexiglass plates	part	2	Plexiglass precut							
 350mm x 30mm plexiglass plate	part	1	Plexiglass precut							
 366mm x 30mm plexiglass plate	part	1	Plexiglass precut							
@@ -11,10 +11,11 @@ Name in documentation	Category	Qty	Full Name	Notes	Supplier 1	Part No	Link	Suppl
 8mm plexiglas drill	tool	1	8 mm drill							
 Active Buzzer	part	1	Keyes KY-012 Active Buzzer		Aliexpress	No PartNo	https://de.aliexpress.com/item/32816721769.html?aff_fcid=dbb60528572745a9ac0787a7403f897f-1651112003196-06651&aff_fsk&aff_platform=api-new-product-query&sk&aff_trace_key=dbb60528572745a9ac0787a7403f897f-1651112003196-06651&terminal_id=c3fe0c0a7e284a458624de73aaa29e49&afSmartRedirect=y&gatewayAdapt=glo2deu			
 aluminium rod 12mm diameter	part	1	Aluminium rod		RS Components	124-3623	https://de.rs-online.com/web/p/metallstangen-und-stabe/1243623			
-aluminium strut profile	part	2	Aluminium framework		RS Components	180-9136	 https://de.rs-online.com/web/p/rohre-und-strebenprofile/8508470			
-angle	part	24	Frame Angle		Misumi	HBLFSNF5-C-SSP	https://de.misumi-ec.com/vona2/detail/110300437260/?HissuCode=HBLFSNF5-C-SSP			
-angles	part	2	Frame Angle		Misumi	HBLFSNF5-C-SSP	https://de.misumi-ec.com/vona2/detail/110300437260/?HissuCode=HBLFSNF5-C-SSP			
-arcylic glue	tool	some	Acrifix 192		Modulor	0154916	https://www.modulor.de/en/acrifix-192-acrylic-glue.html	Rexin Gmbh	PLE99000	https://www.rexin-shop.de/zubehoer/kleber-politur-und-co/plexiglas-kleber-acrifix-192-100g
+aluminium strut profile	part	5	Aluminium framework		RS Components	180-9136	 https://de.rs-online.com/web/p/rohre-und-strebenprofile/8508470			
+aluminium strut profiles (length: 2000mm)	part	3	Aluminium framework		RS Components	180-9136	 https://de.rs-online.com/web/p/rohre-und-strebenprofile/8508470			
+angle	part	22	Frame Angle		Misumi	HBLFSNF5-C-SSP	https://de.misumi-ec.com/vona2/detail/110300437260/?HissuCode=HBLFSNF5-C-SSP			
+angles	part	4	Frame Angle		Misumi	HBLFSNF5-C-SSP	https://de.misumi-ec.com/vona2/detail/110300437260/?HissuCode=HBLFSNF5-C-SSP			
+arcylic glue	tool	Some	Acrifix 192		Modulor	0154916	https://www.modulor.de/en/acrifix-192-acrylic-glue.html	Rexin Gmbh	PLE99000	https://www.rexin-shop.de/zubehoer/kleber-politur-und-co/plexiglas-kleber-acrifix-192-100g
 Arduino Uno	part	1	Arduino Uno		Digi-Key Electronics	1050-1024-ND	https://www.digikey.de/de/products/detail/arduino/A000066/2784006			
 cable ties	part	many	Cable tie		Distrelec	301-41-528	https://www.distrelec.de/en/cable-tie-99-5mm-polypropylene-49n-black-panduit-plt1m-m100/p/30141528?trackQuery=cat-DNAV_PL_2225543&pos=1&origPos=9&origPageSize=50&filterapplied=filter_Length~~mm%3d99&track=true			
 Capcitive sensor mpr121	part	1	MPR121 Capacitive Touch Sensor		Tinkerly	No PartNo	https://paradisetronic.com/de/sensoren/mpr121-touchsensor-controller-breakout-12-kanaele-i2c			
@@ -32,14 +33,15 @@ M4 hexagon nuts	part	1	Heaxagon nuts		RS Components	525-896	https://de.rs-online
 M4 screw	part	1	Lens head Pozidriv screw		RS Components	553-560	https://de.rs-online.com/web/p/maschinenschrauben/0553560			
 M5 hexagon nuts	part	6	Heaxagon nuts		RS Components	525-903	https://de.rs-online.com/web/p/sechskantmuttern/0525903			
 M5 round rods	part	2	Round rod M5		Misumi Europe GmbH	ETKLS12-200-F10-SC0-M5-N5	https://de.misumi-ec.com/vona2/detail/110300209240/?PNSearch=ETKLS12-200-F10-SC0-M5-N5&HissuCode=ETKLS12-200-F10-SC0-M5-N5&searchFlow=suggest2products&Keyword=ETKLS12-200-F10-SC0-M5-N5			
-M5 screw (6mm)	part	30	Hexagon socket screw		RS Components	822-9170	https://de.rs-online.com/web/p/innensechskantschrauben/8229170			
+M5 screw (6mm)	part	28	Hexagon socket screw		RS Components	822-9170	https://de.rs-online.com/web/p/innensechskantschrauben/8229170			
 M5 screws	part	2	Hexagon socket screw		RS Components	822-9170	https://de.rs-online.com/web/p/innensechskantschrauben/8229170			
 M5 screws (12mm)	part	6	Hexagon socket screw		RS Components	183-8676	https://de.rs-online.com/web/p/innensechskantschrauben/1838676			
 M5 screws (6mm)	part	18	Hexagon socket screw		RS Components	822-9170	https://de.rs-online.com/web/p/innensechskantschrauben/8229170			
 M5x12mm screws	part	4	Hexagon socket screw		RS Components	183-8676	https://de.rs-online.com/web/p/innensechskantschrauben/1838676			
+metall saw	tool	1	Metall saw							
 metallsaw	tool	1	Metall saw							
-nut	part	12	Frame nut		RS Components	180-9104	https://de.rs-online.com/web/p/verbindungselemente/1809104			
-nuts	part	50	Frame nut		RS Components	180-9104	https://de.rs-online.com/web/p/verbindungselemente/1809104			
+nut	part	16	Frame nut		RS Components	180-9104	https://de.rs-online.com/web/p/verbindungselemente/1809104			
+nuts	part	44	Frame nut		RS Components	180-9104	https://de.rs-online.com/web/p/verbindungselemente/1809104			
 pinch valve clamp	part	1	pinch valve clamp		BIOZOL Diagnostica Vertrieb GmbH	075P2NC12-01S	https://www.lab-club.com/2-way-NC-pinch-valve-type-075P2NC12-01S			
 Pixy Camera	part	1	Pixy 2 CMUCAM5		Digi-Key Electronics	1738-1426-ND	https://www.digikey.de/de/products/detail/dfrobot/SEN0265/9559245			
 pressure relief valve	part	1	Pressure relief valve		RS Components	210-8443	https://de.rs-online.com/web/p/pneumatik-druckentlastungsventile/2108443			

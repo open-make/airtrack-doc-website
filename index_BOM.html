@@ -10,7 +10,35 @@
 <link rel="icon" type="image/png" href="./static/Logo/favicon-16x16.png" sizes="16x16" />
 
     <link href="./static/style.css" rel="stylesheet">
-                    
+                  <style>
+    .nav-list a.navhome, .sub-nav-list a.navhome{
+      background-color: #f1502f !important;
+    }
+    .gallery-thumb img:hover {
+      border: 4px solid #f1502f;
+    }
+  </style>
+<style>
+  .nav-list a.active, .sub-nav-list a.active {
+    background-color: #cccccc !important;
+  }
+</style>
+<style>
+  .nav-list a:hover:not(.active), .sub-nav-list a:hover:not(.active) {
+    background-color: #555555 !important;
+  }
+</style>
+<style>
+.gallery-show img {
+  border: none;
+}
+</style>
+<style>
+.gallery-show img {
+  background: none;
+}
+</style>
+    
 </head>
 <body>
 <header class="site-header">
@@ -43,13 +71,18 @@
     </a>
     </li>
 <li class="not-active">
+    <a class="not-active" href="./precut.html">
+        Airtable part 1: Precut of the aluminium profile strut
+    </a>
+    </li>
+<li class="not-active">
     <a class="not-active" href="./predrill.html">
-        Airtable part 1: Predrill and precut
+        Airtable part 2: Predrill and precut
     </a>
     </li>
 <li class="not-active">
     <a class="not-active" href="./glue.html">
-        Airtable part 2: Glueing and screwing
+        Airtable part 3: Glueing and screwing
     </a>
     </li>
 <li class="not-active">
@@ -114,9 +147,10 @@
 <li>2 <a Class="bom" href="plexiglass/480x64pg.html">480mm x 64mm plexiglass plates</a> </li>
 <li>1 <a Class="bom" href="electronic/Keyes_KY-012.html">Active Buzzer</a> </li>
 <li>1 <a Class="bom" href="framework/12mmRod.html">aluminium rod 12mm diameter</a> </li>
-<li>2 <a Class="bom" href="framework/20x20Rod.html">aluminium strut profile</a> </li>
-<li>24 <a Class="bom" href="connectors/5mmNuts_angle.html">angle</a> </li>
-<li>2 <a Class="bom" href="connectors/5mmNuts_angle.html">angles</a> </li>
+<li>5 <a Class="bom" href="framework/20x20Rod.html">aluminium strut profile</a> </li>
+<li>3 <a Class="bom" href="framework/20x20Rod.html">aluminium strut profiles (length: 2000mm)</a> </li>
+<li>22 <a Class="bom" href="connectors/5mmNuts_angle.html">angle</a> </li>
+<li>4 <a Class="bom" href="connectors/5mmNuts_angle.html">angles</a> </li>
 <li>1 <a Class="bom" href="electronic/Arduino_Uno.html">Arduino Uno</a> </li>
 <li>many <a Class="bom" href="connectors/cable_tie.html">cable ties</a> </li>
 <li>1 <a Class="bom" href="electronic/mpr121.html">Capcitive sensor mpr121</a> </li>
@@ -134,13 +168,13 @@
 <li>1 <a Class="bom" href="screws/m4x20mm_screw.html">M4 screw</a> </li>
 <li>6 <a Class="bom" href="screws/m5_hexagon_nuts.html">M5 hexagon nuts</a> </li>
 <li>2 <a Class="bom" href="framework/M5Rod.html">M5 round rods</a> </li>
-<li>30 <a Class="bom" href="screws/m5x6mm_screw.html">M5 screw (6mm)</a> </li>
+<li>28 <a Class="bom" href="screws/m5x6mm_screw.html">M5 screw (6mm)</a> </li>
 <li>2 <a Class="bom" href="screws/m5x6mm_screw.html">M5 screws</a> </li>
 <li>6 <a Class="bom" href="screws/m5x12mm_screw.html">M5 screws (12mm)</a> </li>
 <li>18 <a Class="bom" href="screws/m5x6mm_screw.html">M5 screws (6mm)</a> </li>
 <li>4 <a Class="bom" href="screws/m5x12mm_screw.html">M5x12mm screws</a> </li>
-<li>12 <a Class="bom" href="connectors/5mmNuts.html">nut</a> </li>
-<li>50 <a Class="bom" href="connectors/5mmNuts.html">nuts</a> </li>
+<li>16 <a Class="bom" href="connectors/5mmNuts.html">nut</a> </li>
+<li>44 <a Class="bom" href="connectors/5mmNuts.html">nuts</a> </li>
 <li>1 <a Class="bom" href="electronic/pv_clamp.html">pinch valve clamp</a> </li>
 <li>1 <a Class="bom" href="electronic/PixyCam.html">Pixy Camera</a> </li>
 <li>1 <a Class="bom" href="connectors/pressure_relief_valve.html">pressure relief valve</a> </li>
@@ -152,11 +186,12 @@
 </ul>
 <h3 id="tool">Tools</h3>
 <ul>
-<li>1 <a Class="bom" href="tools/1mmdrill.html">1mm plexiglas drill</a> </li>
+<li>one <a Class="bom" href="tools/1mmdrill.html">1mm plexiglas drill</a> </li>
 <li>1 <a Class="bom" href="tools/3mmdrill.html">3mm plexiglas drill</a> </li>
 <li>1 <a Class="bom" href="tools/5mmdrill.html">5mm plexiglas drill</a> </li>
 <li>1 <a Class="bom" href="tools/8mmdrill.html">8mm plexiglas drill</a> </li>
-<li>some <a Class="bom" href="tools/acrifix_192.html">arcylic glue</a> </li>
+<li>Some <a Class="bom" href="tools/acrifix_192.html">arcylic glue</a> </li>
+<li>1 <a Class="bom" href="tools/metallsaw.html">metall saw</a> </li>
 <li>1 <a Class="bom" href="tools/metallsaw.html">metallsaw</a> </li>
 </ul>
 <hr />

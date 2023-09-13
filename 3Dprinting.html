@@ -11,7 +11,35 @@
 
     <link href="./static/style.css" rel="stylesheet">
                 <script type="text/javascript" src="./static/3d-viewer.js"></script>
-            
+          <style>
+    .nav-list a.navhome, .sub-nav-list a.navhome{
+      background-color: #f1502f !important;
+    }
+    .gallery-thumb img:hover {
+      border: 4px solid #f1502f;
+    }
+  </style>
+<style>
+  .nav-list a.active, .sub-nav-list a.active {
+    background-color: #cccccc !important;
+  }
+</style>
+<style>
+  .nav-list a:hover:not(.active), .sub-nav-list a:hover:not(.active) {
+    background-color: #555555 !important;
+  }
+</style>
+<style>
+.gallery-show img {
+  border: none;
+}
+</style>
+<style>
+.gallery-show img {
+  background: none;
+}
+</style>
+    
 </head>
 <body>
 <header class="site-header">
@@ -44,13 +72,18 @@
     </a>
     </li>
 <li class="not-active">
+    <a class="not-active" href="./precut.html">
+        Airtable part 1: Precut of the aluminium profile strut
+    </a>
+    </li>
+<li class="not-active">
     <a class="not-active" href="./predrill.html">
-        Airtable part 1: Predrill and precut
+        Airtable part 2: Predrill and precut
     </a>
     </li>
 <li class="not-active">
     <a class="not-active" href="./glue.html">
-        Airtable part 2: Glueing and screwing
+        Airtable part 3: Glueing and screwing
     </a>
     </li>
 <li class="not-active">
@@ -104,14 +137,18 @@
         </div>
         <div class="wrapper">
     <h1 id="floating-platform">Floating platform</h1>
+<div class="warning-block">
+<p>to do</p>
+<p>bottom of platform</p>
+</div>
 <p>There are several platforms you can use on the Airtrack. The size of the platfrom and the design of the upper part varies depending on your research question. </p>
-<p>The below part design depends on the type or Air table you are using. For small tables, air is flowing directly and the platform needs to have a rim on its lower part. In large tables the platform should be completely flat because it pressures down balls in the plexiglass surface. The balls are used to limit the air flow and by this the needed pressure is reduced to maintain the platform floating.</p>
+<p>The below part design depends on the type or Air table you are using. For small tables (not included in this guide), air is flowing directly and the platform needs to have a rim on its lower part. In large tables the platform should be completely flat because it pressures down balls in the plexiglass surface. The balls are used to limit the air flow and by this the needed pressure is reduced to maintain the platform floating.</p>
 <p>It's important to be aware about the influence of the material's surface to the mouse. The layer height in the print settings and the material used for the print are the main factors determining the surface's shape.</p>
-<p>A 3D printed platform mostly has a flat and slippery surface which doesn't allow the mouse to move as expected. It's recommended to attach some grips or slip-proof materials to allow the mouse to move naturally on the platform.</p>
+<p>A 3D printed platform mostly has a flat and slippery surface which doesn't allow the mouse to move as expected. It's recommended to attach some grips or slip-proof materials to allow the mouse to move naturally on the platform. A possible solution is a grip tape.</p>
 <p>All recommended printing settings provided the best output on a FLASHFORGE CREATOR 3.</p>
 <h2 class="page-step" id="large-platform">Step 1: Large platform</h2>
-<p>The components need to be printed independently and get glued afterwards.
-Instead of 3D printing, similar materials can be used, too.</p>
+<p>The components need to be printed independently and get glued afterwards.</p>
+<p>Instead of 3D printing, similar materials can be used, too.</p>
 <h4 id="whole-large-platform">Whole large platform</h4>
 <noscript><a href="models/l_Maze_all.stl"></a></noscript>
 <p><gb3d-viewer src="models/l_Maze_all.stl" color="grey"></gb3d-viewer></p>
@@ -138,7 +175,30 @@ Instead of 3D printing, similar materials can be used, too.</p>
 <p>Retraction and extrude speed: 30 mm/s</p>
 <p>Retraction distance: 1,3 mm</p>
 <p>Raft: No</p>
-<h2 class="page-step" id="small-platform">Step 2: Small platform</h2>
+<h2 class="page-step" id="options-for-the-ground-of-the-large-platform">Step 2: Options for the ground of the large platform</h2>
+<h3 id="other-materials">Other materials</h3>
+<p>If your 3D printer is to small to print the platform ground in one run or you don't want to print it, you could use acrylic glass or plastic in the same size a platform. The platform ground only needs to be stiff, lightweight and with a diameter of 300mm. Further you need to glue things on it. The height is not relevant but should not exceed 10 mm. </p>
+<h3 id="printing-in-segments">Printing in segments</h3>
+<p>If your 3D printer is to small for printing the large platform in one run, you could print eight quarters of the platform and glue them.
+Therefore use four quarters as one layer and glue them with the second layer by a overlap of 45° between quarters. </p>
+<p>The quality of this method mainly depends on how good you can remove a part from the printing bed. As this part is very thin, you need to take care to not change the proportions while removing the print from the bed.</p>
+<p>You can use the <a href="tools/acrifix_192.html">arcylic glue</a><a href="glueingadvise.html" title=""><img alt="info" class="smallicon" src="static/Icons/info.png" title="More information" /></a> for glueing the quarters.</p>
+<noscript><a href="models/l_maze_quarter_ground001.stl"></a></noscript>
+<p><gb3d-viewer src="models/l_maze_quarter_ground001.stl" color="grey"></gb3d-viewer></p>
+<h4 id="print-settings_1">Print settings:</h4>
+<p>Layer height: 0,15 mm</p>
+<p>Infill: 70%</p>
+<p>Nozzle size: 0,4 mm</p>
+<p>Print speed: 60 mm/s</p>
+<p>Temperatur (Nozzle/Platform): 200°C / 60°C </p>
+<p>Support: No</p>
+<p>Print orientation: Platform parallel to ground</p>
+<p>Material: PLA</p>
+<p>Filament diameter: 1.75 mm</p>
+<p>Retraction and extrude speed: 30 mm/s</p>
+<p>Retraction distance: 1,3 mm</p>
+<p>Raft: No</p>
+<h2 class="page-step" id="additional-information-small-platform">Step 3: Additional information: small platform</h2>
 <p>The components need to be printed independently and get glued afterwards.
 Instead of 3D printing, similar materials can be used, too.</p>
 <h4 id="whole-small-platform">Whole small platform</h4>
@@ -147,7 +207,7 @@ Instead of 3D printing, similar materials can be used, too.</p>
 <h4 id="rim">Rim</h4>
 <noscript><a href="models/s_Maze_X_rim.stl"></a></noscript>
 <p><gb3d-viewer src="models/s_Maze_X_rim.stl" color="grey"></gb3d-viewer></p>
-<h4 id="ground-of-large-platform_1">Ground of large Platform</h4>
+<h4 id="ground-of-small-platform">Ground of small Platform</h4>
 <noscript><a href="models/s_Maze_X_ground.stl"></a></noscript>
 <p><gb3d-viewer src="models/s_Maze_X_ground.stl" color="grey"></gb3d-viewer></p>
 <h4 id="walls-of-the-small-platform">Walls of the small platform</h4>
@@ -156,7 +216,7 @@ Instead of 3D printing, similar materials can be used, too.</p>
 <h4 id="wall-mounts-of-the-small-platform">Wall mounts of the small platform</h4>
 <noscript><a href="models/s_Mazewall_mount.stl"></a></noscript>
 <p><gb3d-viewer src="models/s_Mazewall_mount.stl" color="grey"></gb3d-viewer></p>
-<h4 id="print-settings_1">Print settings:</h4>
+<h4 id="print-settings_2">Print settings:</h4>
 <p>Layer height: 0,15 mm</p>
 <p>Infill: 60%</p>
 <p>Nozzle size: 0,4 mm</p>
