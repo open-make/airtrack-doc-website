@@ -1,20 +1,28 @@
 # Construction of the head fixation 
 
-The animal will be head fixed in the center of the platform. Here is a description of the setup construction using XXX head fixation method.
-
-If the head fixation system you have is incompatible with this construction, a placement on the vertical [M5 thread rod](framework.yml#M5Rod) might work.
+For the observations the animal's head needs to be fixated above the center of the platform and therefore a head fixation method is required. This section is less detailed because it needs to take your setup into account. Here we offer a solution which is basic and might work on your side. If not, you have to place your head fixation method somewhere on the table or surroundings. 
 
 {{BOM}}
+
+## Head fixation requirements
+
+- Keep the head in one position centered above the table.
+- The mouse needs to touch the ground in order to move the platform.
+
+
+
+
 
 ## Placing vertical mounting {pagestep}
 
 
 
-- Place three [nuts](connectors.yml#5mmNuts){Qty:6} in each 480 mm [aluminium strut profile](framework.yml#20x20Rod){qty:2} of the [center air table](fromstep){Qty:1}, pointing upwards. 
+- Place one free [nut](connectors.yml#5mmNuts) in each 480 mm [aluminium strut profile](framework.yml#20x20Rod){qty:2} of the [center air table](fromstep){Qty:1}, pointing upwards. 
+     - The nut was placed in the step "Construction of the rewards system"
 
-- Move the central nuts to the center of the two 480 mm [aluminium strut profiles](framework.yml#20x20Rod).
+- Move the nuts to the center of the two 480 mm [aluminium strut profiles](framework.yml#20x20Rod).
 
-- Place in each central nut one of the [M5 round rods](framework.yml#M5Rod){Qty:2}. Attach on each [M5 round rod](framework.yml#M5Rod) a [connecting clamp](connectors.yml#12mmCC){Qty:2} 150 mm  above the table. 
+- Place in each central nut one of the [M5 rods](framework.yml#M5Rod){Qty:2}. Attach on each [M5 rod](framework.yml#M5Rod) a [connecting clamp](connectors.yml#12mmCC){Qty:2} 150 mm  above the table. 
 
 ## Attaching the head fixation {pagestep}
 
@@ -22,4 +30,16 @@ If the head fixation system you have is incompatible with this construction, a p
 
 - Cut a 380 mm long piece of an  [aluminium rod 12mm diameter](framework.yml#12mmRod){Qty:1} with a [metallsaw](tools.yml#metallsaw){Qty:1, cat: tool}, and place it in both [connecting clamps](connectors.yml#12mmCC) on the upwards pointing rods. On this rod attach the headfixation.
 
+If the head fixation system you have is incompatible with this construction, a placement on the vertical [M5 thread rod](framework.yml#M5Rod) might work.
 
+
+#### Picture of the rod above the table for the headfixation
+
+
+![](images/headfixation.jpeg)
+
+
+
+>!! **Warning** 
+>!!
+>!!  add picture with head fix´

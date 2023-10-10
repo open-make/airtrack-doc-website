@@ -35,11 +35,11 @@ For cutting the struts a [metall saw](tools.yml#metallsaw){Qty: 1, Cat:tool} is 
 
 ###Pieces out of  2000mm aluminium strut profile #2
 
-- Cut three pieces with a length of 286 mm and  two pieces with a length of 350 mm out of one aluminium strut profile.
+- Cut three pieces with a length of 286 mm,  two pieces with a length of 350 mm out of one aluminium strut profile and one 326 mm piece.
 
 - The 350mm long aluminium strut profiles are for the reward system. You can use longer ones therefore but shorter ones are not recommended.
 
-- You have now three [aluminium strut profiles (length: 286mm)]{output, Qty: 3} and two [aluminium strut profiles (length: 350mm)]{output, Qty: 2}.
+- You have now three [aluminium strut profiles (length: 286mm)]{output, Qty: 3}, [aluminium strut profiles (length: 326mm)]{output, Qty: 1} and two [aluminium strut profiles (length: 350mm)]{output, Qty: 2}.
  
 
 

@@ -55,3 +55,9 @@
     Description: 366mm x 30mm x 8mm
     Specs:
         Material: Polymethylmethacrylat
+
+r300mmpg:
+    Name: Dircular plexiglass precut
+    Description: Diameter 300mm and height 10mm
+    Specs:
+        Material: Polymethylmethacrylat

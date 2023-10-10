@@ -10,44 +10,51 @@ A buzzer is added to the system but do not need to be fixed to the table.
 
 ## Additional framework {pagestep}
 
-The following element will be placed on the air table struts opposite of the pressure relief valve.
+The following elements will be placed on the air table struts opposite of the pressure relief valve.
 
-- Place two outside pointing [nuts](connectors.yml#5mmNuts){Qty:4} in each vertical [aluminium strut profile](framework.yml#20x20Rod) of the [center air table](fromstep){qty:1}. Place one below the lower framework and one close to the top of the [aluminium strut profile](framework.yml#20x20Rod). 
+- Place two outside pointing (air table center as perspective) [nuts](connectors.yml#5mmNuts){Qty:4} in each vertical [aluminium strut profile](framework.yml#20x20Rod) of the [center air table](fromstep){qty:1}. Place one around  the height of the lower framework and one close to the top of the [aluminium strut profile](framework.yml#20x20Rod). 
 
-- Attach to all nuts an [angle](connectors.yml#5mmNuts_angle){Qty:4} by using [M5 screws (6mm)](screws.yml#m5x6mm_screw){Qty:4}. The angles must point to each other.
 
-- Attach to both sides vertical an [aluminium strut profile](framework.yml#20x20Rod) which raises 250 mm above the airtable by using [M5 screws (6mm)](screws.yml#m5x6mm_screw){Qty:4} and [nuts](connectors.yml#5mmNuts){Qty:4}. 
+- Attach to all nuts an [angle](connectors.yml#5mmNuts_angle){Qty:4} by using [M5 screws (12mm)](screws.yml#m5x12mm_screw){Qty:4}. The angles must point towards the angles on the other strut profile.
+     - Between the strut and the angle a [M5 hexagon nuts](screws.yml#m5_hexagon_nuts){Qty:4} is needed because of the shape of the angle. 
+         - Alternatively you could use a three millimeter spacer for M5 screws or get extra angles with a flat outside.
 
+- Attach to both sides vertical an [aluminium strut profile](framework.yml#20x20Rod) which raises 250 mm above the airtable by using [M5 screws (6mm)](screws.yml#m5x6mm_screw){Qty:4} and [nuts](connectors.yml#5mmNuts){Qty:4} at the attached strut profiles. 
+     - Between the strut and the angle a [M5 hexagon nuts](screws.yml#m5_hexagon_nuts){Qty:4} is needed because of the shape of the angle. 
+         
 - The exact length is depending on your choices of the general height. 
 
-- Now place one [nuts](connectors.yml#5mmNuts){Qty:2} in each just attached, vertical [aluminium strut profile](framework.yml#20x20Rod). The [nuts](connectors.yml#5mmNuts) in each [aluminium strut profile](framework.yml#20x20Rod) needs to point to each other. 
+- Now place one [nut](connectors.yml#5mmNuts){Qty:2} in each just attached, vertical [aluminium strut profile](framework.yml#20x20Rod). The [nuts](connectors.yml#5mmNuts) in each [aluminium strut profile](framework.yml#20x20Rod) needs to point to each other. 
 
     - Attach to these [nuts](connectors.yml#5mmNuts) an [angle](connectors.yml#5mmNuts_angle){Qty:2} by using [M5 screws (6mm)](screws.yml#m5x6mm_screw){Qty:2}. The unattached side needs to point towards the air table. 
 
-- Cut one [aluminium strut profiles](framework.yml#20x20Rod) with a length of 326 mm and place it horizontal at the vertical [aluminium strut profiles](framework.yml#20x20Rod) pointing to the air table.
+- Take one  [aluminium strut profiles (length: 326mm)](fromstep){Qty:1} and place it horizontal at the vertical [aluminium strut profiles](framework.yml#20x20Rod) pointing to the air table.
 
  - Use two [nuts](connectors.yml#5mmNuts){Qty:2} and two [M5 screws (6mm)](screws.yml#m5x6mm_screw){Qty:2} to fixate the [aluminium strut profiles](framework.yml#20x20Rod).
 
-- The lower edge  should be at the height of the  air table surface.
+- The lower edge should be at the height of the air table surface. This works as one platform border. 
 
+#### Image for tasks of step 1
 
->! picture
+![](images/side_strut.jpeg)
 
 
 ## Platform borders {pagestep}
 
-- Place three [nuts](connectors.yml#5mmNuts){Qty:6} in each upper [aluminium strut profiles](framework.yml#20x20Rod) of the U-formation frame. 
+- Place four [nuts](connectors.yml#5mmNuts){Qty:8} in each upper [aluminium strut profiles](framework.yml#20x20Rod) of the U-formation frame. 
     - Insert them from the pressure reliefe side.
 
-- Use the deepest two [nuts](connectors.yml#5mmNuts) and place them with a distance of 150 mm from the center in both directions. Attach an [angle](connectors.yml#5mmNuts_angle){Qty:4} to each by using [M5 screws (6mm)](screws.yml#m5x6mm_screw){Qty:4}. 
+- Use the deepest and third deepest [nuts](connectors.yml#5mmNuts) and place them with a distance of 150 mm from the center in both directions. Attach an [angle](connectors.yml#5mmNuts_angle){Qty:4} to each by using [M5 screws (6mm)](screws.yml#m5x6mm_screw){Qty:4}. Just leave the nut in between for later (head fixation).
+     - Between the strut and the angle a [M5 hexagon nuts](screws.yml#m5_hexagon_nuts){Qty:4} is needed because of the shape of the angle. 
+
 
 - The angles should point towards the air table.
 
 - Fixate the [350mm x 30mm plexiglass plate](plexiglass.yml#350x30pg){Qty: 1} with two [M5 screws (12mm)](screws.yml#m5x12mm_screw){Qty:4} and two [M5 hexagon nuts](screws.yml#m5_hexagon_nuts){Qty:4} at the angles on both sides.
-- Mark and predrill the spots of the angle holes at the plexiglass for the screws with a [5mm drill](tools.yml#5mmdrill).
+- Therefore mark and predrill the spots of the angle holes at the plexiglass for the screws with a [5mm drill](tools.yml#5mmdrill) in advantage.
 
 
-- Place the remaining nuts **???** at the end of the [aluminium strut profiles](framework.yml#20x20Rod) of the U-formation frame.
+- Place the at last inserted nuts at both ends (side with pressure relieve valve) of the [aluminium strut profiles](framework.yml#20x20Rod) of the U-formation frame.
 
 - Attach two [angles](connectors.yml#5mmNuts_angle){Qty:2} to the [nuts](connectors.yml#5mmNuts) by using [M5 screws (6mm)](screws.yml#m5x6mm_screw){Qty:2}. 
 
@@ -66,11 +73,11 @@ The following element will be placed on the air table struts opposite of the pre
 ## Fixing the linear actuator {pagestep}
 
 
-- Choose one long side of the U-formation framework and drill a [1/4" thread](tools.yml#1_4_thread_drill) inside the upper [aluminium strut profiles](framework.yml#20x20Rod) on the opposite side of the pressure relief valve.
-     - Keep a 50 mm distance from the end of the [aluminium strut profiles](framework.yml#20x20Rod).
 
-- Place the [SmallRig articulated_arm](framework.yml#smallrig_articulated_arm){Qty:1} in the thread with one side. 
-- On the other side of the [SmallRig articulated arm](framework.yml#smallrig_articulated_arm) place the [SmallRig super clamp](framework.yml#smallrig_super_clamp){Qty:1}. 
+
+- Place two [SmallRig super clamp](framework.yml#smallrig_super_clamp){Qty:2} at both ends of the [SmallRig articulated_arm](framework.yml#smallrig_articulated_arm){Qty:1}. 
+
+- Use one [SmallRig super clamp](framework.yml#smallrig_super_clamp) to place the moving arm at one of the vertical strut profiles above the table, which side is up to you.
 
 - Place the [linear actuator](electronic.yml#LinActuator50mm){Qty:1} in the [SmallRig Super Clamp](framework.yml#smallrig_super_clamp) close to the center end of the not moving part. 
 
@@ -85,7 +92,7 @@ The following element will be placed on the air table struts opposite of the pre
 
 Place one [solenoid pinch valve](electronic.yml#pv){Qty:2} at the top of each vertical [aluminium strut profile](framework.yml#20x20Rod). 
 
-- Therefore place a [nut](connectors.yml#5mmNuts){Qty:2} at the top of each [aluminium strut profile](framework.yml#20x20Rod) and fixate a  [pinch valve clamp](electronic.yml#pv_clamp){Qty:1} on each with a [M5 screw (6mm)](screws.yml#m5x6mm_screw){Qty:2}.
+- Therefore place a [nut (M4)](connectors.yml#4mmNuts){Qty:2} at the top of each [aluminium strut profile](framework.yml#20x20Rod) and fixate a  [pinch valve clamp](electronic.yml#pv_clamp){Qty:1} on each with a [M4 screw (6mm)](screws.yml#m4x6mm_screw){Qty:2}.
 
 - Place the [solenoid pinch valve](electronic.yml#pv) inside the [pinch valve clamp](electronic.yml#pv_clamp).
 

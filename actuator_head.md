@@ -4,6 +4,8 @@ Within this section a small hold for needles is built. It's placed at the front 
 
 
 
+{{BOM}}
+
 
 ## Preparation: 3D prints {pagestep}
 
@@ -113,7 +115,7 @@ Use a [M2 screw](screws.yml#m2x16mm_screw){Qty: 1} and a [M2 hexagon nuts](screw
 ## Attaching at the Linear actuator {pagestep}
 
 
-- Use a [M4 screw](screws.yml#m4x20mm_screw){Qty: 1} and a [M4 hexagon nuts](screws.yml#m4_hexagon_nuts){Qty: 1} to combine the 3D printed component to the [linear actuator](electronic.yml#LinActuator50mm). 
+- Use a [M4 screw](screws.yml#m4x20mm_screw){Qty: 1} and two [M4 hexagon nuts](screws.yml#m4_hexagon_nuts){Qty: 2} to combine the 3D printed component to the [linear actuator](electronic.yml#LinActuator50mm). 
     - The screw needs to go through the hole in the bigger core 3D part and the front hole of the moveable part of the linear actuator.
 
 #### Two pictures of this state:
