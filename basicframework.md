@@ -54,51 +54,33 @@ To guarantee a higher stability it's recommended to place a second framework cir
 ![](images/lower_frame.jpg)
 
 
+- Install [angle](connectors.yml#5mmNuts_angle){Qty:8} with a [M5x6mm screw](screws.yml#m5x6mm_screw){Qty:8} and 
+[nut](connectors.yml#5mmNuts){Qty:8}s on the ends of two [aluminium strut profiles (length: 440mm)](fromstep){Qty:2} and two [aluminium strut profiles (length: 286mm)](fromstep){Qty:2}.
 
-- Place on both ends of the [aluminium strut profiles (length: 440mm)](fromstep){Qty:2} and on both ends of the [aluminium strut profiles (length: 286mm)](fromstep){Qty:2} a [nut](connectors.yml#5mmNuts){Qty:8}. 
+- Put an extra [nut](connectors.yml#5mmNuts){Qty:2} in both 440 mm aluminium strut profiles. It must point to the center later (90° shifted from the other two nuts). This will be used to add an horizontal strut later on.
 
-
-- Put an extra [nut](connectors.yml#5mmNuts){Qty:2} in both 440 mm aluminium strut profiles. It must point to the center later (90° shifted from the other two nuts). 
-
-
-
-- Connect the [nut](connectors.yml#5mmNuts) and an [angle](connectors.yml#5mmNuts_angle){Qty:8} with a [M5x6mm screw](screws.yml#m5x6mm_screw){Qty:8}. 
-
-- Place [nut](connectors.yml#5mmNuts){Qty:8} at the wished height inside the to the Airtable mounted [aluminium strut profile](framework.yml#20x20Rod). The nuts need to point towards the other vertical struts.
-
-- Now connect the [aluminium strut profiles ](framework.yml#20x20Rod) with [angle]s(connectors.yml#5mmNuts_angle) to the at the Airtable mounted [aluminium strut profile](framework.yml#20x20Rod) with a [M5x6mm screw](screws.yml#m5x6mm_screw){Qty:8}. 
-
-
-
+- Connects these stuts with the table feets using [nut](connectors.yml#5mmNuts){Qty:8} and [M5x6mm screw](screws.yml#m5x6mm_screw){Qty:8}, placed at the wished height (10 mm works). The angle should be place below the horizontal stuts.
 
 
 - Put two [nut](connectors.yml#5mmNuts){Qty:2} inside the third of the  [aluminium strut profiles (length: 286mm)](fromstep){Qty:1}. These nuts need to point upwards in the next step.
 
-- Place the third 326 mm [aluminium strut profile](framework.yml#20x20Rod) in the center at the two unused nuts and connect it with two [angle](connectors.yml#5mmNuts_angle){Qty: 2}s and two more [M5x6mm screw](screws.yml#m5x6mm_screw){Qty:2}s. 
+- Place a third 326 mm [aluminium strut profile](framework.yml#20x20Rod) in the center at the two unused nuts and connect it with two [angle](connectors.yml#5mmNuts_angle){Qty: 2}s and two more [M5x6mm screw](screws.yml#m5x6mm_screw){Qty:2}s. 
 
+![](images/camera_below02.jpeg)
 
 
 ## Glueing of the bottom plate {pagestep}
 
-After connecting the air table with the framework there is no need in accessing the inner box. 
+After connecting the air table with the framework there is no need in accessing the inner box, so we can close the box. The bottom plate is meant to disconnect first if the pressure in the box gets too high. Therefore the bottom plate is not screwed.
+
 
 - Again it's necessary to degrease and remove any dirt at the glueing surface before glueing.
 
-- [Glue (acrylic glue)](tools.yml#acrifix_192){Qty: 1, Cat:tool}[i](glueingadvise.md) the second 480mm x 326mm plexiglass plate on the bottom side of the already build. 
+- Line up the long side of the box with the long side of the plate, there must be no hole for air flowing through.
+
+- [Glue (acrylic glue)](tools.yml#acrifix_192){Qty: 1, Cat:tool}[i](glueingadvise.md) the not predrilled bottom [480mm x 326mm plexiglass plate](plexiglass.yml#480x326pg){Qty:1} below the table box. It's recommended to put the glue on the 8 mm wide sides and not on the bottom plate.
 
 
-
-
-
-## Glue bottom plate {pagestep}
-
-The bottom plate is meant to disconnect first if the pressure in the box gets too high. Therefore the bottom plate is not screwed.
-
-- Line up the long side of the box with the long side of the plate, there must be no hole for air flowing through.  
-
-- [Glue (acrylic glue)](tools.yml#acrifix_192){Qty: 1, Cat:tool}[i](glueingadvise.md) the not predrilled bottom [480mm x 326mm plexiglass plate](plexiglass.yml#480x326pg){Qty:1} below the box.
-
-    - It's recommended to put the glue on the 8 mm wide sides. 
 
 Wait for the glue to be dry before going to the next step.
 
