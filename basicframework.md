@@ -1,4 +1,4 @@
-# Construction of the framework
+# Airtable part 4: Construction of the framework
 
 {{BOM}}
 
@@ -16,8 +16,8 @@ We usually use 400 mm, and if should not be less than 250 mm to get enough dista
 
 - Place one [nut](connectors.yml#5mmNuts){Qty:4} inside each of four [aluminium strut profiles (length: 400mm)](fromstep){Qty:4} used as feets. 
 - Fixate on each an [angle](connectors.yml#5mmNuts_angle){Qty:4} with a [M5x6mm screw](screws.yml#m5x6mm_screw){Qty:4} at one end of the strut. 
--  Do this twice: Connect two of the four struts with a nut and angle with one of the 480 mm long [aluminium strut profiles (length: 480mm)](fromstep){Qty:2} by using [nuts](connectors.yml#5mmNuts){Qty:4} and a [M5x6mm screw](screws.yml#m5x6mm_screw){Qty:4}.
-    - Both short struts need to point in the same direction
+-  Do this twice: Connect two of the four struts with a nut and angle with one of the 480 mm long [aluminium strut profiles (length: 480mm)](fromstep){Qty:2} by using [nut](connectors.yml#5mmNuts){Qty:4} and a [M5x6mm screw](screws.yml#m5x6mm_screw){Qty:4}.
+    - Both short (400 mm) struts need to point in the same direction
 
 
 
@@ -28,19 +28,21 @@ We usually use 400 mm, and if should not be less than 250 mm to get enough dista
 
 
 ![](images/u_frame001.jpg)
-![](images/desc_05_mark.jpeg)
-
-In this set we will attach the blue marked frame to the air table box.
 
 
-- Place two [nuts](connectors.yml#5mmNuts){Qty:4} inside each 480 mm rod of the U-formation frameworks on one side which adjacent to the side with nuts already placed in (90 degrees to both rods which can vary in length), both sides work. 
-- Now line these nuts up with the holes inside the long sides of the air table (480mm) 
+In this set we will attach the frame (blue marked in the picture above)  to the air table box.
+
+
+- Place two [nut](connectors.yml#5mmNuts){Qty:4} inside each 480 mm rod of the U-formation frameworks on one side which adjacent to the side with nuts already placed in (90 degrees to both rods which can vary in length), both sides work. 
+- Now line these nuts up with the holes inside the long sides of the air table box (480mm) 
 
 - The holes in the 480mm x 326mm plexiglass plate of the airtable need to point in the opposite direction as the two rods which can vary in length.
 
 - Connect the air table box and the U-formation framework with two [M5x12mm screws](screws.yml#m5x12mm_screw){Qty:4} from the inside of the air box in each nut. 
 
 Repeat this step with the second U-formation framework on the other side of the air table box.
+
+![](images/desc_05_mark.jpeg)
 
 ## Attach a second frame circle {pagestep}
 
@@ -60,9 +62,9 @@ To guarantee a higher stability it's recommended to place a second framework cir
 
 
 
-- Connect the [nuts](connectors.yml#5mmNuts) and an [angle](connectors.yml#5mmNuts_angle){Qty:8} with a [M5x6mm screw](screws.yml#m5x6mm_screw){Qty:8}. 
+- Connect the [nut](connectors.yml#5mmNuts) and an [angle](connectors.yml#5mmNuts_angle){Qty:8} with a [M5x6mm screw](screws.yml#m5x6mm_screw){Qty:8}. 
 
-- Place [nuts](connectors.yml#5mmNuts){Qty:8} at the wished height inside the to the Airtable mounted [aluminium strut profile](framework.yml#20x20Rod). The nuts need to point towards the other vertical struts.
+- Place [nut](connectors.yml#5mmNuts){Qty:8} at the wished height inside the to the Airtable mounted [aluminium strut profile](framework.yml#20x20Rod). The nuts need to point towards the other vertical struts.
 
 - Now connect the [aluminium strut profiles ](framework.yml#20x20Rod) with [angle]s(connectors.yml#5mmNuts_angle) to the at the Airtable mounted [aluminium strut profile](framework.yml#20x20Rod) with a [M5x6mm screw](screws.yml#m5x6mm_screw){Qty:8}. 
 
@@ -70,7 +72,7 @@ To guarantee a higher stability it's recommended to place a second framework cir
 
 
 
-- Put two [nuts](connectors.yml#5mmNuts){Qty:2} inside the third of the  [aluminium strut profiles (length: 286mm)](fromstep){Qty:1}. These nuts need to point upwards in the next step.
+- Put two [nut](connectors.yml#5mmNuts){Qty:2} inside the third of the  [aluminium strut profiles (length: 286mm)](fromstep){Qty:1}. These nuts need to point upwards in the next step.
 
 - Place the third 326 mm [aluminium strut profile](framework.yml#20x20Rod) in the center at the two unused nuts and connect it with two [angle](connectors.yml#5mmNuts_angle){Qty: 2}s and two more [M5x6mm screw](screws.yml#m5x6mm_screw){Qty:2}s. 
 
@@ -104,7 +106,7 @@ Wait for the glue to be dry before going to the next step.
 
 
 
-You have build the [center air table]{output, qty:1} now.
+
 
 
 

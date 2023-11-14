@@ -29,6 +29,8 @@ This guide is part of the output from the [open.make project](https://www.openma
 
 #### [Construction of the basic framework](basicframework.md){step}
 
+#### [Air flow and pressure control](air_flow.md){step}
+
 
 #### [Construction of platform tracking](headandcamera.md){step}
 
@@ -47,7 +49,7 @@ This guide is part of the output from the [open.make project](https://www.openma
 
 #### [Setup of the electronics](electronic.md){step}
 
-#### [Air flow and pressure control](air_flow.md){step}
+
 
 
 #### [Installation of scripts](script_setup.md){step}
