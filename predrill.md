@@ -30,7 +30,7 @@ To connect the air table with the table legs, the long sides ([480mm x 64mm plex
 
 - Drill a hole on each end of both [480mm x 64mm plexiglass plates](plexiglass.yml#480x64pg){Qty:2} with a [5mm plexiglas drill](tools.yml#5mmdrill){Qty: 1, Cat: Tool}. 
 
-- Keep a distance of 45 mm to the short edge and 1 cm to the top. You can choose which side it at the top for you but you need to keep this orientation.
+- Keep a distance of 45 mm to the short edge and 10 mm to the top. You can choose which side it at the top for you but you need to keep this orientation.
 
 - Drill two more holes inside both [480mm x 64mm plexiglass plates](plexiglass.yml#480x64pg) at the same height with a distance of 130 mm from the short edge towards the plate's center.
 

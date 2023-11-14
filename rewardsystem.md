@@ -92,9 +92,18 @@ The following elements will be placed on the air table struts opposite of the pr
 
 Place one [solenoid pinch valve](electronic.yml#pv){Qty:2} at the top of each vertical [aluminium strut profile](framework.yml#20x20Rod). 
 
-- Therefore place a [nut (M4)](connectors.yml#4mmNuts){Qty:2} at the top of each [aluminium strut profile](framework.yml#20x20Rod) and fixate a  [pinch valve clamp](electronic.yml#pv_clamp){Qty:1} on each with a [M4 screw (6mm)](screws.yml#m4x6mm_screw){Qty:2}.
+- Therefore place a [nut (M4)](connectors.yml#4mmNuts){Qty:2} at the top of each [aluminium strut profile](framework.yml#20x20Rod) and fixate a  [pinch valve clamp](electronic.yml#pv_clamp){Qty:2} on each with a [M4 screw (6mm)](screws.yml#m4x6mm_screw){Qty:2}.
 
 - Place the [solenoid pinch valve](electronic.yml#pv) inside the [pinch valve clamp](electronic.yml#pv_clamp).
 
+
+##  Tube placement {pagestep}
+
+Finally you need to path the tubing from you source of reward through the solenoid pinch valve to the needle at the linear actuator front.
+
+- Use some [cable ties](connectors.yml#cable_tie){Qty:many} to guide the [tube](electronic.yml#pv_tube){Qty:1} to the needle.
+
+     - Keep enough margin for maneuver for the tube as the linear actuator is moving.
+     - Don't pull the [cable ties](connectors.yml#cable_tie) tight as liquid needs to flow through.
 
 

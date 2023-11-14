@@ -55,7 +55,7 @@ Print settings used for testing with a good result at a Creality Ender-3 V2
 
 - The "rotatable needle hold end" needs to have hole which is tight for a M2 screw. This hole is already in the STL files but gets filled with support most likely. 
 
-    - Use a [1.5 mm drill](tools.yml#1_5mmdrill) to make a 5 mm deep hole, like in the STL file, and use a [2 mm drill](tools.yml#2mmdrill) to make the entrance larger, go like 1 mm inside. By this it's easier to insert the screw.
+    - Use a [1.5 mm drill](tools.yml#1_5mmdrill){qty:1, Cat:tool} to make a 5 mm deep hole, like in the STL file, and use a [2 mm drill](tools.yml#2mmdrill){qty:1, Cat:tool} to make the entrance larger, go like 1 mm inside. By this it's easier to insert the screw.
 
 
 
@@ -91,15 +91,24 @@ Use a [M2 screw](screws.yml#m2x16mm_screw){Qty: 1} and a [M2 hexagon nuts](screw
 ![](images/hold_03001.jpg)
 
 
+## Adding needles {pagestep}
 
+On both sides of the linear actuator front a hollow blunt needle needs to be placed. This is used to provide the rewards. 
 
+The needle needs to go through the rotatable needle hold end (3D printed part) and should be kept in place by the needle fixation (3D printed part). 
 
+-   The default  outer diameter for the needle would be 1 mm. But as 3D prints tend to fill gaps you will need a clean the hole and by this you can choose a preferred diameter.  
+
+In contrast to the STL below, the needle needs to have a 10 mm space at the end behind the needle fixation for the tube which comes from a solenoid pinch valve. 
+
+#### STL for visualization
+![](models/rewards_all.stl){color: grey}
 
 
 
 >i Note
 >i
->i If the holes in the 3D printed parts are slightly to large for the needles and screws you can use [arcylic glue](tools.yml#acrifix_192) as support.
+>i If the holes in the 3D printed parts are slightly to large for the needles and screws you can use glue as support.
 
 
 
@@ -107,8 +116,6 @@ Use a [M2 screw](screws.yml#m2x16mm_screw){Qty: 1} and a [M2 hexagon nuts](screw
 >i Note
 >i
 >i An alternative way of the rotatable needle hold is at the bottom of this page. It's a STL file with both parts of the rotatable needle hold and the combining screw. It can be printed by this as one part. With this version the arms a more elastic and can break.
-
-
 
 
 

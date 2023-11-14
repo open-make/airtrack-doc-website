@@ -9,9 +9,9 @@
 
 These components take care of the incoming air and protect against overpressure.
 
-- Choose one short side of the box and drill in the center of the the plexiglass a hole with a [G 1/4" thread drill](tools.yml#G1_4_thread_drill). 
+- Choose one short side of the box and drill in the center of the the plexiglass a hole with a [G 1/4" thread drill](tools.yml#G1_4_thread_drill){qty:1, Cat:tool}. 
 
-- Now insert the [reducing fitting](connectors.yml#R_1_4_R_1_4_reducing_fitting){Qty:1}. Place with distance of 7,5cm two more threads with a [G 1/8" thread drill](tools.yml#G1_8_thread_drill) on both side of the last thread. 
+- Now insert the [reducing fitting](connectors.yml#R_1_4_R_1_4_reducing_fitting){Qty:1}. Place with distance of 7,5cm two more threads with a [G 1/8" thread drill](tools.yml#G1_8_thread_drill){qty:1, Cat:tool} on both side of the last thread. 
 
 - Place inside these threads the [hose connection glands](connectors.yml#SV_Ges_8_R_1_8){Qty:2}. 
 

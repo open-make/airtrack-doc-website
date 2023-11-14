@@ -17,6 +17,8 @@ We usually use 400 mm, and if should not be less than 250 mm to get enough dista
 - Place one [nut](connectors.yml#5mmNuts){Qty:4} inside each of four [aluminium strut profiles (length: 400mm)](fromstep){Qty:4} used as feets. 
 - Fixate on each an [angle](connectors.yml#5mmNuts_angle){Qty:4} with a [M5 screw (6mm)](screws.yml#m5x6mm_screw){Qty:4} at one end of the strut. 
 -  Do this twice: Connect two of the four struts with a nut and angle with one of the 480 mm long [aluminium strut profiles (length: 480mm)](fromstep){Qty:2} by using [nuts](connectors.yml#5mmNuts){Qty:4} and a [M5 screw (6mm)](screws.yml#m5x6mm_screw){Qty:4}.
+    - Both short struts need to point in the same direction
+
 
 
 
@@ -47,7 +49,7 @@ To guarantee a higher stability it's recommended to place a second framework cir
 
 #### Picture of the second frame circle
 
-![](images/lower_frame001.jpg)
+![](images/lower_frame.jpg)
 
 
 
@@ -80,7 +82,7 @@ After connecting the air table with the framework there is no need in accessing 
 
 - Again it's necessary to degrease and remove any dirt at the glueing surface before glueing.
 
-- [Glue](tools.yml#acrifix_192) the second 480mm x 326mm plexiglass plate on the bottom side of the already build. 
+- [Glue (acrylic glue)](tools.yml#acrifix_192){Qty: 1, Cat:tool}[i](glueingadvise.md) the second 480mm x 326mm plexiglass plate on the bottom side of the already build. 
 
 
 
@@ -92,7 +94,7 @@ The bottom plate is meant to disconnect first if the pressure in the box gets to
 
 - Line up the long side of the box with the long side of the plate, there must be no hole for air flowing through.  
 
-- Glue the not predrilled bottom [480mm x 326mm plexiglass plate](plexiglass.yml#480x326pg){Qty:1} below the box.
+- [Glue (acrylic glue)](tools.yml#acrifix_192){Qty: 1, Cat:tool}[i](glueingadvise.md) the not predrilled bottom [480mm x 326mm plexiglass plate](plexiglass.yml#480x326pg){Qty:1} below the box.
 
     - It's recommended to put the glue on the 8 mm wide sides. 
 

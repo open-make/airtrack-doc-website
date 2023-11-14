@@ -159,7 +159,7 @@ Raft: No
 
 In order to track the movement of the platform by the PixyCam the bottom side of the floating plate needs a pattern.
 
-Therefor paint (e.g. with a dark permanent marker) a rectangle in the center of the platform with a edge length of 5 cm.
+Therefor paint (e.g. with a dark permanent marker) a rectangle in the center of the platform with a edge length of 50 to 80 mm.
 
 
 

@@ -34,7 +34,7 @@ This guide is part of the output from the [open.make project](https://www.openma
 
 
 
-
+#### [Construction of linear actuator front](actuator_head.md){step}
 
 
 
@@ -42,7 +42,7 @@ This guide is part of the output from the [open.make project](https://www.openma
 
 #### [Construction of the head fixation](headfixation.md){step}
 
-#### [Construction of linear actuator front](actuator_head.md){step}
+
 
 
 #### [Setup of the electronics](electronic.md){step}
@@ -77,7 +77,7 @@ The developers conclude that the Airtrack system is ideal for eliciting natural 
 
 The Airtrack was used to perform Go/No-Go and two-alternative forced choice tasks with mice.
 
-
+As the system is in use within Larkum Lab and gets developed, we encourage you to check the recent publications to see new variants and applications.
 
 
 
@@ -124,3 +124,6 @@ The amount of strut profiles you need depends on the hight of the table, and how
 References: [Nashaat MA, Oraby H, Sachdev RN, Winter Y, Larkum ME. Air-Track: a real-world floating environment for active sensing in head-fixed mice. J Neurophysiol. 116(4):1542-1553, 2016](https://pubmed.ncbi.nlm.nih.gov/27486102/)
 
 
+
+
+#### Latest change: 05.01.2024

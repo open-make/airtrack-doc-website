@@ -19,11 +19,11 @@ This page presents how to set a pixie camera below the setup. The camera should 
 
 - Mark two points with the distance of the threads on the 1.5mm plate 3D printed plate along one long side with 5 to 10 mm distance from the edge. 
 
-- Drill holes with a [5mm drill](tools.yml#5mmdrill) at both places.
+- Drill holes with a [5mm drill](tools.yml#5mmdrill){qty:1, Cat:tool} at both places.
 
 - Take the [Pixy Camera](electronic.yml#PixyCam){qty:1} to mark on the other long side two more drill places with the distance of both holes from the fixation part of the [Pixy Camera](electronic.yml#PixyCam). The distance should be around 7 mm.
 
-- Drill holes with a [3mm drill](tools.yml#3mmdrill) at both places.
+- Drill holes with a [3mm drill](tools.yml#3mmdrill){qty:1, Cat:tool} at both places.
 
 - Connect the 3.5mm plate by using [M5 screws](screws.yml#m5x6mm_screw){Qty: 2} with the [aluminium strut profile](framework.yml#20x20Rod).
 

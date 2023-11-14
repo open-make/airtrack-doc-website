@@ -1,6 +1,12 @@
 # Construction of the head fixation 
 
-For the observations the animal's head needs to be fixated above the center of the platform and therefore a head fixation method is required. This section is less detailed because it needs to take your setup into account. Here we offer a solution which is basic and might work on your side. If not, you have to place your head fixation method somewhere on the table or surroundings. 
+For the observations the animal's head needs to be fixated above the center of the platform and therefore a head fixation method is required. This section is less detailed because you need to take your setup into account. Here we offer a solution which is basic and might work on your side. You can take this as an idea for the general basic structure if you design it yourself. In generell, we can recommend Thorlabs for ordering equipment.  
+
+
+>!! **Warning** 
+>!!
+>!! Advertising thorlabs oke? (structur elemente)
+
 
 {{BOM}}
 
@@ -40,6 +46,4 @@ If the head fixation system you have is incompatible with this construction, a p
 
 
 
->!! **Warning** 
->!!
->!!  add picture with head fix´
+
