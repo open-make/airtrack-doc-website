@@ -78,7 +78,7 @@
     </li>
 <li class="not-active">
     <a class="not-active" href="./predrill.html">
-        Airtable part 2: Predrill and precut
+        Airtable part 2: Predrill
     </a>
     </li>
 <li class="not-active">
@@ -88,7 +88,12 @@
     </li>
 <li class="not-active">
     <a class="not-active" href="./basicframework.html">
-        Construction of the framework
+        Airtable part 4: Construction of the framework
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./air_flow.html">
+        Airtable part 5: Incoming air and pressure control
     </a>
     </li>
 <li class="not-active">
@@ -117,11 +122,6 @@
     </a>
     </li>
 <li class="not-active">
-    <a class="not-active" href="./air_flow.html">
-        Incoming air and pressure control
-    </a>
-    </li>
-<li class="not-active">
     <a class="not-active" href="./script_setup.html">
         Installation of scripts
     </a>
@@ -139,7 +139,7 @@
     <p>This website will guide you through the whole process of building an Airtrack setup (large platform version).</p>
 <p>The Airtrack was first published in 2016, with a paper titled <a href="https://doi.org/10.1152/jn.00088.2016" target="_blank" title="">Air-Track: a real-world floating environment for active sensing in head-fixed mice</a>.
 It was developed by the authors of the paper with the help of the Charité workshop (Alexander Schill).
-This documentation website was created by Fabio Reeh and reviewed by Julien Colomb.</p>
+This documentation website was created by Fabio Reeh and reviewed by Julien Colomb, based on the existing documentation.</p>
 <p><img alt="visualisation of an airtrack table with a platform with a 4 arms maze. In the center, an animal head fixation setup is visible, while a reward system is fixed in the front ot the maze and a camera is fixed below the table." src="images/airtrack_platform_small.jpg" title="" /></p>
 <p>This guide is part of the output from the <a href="https://www.openmake.de/" target="_blank" title="">open.make project</a> (see website for more information, including funding information). This project aims to further establish open hardware in academic research, and support
  scientist in the creation of FAIR research hardware.</p>
@@ -149,12 +149,12 @@ This documentation website was created by Fabio Reeh and reviewed by Julien Colo
 <h4 id="predrill-of-plexiglass"><a href="predrill.html" title="">Predrill of plexiglass</a></h4>
 <h4 id="glue-and-screw"><a href="glue.html" title="">Glue and screw</a></h4>
 <h4 id="construction-of-the-basic-framework"><a href="basicframework.html" title="">Construction of the basic framework</a></h4>
+<h4 id="air-flow-and-pressure-control"><a href="air_flow.html" title="">Air flow and pressure control</a></h4>
 <h4 id="construction-of-platform-tracking"><a href="headandcamera.html" title="">Construction of platform tracking</a></h4>
 <h4 id="construction-of-linear-actuator-front"><a href="actuator_head.html" title="">Construction of linear actuator front</a></h4>
 <h4 id="construction-of-the-rewarding-system"><a href="rewardsystem.html" title="">Construction of the rewarding system</a></h4>
 <h4 id="construction-of-the-head-fixation"><a href="headfixation.html" title="">Construction of the head fixation</a></h4>
 <h4 id="setup-of-the-electronics"><a href="electronic.html" title="">Setup of the electronics</a></h4>
-<h4 id="air-flow-and-pressure-control"><a href="air_flow.html" title="">Air flow and pressure control</a></h4>
 <h4 id="installation-of-scripts"><a href="script_setup.html" title="">Installation of scripts</a></h4>
 <h4 id="3d-printing-instructions"><a href="3Dprinting.html" title="">3D printing instructions</a></h4>
 <h4 id="list-of-all-necessary-components"><a href="index_BOM.html" title="HTML">List of all necessary components</a> (<a href="index_BOM.html"><img alt="HTML" class="smallicon" src="static/Icons/html.png" title="HTML Bill of Materials" /></a>, <a href="index_BOM.csv"><img alt="CSV" class="smallicon" src="static/Icons/csv.png" title="CSV Bill of Materials" /></a>)</h4>
@@ -188,7 +188,7 @@ The computational tasks are performed with a Arduino Uno microcontroller.</p>
 <p>Some parts are more difficult to construct than others. Mainly the central plexiglass box is difficult to build with an improvised work place. Precise cutting of the plexiglass is needed to ensure airtight manufacturing. Further, a workshop might use UV glue for the box which provides a good quality.</p>
 <p>If you have access to a workshop, we recommend you to get the air table constructed there. In general it's better to have large fraction of the Airtrack manufactured professionally. </p>
 <h2 id="size-and-struts">Size and struts</h2>
-<p>The amount of strut profiles you need depends on the hight of the table, and how well you can cut the 2 m strut profiles into pieces. For the default table (height = 400 mm) it takes 6m (= 3 pieces).  </p>
+<p>The amount of strut profiles you need depends on the hight of the table, and how well you can cut the 2 m strut profiles into pieces. For the default table (height = 400 mm) it takes 6m (= 3 pieces). It is best practice to have more than you actually need, such that you get spares if the struts are incorrectly cut. </p>
 <p>References: <a href="https://pubmed.ncbi.nlm.nih.gov/27486102/" target="_blank" title="">Nashaat MA, Oraby H, Sachdev RN, Winter Y, Larkum ME. Air-Track: a real-world floating environment for active sensing in head-fixed mice. J Neurophysiol. 116(4):1542-1553, 2016</a></p>
 <h4 id="latest-change-05012024">Latest change: 05.01.2024</h4>
 <hr />
