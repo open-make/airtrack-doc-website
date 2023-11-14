@@ -96,6 +96,11 @@
         Attaching the camera
     </a>
     </li>
+<li class="active">
+    <a class="active" href="./actuator_head.html">
+        Construction of the linear actuator front
+    </a>
+    </li>
 <li class="not-active">
     <a class="not-active" href="./rewardsystem.html">
         Construction of the rewarding system
@@ -104,11 +109,6 @@
 <li class="not-active">
     <a class="not-active" href="./headfixation.html">
         Construction of the head fixation 
-    </a>
-    </li>
-<li class="active">
-    <a class="active" href="./actuator_head.html">
-        Construction of the linear actuator front
     </a>
     </li>
 <li class="not-active">
@@ -145,6 +145,11 @@
 <li>3 <a Class="bom" href="screws/m2x16mm_screw.html">M2 screw</a> </li>
 <li>2 <a Class="bom" href="screws/m4_hexagon_nuts.html">M4 hexagon nuts</a> </li>
 <li>1 <a Class="bom" href="screws/m4x20mm_screw.html">M4 screw</a> </li>
+</ul>
+<h3 id="tool">Tools</h3>
+<ul>
+<li>1 <a Class="bom" href="tools/1_5mmdrill.html">1.5 mm drill</a> </li>
+<li>1 <a Class="bom" href="tools/2mmdrill.html">2 mm drill</a> </li>
 </ul>
 </div>
 <h2 class="page-step" id="preparation-3d-prints">Step 1: Preparation: 3D prints</h2>
@@ -187,7 +192,7 @@
 <li>
 <p>The "rotatable needle hold end" needs to have hole which is tight for a M2 screw. This hole is already in the STL files but gets filled with support most likely. </p>
 <ul>
-<li>Use a <a href="tools/1_5mmdrill.html" title="">1.5 mm drill</a> to make a 5 mm deep hole, like in the STL file, and use a <a href="tools/2mmdrill.html" title="">2 mm drill</a> to make the entrance larger, go like 1 mm inside. By this it's easier to insert the screw.</li>
+<li>Use a <a href="tools/1_5mmdrill.html">1.5 mm drill</a> to make a 5 mm deep hole, like in the STL file, and use a <a href="tools/2mmdrill.html">2 mm drill</a> to make the entrance larger, go like 1 mm inside. By this it's easier to insert the screw.</li>
 </ul>
 </li>
 </ul>
@@ -211,15 +216,25 @@
 </ul>
 <h4 id="combined-needle-hold">Combined needle hold</h4>
 <p><img alt="" src="images/hold_03001.jpg" title="" /></p>
+<h2 class="page-step" id="adding-needles">Step 7: Adding needles</h2>
+<p>On both sides of the linear actuator front a hollow blunt needle needs to be placed. This is used to provide the rewards. </p>
+<p>The needle needs to go through the rotatable needle hold end (3D printed part) and should be kept in place by the needle fixation (3D printed part). </p>
+<ul>
+<li>The default  outer diameter for the needle would be 1 mm. But as 3D prints tend to fill gaps you will need a clean the hole and by this you can choose a preferred diameter.  </li>
+</ul>
+<p>In contrast to the STL below, the needle needs to have a 10 mm space at the end behind the needle fixation for the tube which comes from a solenoid pinch valve. </p>
+<h4 id="stl-for-visualization">STL for visualization</h4>
+<noscript><a href="models/rewards_all.stl"></a></noscript>
+<p><gb3d-viewer src="models/rewards_all.stl" color="grey"></gb3d-viewer></p>
 <div class="info-block">
 <p>Note</p>
-<p>If the holes in the 3D printed parts are slightly to large for the needles and screws you can use <a href="tools/acrifix_192.html" title="">arcylic glue</a> as support.</p>
+<p>If the holes in the 3D printed parts are slightly to large for the needles and screws you can use glue as support.</p>
 </div>
 <div class="info-block">
 <p>Note</p>
 <p>An alternative way of the rotatable needle hold is at the bottom of this page. It's a STL file with both parts of the rotatable needle hold and the combining screw. It can be printed by this as one part. With this version the arms a more elastic and can break.</p>
 </div>
-<h2 class="page-step" id="attaching-at-the-linear-actuator">Step 7: Attaching at the Linear actuator</h2>
+<h2 class="page-step" id="attaching-at-the-linear-actuator">Step 8: Attaching at the Linear actuator</h2>
 <ul>
 <li>Use a <a href="screws/m4x20mm_screw.html">M4 screw</a> and two <a href="screws/m4_hexagon_nuts.html">M4 hexagon nuts</a> to combine the 3D printed component to the <a href="electronic/LinActuator50mm.html" title="">linear actuator</a>. <ul>
 <li>The screw needs to go through the hole in the bigger core 3D part and the front hole of the moveable part of the linear actuator.</li>
@@ -237,7 +252,7 @@
 <noscript><a href="models/rewards_moveable_needle_hold.stl"></a></noscript>
 <p><gb3d-viewer src="models/rewards_moveable_needle_hold.stl" color="grey"></gb3d-viewer></p>
 <hr />
-<p><a href="headfixation.html">Previous page</a> | <a href="electronic.html">Next page</a></p>
+<p><a href="headandcamera.html">Previous page</a> | <a href="rewardsystem.html">Next page</a></p>
     </div>
 </div>
 <footer class="site-footer">
