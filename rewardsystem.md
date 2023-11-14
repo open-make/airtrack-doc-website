@@ -81,10 +81,17 @@ The following elements will be placed on the air table struts opposite of the pr
 
 - Place the [linear actuator](electronic.yml#LinActuator50mm){Qty:1} in the [SmallRig Super Clamp](framework.yml#smallrig_super_clamp) close to the center end of the not moving part. 
 
-- The front hole in the [linear actuator](electronic.yml#LinActuator50mm) needs to point upwards.
+    - In the case you didn't attach the 3D prints at the front of the linear actuator, the front hole in the [linear actuator](electronic.yml#LinActuator50mm) needs to point upwards.
 
 
 - Move the articulated arm and linear actuator to have the linear actuator orientated along the long side and centered. The moveable end needs to point towards the pressure relief valve. The super clamp should be around 10 cm above the table and 5 cm from the short airtable edge. The linear actuator should point around 30° downwards.
+
+#### Pictures of the linear actuator placed with the SmallRig moveable arm
+
+
+![](images/smallrig_01.jpeg)
+![](images/smallrig_02.jpeg)
+
 
 
 
