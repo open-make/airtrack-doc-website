@@ -15,8 +15,8 @@ We usually use 400 mm, and if should not be less than 250 mm to get enough dista
  
 
 - Place one [nut](connectors.yml#5mmNuts){Qty:4} inside each of four [aluminium strut profiles (length: 400mm)](fromstep){Qty:4} used as feets. 
-- Fixate on each an [angle](connectors.yml#5mmNuts_angle){Qty:4} with a [M5 screw (6mm)](screws.yml#m5x6mm_screw){Qty:4} at one end of the strut. 
--  Do this twice: Connect two of the four struts with a nut and angle with one of the 480 mm long [aluminium strut profiles (length: 480mm)](fromstep){Qty:2} by using [nuts](connectors.yml#5mmNuts){Qty:4} and a [M5 screw (6mm)](screws.yml#m5x6mm_screw){Qty:4}.
+- Fixate on each an [angle](connectors.yml#5mmNuts_angle){Qty:4} with a [M5x6mm screw](screws.yml#m5x6mm_screw){Qty:4} at one end of the strut. 
+-  Do this twice: Connect two of the four struts with a nut and angle with one of the 480 mm long [aluminium strut profiles (length: 480mm)](fromstep){Qty:2} by using [nuts](connectors.yml#5mmNuts){Qty:4} and a [M5x6mm screw](screws.yml#m5x6mm_screw){Qty:4}.
     - Both short struts need to point in the same direction
 
 
@@ -60,11 +60,11 @@ To guarantee a higher stability it's recommended to place a second framework cir
 
 
 
-- Connect the [nuts](connectors.yml#5mmNuts) and an [angle](connectors.yml#5mmNuts_angle){Qty:8} with a [M5 screw (6mm)](screws.yml#m5x6mm_screw){Qty:8}. 
+- Connect the [nuts](connectors.yml#5mmNuts) and an [angle](connectors.yml#5mmNuts_angle){Qty:8} with a [M5x6mm screw](screws.yml#m5x6mm_screw){Qty:8}. 
 
 - Place [nuts](connectors.yml#5mmNuts){Qty:8} at the wished height inside the to the Airtable mounted [aluminium strut profile](framework.yml#20x20Rod). The nuts need to point towards the other vertical struts.
 
-- Now connect the [aluminium strut profiles ](framework.yml#20x20Rod) with [angles](connectors.yml#5mmNuts_angle) to the at the Airtable mounted [aluminium strut profile](framework.yml#20x20Rod) with a [M5 screw (6mm)](screws.yml#m5x6mm_screw){Qty:8}. 
+- Now connect the [aluminium strut profiles ](framework.yml#20x20Rod) with [angle]s(connectors.yml#5mmNuts_angle) to the at the Airtable mounted [aluminium strut profile](framework.yml#20x20Rod) with a [M5x6mm screw](screws.yml#m5x6mm_screw){Qty:8}. 
 
 
 
@@ -72,7 +72,7 @@ To guarantee a higher stability it's recommended to place a second framework cir
 
 - Put two [nuts](connectors.yml#5mmNuts){Qty:2} inside the third of the  [aluminium strut profiles (length: 286mm)](fromstep){Qty:1}. These nuts need to point upwards in the next step.
 
-- Place the third 326 mm [aluminium strut profile](framework.yml#20x20Rod) in the center at the two unused nuts and connect it with two [angles](connectors.yml#5mmNuts_angle){Qty: 2} and two more [M5 screw (6mm)](screws.yml#m5x6mm_screw){Qty:2}. 
+- Place the third 326 mm [aluminium strut profile](framework.yml#20x20Rod) in the center at the two unused nuts and connect it with two [angle](connectors.yml#5mmNuts_angle){Qty: 2}s and two more [M5x6mm screw](screws.yml#m5x6mm_screw){Qty:2}s. 
 
 
 
