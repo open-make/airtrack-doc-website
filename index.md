@@ -6,7 +6,7 @@ This website will guide you through the whole process of building an Airtrack se
 
 The Airtrack was first published in 2016, with a paper titled [Air-Track: a real-world floating environment for active sensing in head-fixed mice](https://doi.org/10.1152/jn.00088.2016).
 It was developed by the authors of the paper with the help of the Charité workshop (Alexander Schill).
-This documentation website was created by Fabio Reeh and reviewed by Julien Colomb.
+This documentation website was created by Fabio Reeh and reviewed by Julien Colomb, based on the existing documentation.
 
 ![visualisation of an airtrack table with a platform with a 4 arms maze. In the center, an animal head fixation setup is visible, while a reward system is fixed in the front ot the maze and a camera is fixed below the table.](images/airtrack_platform_small.jpg)
 
@@ -29,6 +29,8 @@ This guide is part of the output from the [open.make project](https://www.openma
 
 #### [Construction of the basic framework](basicframework.md){step}
 
+#### [Air flow and pressure control](air_flow.md){step}
+
 
 #### [Construction of platform tracking](headandcamera.md){step}
 
@@ -47,7 +49,7 @@ This guide is part of the output from the [open.make project](https://www.openma
 
 #### [Setup of the electronics](electronic.md){step}
 
-#### [Air flow and pressure control](air_flow.md){step}
+
 
 
 #### [Installation of scripts](script_setup.md){step}
@@ -118,8 +120,8 @@ If you have access to a workshop, we recommend you to get the air table construc
 
 ## Size and struts
 
-The amount of strut profiles you need depends on the hight of the table, and how well you can cut the 2 m strut profiles into pieces. For the default table (height = 400 mm) it takes 6m (= 3 pieces).  
-
+The amount of strut profiles you need depends on the hight of the table, and how well you can cut the 2 m strut profiles into pieces. For the default table (height = 400 mm) it takes 6m (= 3 pieces). It is best practice to have more than you actually need, such that you get spares if the struts are incorrectly cut. 
+ 
 
 References: [Nashaat MA, Oraby H, Sachdev RN, Winter Y, Larkum ME. Air-Track: a real-world floating environment for active sensing in head-fixed mice. J Neurophysiol. 116(4):1542-1553, 2016](https://pubmed.ncbi.nlm.nih.gov/27486102/)
 

@@ -66,7 +66,8 @@ G1_4_thread_drill:
 
 metallsaw:
     Name: Metall saw
-    Description: some saw with a saw blade appropriate for aluminium
+    Description: Saw with a saw blade appropriate for aluminium. In order to achieve a good orthogonal angle at the cut surfaces, the use of a big saw, or better a circular bench saw, is recommended. (The use of smaller hand saws requires a lot of endurance and precision.)
+
 
 sandingsponge:
     Name: sanding sponge
