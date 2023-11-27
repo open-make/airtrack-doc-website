@@ -13,9 +13,9 @@ The box will be made of one top, one bottom, 2 long sides and 2 short sides. In 
 
 ## Predrill of Top plexiglass plates {pagestep}
 
-- Drill 28 holes (8 mm diameter) into the [480mm x 326mm plexiglass plate](plexiglass.yml#480x326pg){Qty:1}, as shown in the following drawing, with a [8mm plexiglas drill](tools.yml#8mmdrill){Qty: 1, Cat: Tool}.
+- Drill 28 holes (8 mm diameter) into the [480mm x 326mm plexiglass plate](plexiglass.yml#480x326pg){Qty:1}, as shown in the following drawing, with a [8mm plexiglas drill](tools.yml#8mmdrill){Qty: 1, Cat: Tool}. They will be used for ball valves. 
 
-- Additional drill 28 holes (3 mm diameter) into the [480mm x 326mm plexiglass plate](plexiglass.yml#480x326pg){Qty:0}, as shown in the following drawing, with a [3mm plexiglas drill](tools.yml#3mmdrill){Qty: 1, Cat: Tool}. Each of this holes will later be on top of the 2mm predrills in the side plates. 
+- Additional drill 28 holes (3 mm diameter) through the [480mm x 326mm plexiglass plate](plexiglass.yml#480x326pg){Qty:0}, as shown in the following drawing, with a [3mm plexiglas drill](tools.yml#3mmdrill){Qty: 1, Cat: Tool}. Each of this holes will later be on top of the 2mm pilot holes in the side plates. 
 
 
 #### Constructional drawing top plate (distances in millimeter)  
@@ -29,7 +29,7 @@ The box will be made of one top, one bottom, 2 long sides and 2 short sides. In 
 
 ## Predrill long sides {pagestep}
 
-To connect the air table with the table legs, the long sides ([480mm x 64mm plexiglass plates](plexiglass.yml#480x64pg)) of the central box needs connection points. Besides the long sides needs predrills for connecting it with the top plate.
+To connect the air table with the table legs, the long sides ([480mm x 64mm plexiglass plates](plexiglass.yml#480x64pg)) of the central box needs connection points. Besides the long sides need pilot holes for connecting it with the top plate.
 
 
 - Drill four holes with a [5mm plexiglas drill](tools.yml#5mmdrill){Qty: 1, Cat: Tool} in each of the two [480mm x 64mm plexiglass plates](plexiglass.yml#480x64pg){Qty:2} as shown in the following drawing.
@@ -38,7 +38,7 @@ To connect the air table with the table legs, the long sides ([480mm x 64mm plex
 
 #### Constructional drawing long sides (distances in millimeter)  
 
-- The side with the 2mm predrills need to be close to the 5mm predrills as indicated by the arrow in the constructional drawing.
+- The side with the 2mm pilot holes need to be close to the 5mm pilot holes as indicated by the arrow in the constructional drawing.
 
 ![](images/long_sides_use_ex001.png)
 
@@ -57,7 +57,7 @@ To connect the air table with the table legs, the long sides ([480mm x 64mm plex
 ## Predrill short sides {pagestep}
 
 
-The short sides need predrills to be connected with the top plate and one of the short sides needs predrills for the pressure relief valve and incoming air tubes.
+The short sides need pilot holes to be connected with the top plate and one of the short sides needs pilot holes for the pressure relief valve and incoming air tubes.
 
 - Use a [2mm plexiglas drill](tools.yml#2mmdrill){qty: 1,cat:tool} on both short side plates for the upwards pointing thin edge which will be connected with the top plate (depth: 15mm). 
 
