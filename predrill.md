@@ -3,47 +3,47 @@
 
 {{BOM}}
 
-The box will be made of one Top, one bottom, 2 long sides and 2 short sides. In this step, we will drill holes in the Top and long sides plexiglass plates.
+The box will be made of one top, one bottom, 2 long sides and 2 short sides. In this step, we will drill holes in the top, short and long sides plexiglass plates.
+
+
+
+>i **Note** 
+>i
+>i All constructional drawings have a higher resolution if you open them in a new tab.
 
 ## Predrill of Top plexiglass plates {pagestep}
 
 - Drill 28 holes (8 mm diameter) into the [480mm x 326mm plexiglass plate](plexiglass.yml#480x326pg){Qty:1}, as shown in the following drawing, with a [8mm plexiglas drill](tools.yml#8mmdrill){Qty: 1, Cat: Tool}.
 
-- Additional drill 28 holes (3 mm diameter) into the [480mm x 326mm plexiglass plate](plexiglass.yml#480x326pg){Qty:0}, as shown in the following drawing, with a [3mm plexiglas drill](tools.yml#3mmdrill){Qty: 1, Cat: Tool}.
-
-#### Constructional drawing (distances in millimeter)  
-
-- ![](images/top_plate_large.png)
-
->! TODO and correct: Information in the drawing:
->!
->! large holes:
->!
->!        - 4 columns: 5.4, 10.4, 22.2, 27.2 cm of the border
->!        - 7 raws: 6.3, 12.2, 18.1, 24.0, 29.9, 36.8, 41.7 cm of the border
->!
->! small holes:
->!
->!        -
->!        -
+- Additional drill 28 holes (3 mm diameter) into the [480mm x 326mm plexiglass plate](plexiglass.yml#480x326pg){Qty:0}, as shown in the following drawing, with a [3mm plexiglas drill](tools.yml#3mmdrill){Qty: 1, Cat: Tool}. Each of this holes will later be on top of the 2mm predrills in the side plates. 
 
 
- 
+#### Constructional drawing top plate (distances in millimeter)  
+
+
+![](images/top_plate_large001.png)
+
 
 
 
 
 ## Predrill long sides {pagestep}
 
+To connect the air table with the table legs, the long sides ([480mm x 64mm plexiglass plates](plexiglass.yml#480x64pg)) of the central box needs connection points. Besides the long sides needs predrills for connecting it with the top plate.
+
+
+- Drill four holes with a [5mm plexiglas drill](tools.yml#5mmdrill){Qty: 1, Cat: Tool} in each of the two [480mm x 64mm plexiglass plates](plexiglass.yml#480x64pg){Qty:2} as shown in the following drawing.
+
+- Drill nine holes (depth: 15mm) with a [2mm plexiglas drill](tools.yml#2mmdrill){Qty: 1, Cat: Tool} in each of the two [480mm x 64mm plexiglass plates](plexiglass.yml#480x64pg){Qty:2} as shown in the following drawing. The side you chose for the holes is meant to point upwards later in the airtable as it needs to be connected with the top plate.
+
+#### Constructional drawing long sides (distances in millimeter)  
+
+- The side with the 2mm predrills need to be close to the 5mm predrills as indicated by the arrow in the constructional drawing.
+
+![](images/long_sides_use_ex001.png)
 
 
 
-
-To connect the air table with the table legs, the long sides ([480mm x 64mm plexiglass plates](plexiglass.yml#480x64pg)) of the central box needs connection points. 
-
-- Drill four holes with a [5mm plexiglas drill](tools.yml#5mmdrill){Qty: 1, Cat: Tool} in each of the two [480mm x 64mm plexiglass plates](plexiglass.yml#480x64pg){Qty:2} following the drawing:
-distance to top: 10 mm
-distance to side: 45, 175, 265, 395
 
 
 
@@ -56,15 +56,26 @@ distance to side: 45, 175, 265, 395
 
 ## Predrill short sides {pagestep}
 
-Use the following drawing as an orientation to predrill both [310mm x 64mm plexiglass plates](plexiglass.yml#310x64pg){Qty:2} and both [predrilled 480x64 plexiglass plate](fromstep){qty:2}. 
-The perspective of the drawing is from the top. Keep in mind the orientation of the [predrilled 480x64 plexiglass plate](fromstep). It's earlier holes should be close to the upper side.
+
+The short sides need predrills to be connected with the top plate and one of the short sides needs predrills for the pressure relief valve and incoming air tubes.
+
+- Use a [2mm plexiglas drill](tools.yml#2mmdrill){qty: 1,cat:tool} on both short side plates for the upwards pointing thin edge which will be connected with the top plate (depth: 15mm). 
+
+- Use on one of the short side plates a [G 1/4" thread drill](tools.yml#G1_4_thread_drill){qty:1, Cat:tool} and a [G 1/8" thread drill](tools.yml#G1_8_thread_drill){qty:1, Cat:tool} as shown in the constructional drawing.
 
 
-#### Constructional drawing (distances in millimeter)
-- Use a [2mm plexiglas drill](tools.yml#2mmdrill){qty: one,cat:tool} for drilling.
+#### Constructional drawing for side plate with pressure relieve valve and air tube connection (distances in millimeter)
 
 
-![](images/side_plates.jpg)
+![](images/short_sides_02_use_ex.png)
+
+
+
+#### Constructional drawing for side plate without pressure relieve valve and air tube connection (distances in millimeter)
+
+
+![](images/short_sides_01_use_ex.png)
+
 
 ## Clean
 

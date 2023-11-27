@@ -34,7 +34,7 @@ For the observations the animal's head needs to be fixated above the center of t
 
 - Turn both [connecting clamps](connectors.yml#12mmCC) on  the upwards pointing rods in a 90 degree angle. 
 
-- Cut a 380 mm long piece of an  [aluminium rod 12mm diameter](framework.yml#12mmRod){Qty:1} with a [metallsaw](tools.yml#metallsaw){Qty:1, cat: tool}, and place it in both [connecting clamps](connectors.yml#12mmCC) on the upwards pointing rods. On this rod attach the headfixation.
+- Cut a 380 mm long piece of an  [aluminium rod 12mm diameter](framework.yml#12mmRod){Qty:1} with a [metall saw](tools.yml#metallsaw){Qty:1, cat: tool}, and place it in both [connecting clamps](connectors.yml#12mmCC) on the upwards pointing rods. On this rod attach the headfixation.
 
 If the head fixation system you have is incompatible with this construction, a placement on the vertical [M5 thread rod](framework.yml#M5Rod) might work.
 
