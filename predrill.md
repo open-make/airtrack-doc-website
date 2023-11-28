@@ -9,7 +9,7 @@ The box will be made of one top, one bottom, 2 long sides and 2 short sides. In 
 
 >i **Note** 
 >i
->i All constructional drawings have a higher resolution if you open them in a new tab.
+>i Please zoom in (or open in a new window) all constructional drawings if you cannot see them distinctly.
 
 ## Predrill of Top plexiglass plates {pagestep}
 
