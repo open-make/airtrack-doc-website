@@ -1,6 +1,8 @@
 # Floating platform
 
 
+{{BOM}}
+
 
 There are several platforms you can use on the Airtrack. The size of the platform and the design of the upper part varies depending on your research question. 
 
@@ -73,7 +75,7 @@ Therefore use four quarters as one layer and glue them with the second layer by 
 
 The quality of this method mainly depends on how good you can remove a part from the printing bed. As this part is very thin, you need to take care to not change the proportions while removing the print from the bed.
 
-You can use the [arcylic glue](tools.yml#acrifix_192){Qty: some, Cat:tool}[i](glueingadvise.md) for glueing the quarters.
+You can use the [glue (arcylic glue)](tools.yml#acrifix_192){Qty: some, Cat:tool}[i](glueingadvise.md) for glueing the quarters.
 
 ![](models/l_maze_quarter_ground001.stl){color: grey}
 

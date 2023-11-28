@@ -22,7 +22,11 @@
 
 ## Mpr121 - capacitive sensor  {pagestep}
 
-The left and right sensor in the circuit diagram is meant to be a electrically conductive material which is attached to the left or right needle.
+The left and right sensor in the circuit diagram is meant to be a electrically conductive wire which is attached to each needle.
+
+- The wire needs to be wrapped around the needle multiple times
+    - For small changes in the placement of the wire the threshold of the Mpr121 needs to be adjusted. The margin of tolerance is small.
+
 
 
 
