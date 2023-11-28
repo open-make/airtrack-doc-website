@@ -66,7 +66,7 @@ To guarantee a higher stability it's recommended to place a second framework cir
 
 >i **Note** 
 >i
->i The following strut is only needed if you want to place the camera on it, it has no stability reasons
+>i The following strut is only needed if you want to place the camera on it, it does not have a stability purpose
 
 
 
