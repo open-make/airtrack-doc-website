@@ -10,7 +10,8 @@
 <link rel="icon" type="image/png" href="./static/Logo/favicon-16x16.png" sizes="16x16" />
 
     <link href="./static/style.css" rel="stylesheet">
-                  <style>
+                <script type="text/javascript" src="./static/3d-viewer.js"></script>
+          <style>
     .nav-list a.navhome, .sub-nav-list a.navhome{
       background-color: #f1502f !important;
     }
@@ -70,8 +71,8 @@
         Construction of the air table
     </a>
     </li>
-<li class="active">
-    <a class="active" href="./precut.html">
+<li class="not-active">
+    <a class="not-active" href="./precut.html">
         Airtable part 1: Precut of the aluminium profile strut
     </a>
     </li>
@@ -90,8 +91,8 @@
         Airtable part 4: Construction of the framework
     </a>
     </li>
-<li class="not-active">
-    <a class="not-active" href="./ballvalve.html">
+<li class="active">
+    <a class="active" href="./ballvalve.html">
         Airtable part 5: Insertion of ball valves
     </a>
     </li>
@@ -140,54 +141,68 @@
             </nav>
         </div>
         <div class="wrapper">
-    <h1 id="airtable-part-1-precut-of-the-aluminium-profile-strut">Airtable part 1: Precut of the aluminium profile strut</h1>
-<p>This section provides information to precut the <a href="framework/20x20Rod.html">aluminium strut profile</a> and labels the different parts based on length.</p>
-<p>For cutting the struts a <a href="tools/metallsaw.html">metall saw</a> is needed (see link for saw recommendation). </p>
+    <h1 id="airtable-part-5-insertion-of-ball-valves">Airtable part 5: Insertion of ball valves</h1>
 <div class="pagebom">
 <h3 id="part">Parts</h3>
 <ul>
-<li>3 <a Class="bom" href="framework/20x20Rod.html">aluminium strut profile</a> </li>
+<li>1 <a Class="bom" href="plexiglass/480x326pg.html">480mm x 326mm plexiglass plate</a> </li>
+<li>28 <a Class="bom" href="plexiglass/ball.html">Acrlyic glass ball</a> </li>
 </ul>
 <h3 id="tool">Tools</h3>
 <ul>
-<li>1 <a Class="bom" href="tools/metallsaw.html">metall saw</a> </li>
+<li>Some <a Class="bom" href="tools/acrifix_192.html">Glue (acrylic glue)</a> </li>
 </ul>
 </div>
-<h3 id="pieces-out-of-2000mm-aluminium-strut-profile-1">Pieces out of  2000mm aluminium strut profile #1</h3>
+<p>In order to regulate the air flow, you need to place in total 28 ball valves in the corresponding predrilled (8mm) holes in the top plexiglass plate. 
+The valves restrict the air flow to only emit air below the moving platform. The air can flow out when the ball is pressed down by the platform.  Because of this, the set up only works with platforms which have a flat ground surface.</p>
+<h2 class="page-step" id="prepare-ball-valves">Step 1: Prepare ball valves</h2>
+<p>Now build 28 ball valves. We recommend you to make a few more.</p>
+<p>For one ball valve you need 3 components: </p>
+<ul>
+<li>3D printed ball sleeve (STL file below)</li>
+<li>3D printed ball fixation (STL file below)</li>
+<li><a href="plexiglass/ball.html">Acrlyic glass ball</a></li>
+</ul>
+<p>In order to build a valve, you need to put a <a href="plexiglass/ball.html">acrlyic glass ball</a> in a ball fixation and insert a ball sleeve from the same side. A ball can only be inserted from the thiner side of the ball fixation. </p>
+<p>If your ball sleeve in the ball fixation is a bit lose, you can use some <a href="tools/acrifix_192.html">Glue (acrylic glue)</a><a href="glueingadvise.html" title=""><img alt="info" class="smallicon" src="static/Icons/info.png" title="More information" /></a> to fixate it.</p>
+<p>The balls must be able to move easily in these sleeves, but must not lose too much air, otherwise the valves will leak. Therefore you need to check which 3D printed ball fixation and which ball fit together the best.</p>
+<noscript><a href="models/ball_fixation001.stl"></a></noscript>
+<p><gb3d-viewer src="models/ball_fixation001.stl" color="grey"></gb3d-viewer></p>
+<noscript><a href="models/ball_sleeve001.stl"></a></noscript>
+<p><gb3d-viewer src="models/ball_sleeve001.stl" color="grey"></gb3d-viewer></p>
+<p>Print settings used for testing with a good result at a Creality Ender-3 V2</p>
+<ul>
+<li>Layer height: 0.12 mm</li>
+<li>Infill: 70%</li>
+<li>Nuzzle temperatur: 200°C</li>
+<li>Support: Yes, automatic from PrusaSlicer</li>
+<li>Raft: No</li>
+</ul>
+<h2 id="placement-of-ball-valves">Placement of ball valves</h2>
+<p>The 28 ball valves get placed in the top plexiglass plate where 28 holes with a 8mm diameter are already predrilled. 
+Insert one ball valve in each hole and make sure their height matches with the plexiglass plate. Maybe you need to readjust the 
+countersink drill. </p>
+<p>Make sure the ball valves are tight placed in the holes. We do not glue the valves to clean them later. Access the valve by pulling it out with a pliers. </p>
+<div class="info-block">
+<p><strong>Info</strong> </p>
+<p>If you get a ball valve into the plexiglass box and it's already glued, you can use the hole for the pressure relieve valve to get the ball valve out of the box.</p>
+</div>
+<h2 class="page-step" id="glueing-of-the-bottom-plate">Step 2: Glueing of the bottom plate</h2>
+<p>After connecting the air table with the framework and inserting the ball valves there is no need in accessing the inner box, so we can close the box. The bottom plate is meant to disconnect first if the pressure in the box gets too high. Therefore the bottom plate is not screwed.</p>
 <ul>
 <li>
-<p>Cut four pieces with a length of 400 mm out of one aluminium strut profile. </p>
+<p>Again it's necessary to degrease and remove any dirt at the glueing surface before glueing.</p>
 </li>
 <li>
-<p>The length of 400m is depended on your wished height. If you follow this cutting guide, your maximum length could be close to 500 mm for the height. In all cases your length for these rods should be not shorter than 250 mm to ensure enough space for the camera below. In the following guide these rods will be referred as 400mm. </p>
+<p>Line up the long side of the box with the long side of the plate, there must be no hole for air flowing through.</p>
 </li>
 <li>
-<p>You have now four <a name="output__aluminium-strut-profiles-length-400mm"></a>aluminium strut profiles (length: 400mm).</p>
+<p><a href="tools/acrifix_192.html">Glue (acrylic glue)</a><a href="glueingadvise.html" title=""><img alt="info" class="smallicon" src="static/Icons/info.png" title="More information" /></a> the not predrilled bottom <a href="plexiglass/480x326pg.html">480mm x 326mm plexiglass plate</a> below the table box. It's recommended to put the glue on the 8 mm wide sides and not on the bottom plate.</p>
 </li>
 </ul>
-<h3 id="pieces-out-of-2000mm-aluminium-strut-profile-2">Pieces out of  2000mm aluminium strut profile #2</h3>
-<ul>
-<li>
-<p>Cut three pieces with a length of 286 mm,  two pieces with a length of 350 mm and one 326 mm piece.</p>
-</li>
-<li>
-<p>The 350mm long aluminium strut profiles are for the reward system. You can use a longer profile if you want.</p>
-</li>
-<li>
-<p>You have now three <a name="output__aluminium-strut-profiles-length-286mm"></a>aluminium strut profiles (length: 286mm), <a name="output__aluminium-strut-profiles-length-326mm"></a>aluminium strut profiles (length: 326mm) and two <a name="output__aluminium-strut-profiles-length-350mm"></a>aluminium strut profiles (length: 350mm).</p>
-</li>
-</ul>
-<h3 id="pieces-out-of-2000mm-aluminium-strut-profile-3">Pieces out of  2000mm aluminium strut profile #3</h3>
-<ul>
-<li>
-<p>Cut two pieces with a length of 440 mm and  two pieces with a length of 480 mm out of one 2000 mm aluminium strut profile.</p>
-</li>
-<li>
-<p>You have now two <a name="output__aluminium-strut-profiles-length-440mm"></a>aluminium strut profiles (length: 440mm) and two <a name="output__aluminium-strut-profiles-length-480mm"></a>aluminium strut profiles (length: 480mm).</p>
-</li>
-</ul>
+<p>Wait for the glue to be dry before going to the next step.</p>
 <hr />
-<p><a href="airtable.html">Previous page</a> | <a href="predrill.html">Next page</a></p>
+<p><a href="basicframework.html">Previous page</a> | <a href="air_flow.html">Next page</a></p>
     </div>
 </div>
 <footer class="site-footer">
