@@ -29,6 +29,8 @@ This guide is part of the output from the [open.make project](https://www.openma
 
 #### [Construction of the basic framework](basicframework.md){step}
 
+#### [Insertion of ball valves](ballvalve.md){step}
+
 #### [Air flow and pressure control](air_flow.md){step}
 
 

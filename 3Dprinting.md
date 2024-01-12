@@ -19,23 +19,37 @@ But a 3D printed platform has mostly a flat and slippery surface which doesn't a
 
 All recommended printing settings provided the best output on a FLASHFORGE CREATOR 3.
 
-## Large platform {pagestep}
+## Example platform {pagestep}
 
-The components need to be printed independently and get glued afterwards.
+The components need to be printed independently and get glued afterwards. Use the STL-file of the hole platform as orientation.
 
-We recommend to use a [plexiglass plate](plexiglass.yml#r300mmpg){Qty:1} with a diameter of 300mm as bottom plate. The other parts need to be glued on top of it as shown in the whole large platform STL. 
+We recommend to use a [plexiglass plate](plexiglass.yml#r300mmpg){Qty:1} with a diameter of 300mm as bottom plate. The other parts need to be glued on top of it as shown in the whole large platform STL. Instead of 3D printing, similar materials can be used, too.
 
-Instead of 3D printing, similar materials can be used, too.
 
-#### Whole large platform
+>i **Note** 
+>i
+>i You might need to round to bottom corners of the platform to improve the mobility of the platform
+
+
+
+
+#### Whole platform
 ![](models/l_Maze_all.stl){color: grey}
 
-#### Ground of large Platform
+#### Ground of Platform
 ![](models/l_Maze_X_ground.stl){color: grey}
-#### Walls mounts of large platform 
-Directly after printing, open the small gap to ensure the wall fits in between later. 
+#### Walls mounts of platform 
+
+
+
+>i **Directly after printing** 
+>i 
+>i Open the small gaps to ensure the wall fits in between later.
+
+
+
 ![](models/l_Maze_X_wallmount.stl){color: grey}
-#### Walls of large platform 
+#### Walls of platform 
 ![](models/l_Maze_X_walls.stl){color: grey}
 
 

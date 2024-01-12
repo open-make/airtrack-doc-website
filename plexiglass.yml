@@ -61,3 +61,13 @@ r300mmpg:
     Description: Diameter 300mm and height 8mm
     Specs:
         Material: Polymethylmethacrylat
+
+ball:
+    Name: Acrylic glass  
+    Description: Acrylic glass XT ball, transparent, solid, diameter 6.4mm 
+    Specs:
+        Material: Acrylic glass 
+    Suppliers:
+        Modulor:
+            PartNo: 0250311
+            Link: 'https://www.modulor.de/en/acrylic-glass-xt-ball-transparent-solid-o-6-4-mm-oxid.html'
