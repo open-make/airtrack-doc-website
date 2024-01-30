@@ -3,15 +3,16 @@ Name in documentation	Category	Qty	Full Name	Notes	Supplier 1	Part No	Link	Suppl
 2 mm drill	tool	1	2 mm drill							
 2mm plexiglas drill	tool	1	2 mm drill							
 350mm x 30mm plexiglass plate	part	1	Plexiglass precut							
-366mm x 30mm plexiglass plate	part	1	Plexiglass precut							
+366mm x 30mm plexiglass plate	part	1	(cast) acrylic glass sheet precut							
 3mm drill	tool	1	3 mm drill							
 3mm plexiglas drill	tool	1	3 mm drill							
 3mm pozidriv screws	part	28	Pozidriv wood screw		RS Components	144-3525	https://de.rs-online.com/web/p/holzschrauben/1443525			
-480mm x 326mm plexiglass plate	part	2	Plexiglass precut							
-480mm x 64mm plexiglass plates	part	4	Plexiglass precut							
+480mm x 326mm plexiglass plate	part	2	(cast) acrylic glass sheet precut							
+480mm x 64mm plexiglass plates	part	4	(cast) acrylic glass sheet precut							
 5mm drill	tool	1	5 mm drill							
 5mm plexiglas drill	tool	1	5 mm drill							
 8mm plexiglas drill	tool	1	8 mm drill							
+9mm plexiglas drill	tool	1	9 mm drill							
 Acrlyic glass ball	part	28	Acrylic glass		Modulor	86217	https://www.modulor.de/en/acrylic-glass-xt-ball-transparent-solid-o-6-4-mm-oxid.html			
 Active Buzzer	part	1	Keyes KY-012 Active Buzzer		Aliexpress	No PartNo	https://de.aliexpress.com/item/32816721769.html?aff_fcid=dbb60528572745a9ac0787a7403f897f-1651112003196-06651&aff_fsk&aff_platform=api-new-product-query&sk&aff_trace_key=dbb60528572745a9ac0787a7403f897f-1651112003196-06651&terminal_id=c3fe0c0a7e284a458624de73aaa29e49&afSmartRedirect=y&gatewayAdapt=glo2deu			
 aluminium rod 12mm diameter	part	1	Aluminium rod		RS Components	124-3623	https://de.rs-online.com/web/p/metallstangen-und-stabe/1243623			
@@ -46,7 +47,7 @@ nut	part	58	Frame nut		RS Components	180-9104	https://de.rs-online.com/web/p/ver
 nut (M4)	part	2	Frame nut		RS Components	180-9103	https://de.rs-online.com/web/p/verbindungselemente/1809103			
 pinch valve clamp	part	2	pinch valve clamp		BIOZOL Diagnostica Vertrieb GmbH	075P2NC12-01S	https://www.lab-club.com/Mounting-clip-for-type-075-valves			
 Pixy Camera	part	1	Pixy 2 CMUCAM5		Digi-Key Electronics	1738-1426-ND	https://www.digikey.de/de/products/detail/dfrobot/SEN0265/9559245			
-plexiglass plate	part	1	Dircular plexiglass precut							
+plexiglass plate	part	1	Circular (cast) acrylic glass sheet precut							
 pressure relief valve	part	1	Pressure relief valve		RS Components	210-8443	https://de.rs-online.com/web/p/pneumatik-druckentlastungsventile/2108443			
 reducing fitting	part	1	Reducing fitting		Hans Joachim SCHNEIDER GmbH	EA244205I	https://shop.schneider-berlin.de/Technisches-Zubehoer/Installationsmaterial/Gewinde-Verschraubungen/Doppelnippel/Doppelnippel-Edelstahl-AISI-316-R-1-4-x-R-1-4.html			
 SmallRig articulated_arm	part	1	Articulated arm by SmallRig		SmallRig	2066B	https://smallrig.com.de/smallrig-articulating-arm-9-5-inches-2066.html			
