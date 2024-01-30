@@ -29,4 +29,7 @@ The left and right sensor in the circuit diagram is meant to be a electrically c
 
 
 
+## Not required parts of wiring configuration {pagestep}
 
+The buzzer and LED in the wiring configuration are components of the first use case and may not be required for your set up. 
+Because the provided code is also from the first use case, both components still get mentioned here. 

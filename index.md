@@ -68,7 +68,7 @@ This guide is part of the output from the [open.make project](https://www.openma
 
 
 
-### About the Airtrack
+## About the Airtrack
 
 To investigate the neuronal activities in ordinary behaviour, it's eligible to implement modern brain recording equipment.
 These modern technics frequently require head fixation.
@@ -87,7 +87,7 @@ As the system is in use within Larkum Lab and gets developed, we encourage you t
 
 
 
-### Overview of the setup
+## Overview of the setup
 
 The airtrack system consists out of a central air table with the possibility of modification.
 In this version, a mouse moves on a floating lightweight plus maze, while being head fixed in the center above the platform.
@@ -114,9 +114,9 @@ The computational tasks are performed with a Arduino Uno microcontroller.
 
 ### Disclaimer: Construction complexity
 
-Some parts are more difficult to construct than others. Mainly the central plexiglass box is difficult to build with an improvised work place. Precise cutting of the plexiglass is needed to ensure airtight manufacturing. Further, a workshop might use UV glue for the box which provides a good quality.
+Some parts are more difficult to construct than others. Mainly the central plexiglass box is difficult to build with an improvised work place. Precise cutting of the plexiglass is needed to ensure airtight manufacturing. Further, a workshop might use UV glue for the box which provides a higher quality.
 
-If you have access to a workshop, we recommend you to get the air table constructed there. In general it's better to have large fraction of the Airtrack manufactured professionally. 
+If you have access to a workshop, we recommend you to get the air table constructed there. In general, it's better to have a large fraction of the Airtrack manufactured professionally. 
 
 
 
@@ -130,4 +130,4 @@ References: [Nashaat MA, Oraby H, Sachdev RN, Winter Y, Larkum ME. Air-Track: a 
 
 
 
-#### Latest change: 05.01.2024
+#### Latest change: 30.01.2024

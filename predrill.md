@@ -13,7 +13,7 @@ The box will be made of one top, one bottom, 2 long sides and 2 short sides. In 
 
 ## Predrill of Top plexiglass plates {pagestep}
 
-- Drill 28 holes (8 mm diameter) into the [480mm x 326mm plexiglass plate](plexiglass.yml#480x326pg){Qty:1}, as shown in the following drawing, with a [8mm plexiglas drill](tools.yml#8mmdrill){Qty: 1, Cat: Tool}. They will be used for ball valves. To make the ball valves match in height with the surface, you need to  countersink drill the holes by about 2mm.
+- Drill 28 holes (8 mm diameter) into the [480mm x 326mm plexiglass plate](plexiglass.yml#480x326pg){Qty:1}, as shown in the following drawing, with a [8mm plexiglas drill](tools.yml#8mmdrill){Qty: 1, Cat: Tool}. They will be used for ball valves. To make the ball valves match in height with the surface, you need to  countersink drill the holes by about 2mm with a [9mm plexiglas drill](tools.yml#9mmdrill){Qty: 1, Cat: Tool}.
 
 - Additional drill 28 holes (3 mm diameter) through the [480mm x 326mm plexiglass plate](plexiglass.yml#480x326pg){Qty:0}, as shown in the following drawing, with a [3mm plexiglas drill](tools.yml#3mmdrill){Qty: 1, Cat: Tool}. Each of this holes will later be on top of the 2mm pilot holes in the side plates. 
 

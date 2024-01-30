@@ -43,6 +43,10 @@ screwdriver:
     Name: 8 mm drill
     Description: A drill specific for acyrlglass or a metall drill with similar angles as for acrylglas 
 
+9mmdrill:
+    Name: 9 mm drill
+    Description: A drill specific for acyrlglass or a metall drill with similar angles as for acrylglas 
+
 
 M5thread_drill:
     Name: M5 thread drill

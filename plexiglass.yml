@@ -1,5 +1,5 @@
 480x326pg:
-    Name: Plexiglass precut
+    Name: (cast) acrylic glass sheet precut
     Description: 480mm x 326mm x 8mm
     Specs:
         Material: Polymethylmethacrylat
@@ -7,7 +7,7 @@
 
 
 480x64pg:
-    Name: Plexiglass precut
+    Name: (cast) acrylic glass sheet precut
     Description: 480mm x 64mm x 8mm
     Specs:
         Material: Polymethylmethacrylat
@@ -15,31 +15,31 @@
 
 
 310x64pg:
-    Name: Plexiglass precut
+    Name: (cast) acrylic glass sheet precut
     Description: 310mm x 64mm x 8mm
     Specs:
         Material: Polymethylmethacrylat
 
 520x40pg:
-    Name: Plexiglass precut
+    Name: (cast) acrylic glass sheet precut
     Description: 520mm x 40mm x 8mm
     Specs:
         Material: Polymethylmethacrylat
 
 250x15pg:
-    Name: Plexiglass precut
+    Name: (cast) acrylic glass sheet precut
     Description: 250mm x 15mm x 8mm
     Specs:
         Material: Polymethylmethacrylat
 
 286x30pg:
-    Name: Plexiglass precut
+    Name: (cast) acrylic glass sheet precut
     Description: 286mm x 30mm x 8mm
     Specs:
         Material: Polymethylmethacrylat
 
 326x30pg:
-    Name: Plexiglass precut
+    Name: (cast) acrylic glass sheet precut
     Description: 286mm x 30mm x 8mm
     Specs:
         Material: Polymethylmethacrylat
@@ -51,14 +51,14 @@
         Material: Polymethylmethacrylat
 
 366x30pg:
-    Name: Plexiglass precut
+    Name: (cast) acrylic glass sheet precut
     Description: 366mm x 30mm x 8mm
     Specs:
         Material: Polymethylmethacrylat
 
 r300mmpg:
-    Name: Dircular plexiglass precut
-    Description: Diameter 300mm and height 8mm
+    Name: Circular (cast) acrylic glass sheet precut
+    Description: Diameter 300mm and height 4mm
     Specs:
         Material: Polymethylmethacrylat
 

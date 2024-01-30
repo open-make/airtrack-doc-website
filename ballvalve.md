@@ -30,10 +30,10 @@ The balls must be able to move easily in these sleeves, but must not lose too mu
 
 Print settings used for testing with a good result at a Creality Ender-3 V2
 
-- Layer height: 0.12 mm
-- Infill: 70%
+- Layer height: 0.10 mm
+- Infill: 60%
 - Nuzzle temperatur: 200°C
-- Support: Yes, automatic from PrusaSlicer
+- Support: None
 - Raft: No
 
 
@@ -43,7 +43,7 @@ The 28 ball valves get placed in the top plexiglass plate where 28 holes with a 
 Insert one ball valve in each hole and make sure their height matches with the plexiglass plate. Maybe you need to readjust the 
 countersink drill. 
 
-Make sure the ball valves are tight placed in the holes. We do not glue the valves to clean them later. Access the valve by pulling it out with a pliers. 
+Make sure the ball valves are tight placed in the holes. We do not glue the valves to clean them later. Access the valve by pulling it out with a hook and pliers. 
 
  
 
