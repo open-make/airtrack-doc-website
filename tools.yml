@@ -39,6 +39,11 @@ screwdriver:
     Name: 5 mm drill
     Description: A drill specific for acyrlglass or a metall drill with similar angles as for acrylglas 
 
+
+7mmdrill:
+    Name: 7 mm drill
+    Description: A drill specific for acyrlglass or a metall drill with similar angles as for acrylglas
+
 8mmdrill:
     Name: 8 mm drill
     Description: A drill specific for acyrlglass or a metall drill with similar angles as for acrylglas 
@@ -71,6 +76,10 @@ G1_4_thread_drill:
 metallsaw:
     Name: Metall saw
     Description: Saw with a saw blade appropriate for aluminium. In order to achieve a good orthogonal angle at the cut surfaces, the use of a big saw, or better a circular bench saw, is recommended. (The use of smaller hand saws requires a lot of endurance and precision.)
+
+drillrig:
+    Name: Drill rig
+    Description: A stand for a drilling machine with adjustable depth
 
 
 sandingsponge:
