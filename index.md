@@ -46,18 +46,19 @@ This guide is part of the output from the [open.make project](https://www.openma
 
 #### [Construction of the head fixation](headfixation.md){step}
 
+#### [Floating platform](3Dprinting.md){step}
 
+#### [Installation of scripts](script_setup.md){step}
 
+#### [Configuration of PixyCam](PixyCamConfig.md){step}
 
 #### [Setup of the electronics](electronic.md){step}
 
 
 
 
-#### [Installation of scripts](script_setup.md){step}
 
 
-#### [3D printing instructions](3Dprinting.md){step}
 
 
 #### [List of all necessary components]{BOM}

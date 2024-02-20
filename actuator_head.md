@@ -127,8 +127,8 @@ In contrast to the STL below, the needle needs to have a 10 mm space at the end 
 
 #### Two pictures of this state:
 
-![](images/hold_01001.jpg)
-![](images/hold_02001.jpg)
+![](images/hold_01.jpg)
+![](images/hold_02.jpg)
 
 
 

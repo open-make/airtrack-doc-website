@@ -10,17 +10,31 @@
 
 - To clean up the pathing of cables you can use cable ties like, e.g. these [cable ties](connectors.yml#cable_tie){Qty:many} and fixate with that the cables at the [aluminium strut profile](framework.yml#20x20Rod).
 
-- To keep a structure between the [Arduino Uno](electronic.yml#Arduino_Uno){Qty:1}, [capacitive sensor mpr121](electronic.yml#mpr121){Qty:1}, [Active Buzzer](electronic.yml#Keyes_KY-012){Qty:1}
- and [H bridge L293D](electronic.yml#L293D){Qty:1} you can use a large breadboard.
+-  You can use a large breadboard to keep a structure between the [Arduino Uno](electronic.yml#Arduino_Uno), [capacitive sensor mpr121](electronic.yml#mpr121){Qty:1}, [Active Buzzer](electronic.yml#Keyes_KY-012){Qty:1} and [H bridge L293D](electronic.yml#L293D){Qty:1}.
 
 #### Wiring configuration
 ![](images/arduino_schematic.png)
 
 
+### Component informations:
+
+
+### [Linear actuator](electronic.yml#LinActuator50mm):
+
+- Orange – Feedback Potentiometer negative reference rail
+
+- Purple – Feedback Potentiometer wiper
+
+- Red – Motor V+ (6V or 12V)
+
+- Black – Motor V- (Ground)
+
+- Yellow – Feedback Potentiometer positive reference rail
 
 
 
-## Mpr121 - capacitive sensor  {pagestep}
+
+## [Capacitive sensor MPR121](electronic.yml#mpr121)  {pagestep}
 
 The left and right sensor in the circuit diagram is meant to be a electrically conductive wire which is attached to each needle.
 
@@ -33,3 +47,8 @@ The left and right sensor in the circuit diagram is meant to be a electrically c
 
 The buzzer and LED in the wiring configuration are components of the first use case and may not be required for your set up. 
 Because the provided code is also from the first use case, both components still get mentioned here. 
+
+
+>! **To do ** 
+>!
+>! SPI cable for pixy - more flexible connecting

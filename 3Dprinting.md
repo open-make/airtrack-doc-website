@@ -171,11 +171,11 @@ Raft: No
 
 
 
-## Bottom side color for PixyCam detection {Pagestep}
+## Bottom side coloring for PixyCam detection {Pagestep}
 
 In order to track the movement of the platform by the PixyCam the bottom side of the floating plate needs a pattern.
 
-Therefor paint (e.g. with a dark permanent marker) a rectangle in the center of the platform with a edge length of 50 to 80 mm.
+Therefor paint (e.g. with a red and green permanent marker) from below two squares next to each other in the center of the platform. Both squares should have a length of about 4 cm. It's mainly important that the colors are good detectable by the PixyCam. The two colors are needed to detect the rotation. 
 
 
 
