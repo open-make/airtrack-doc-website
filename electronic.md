@@ -19,7 +19,7 @@
 ### Component informations:
 
 
-### [Linear actuator](electronic.yml#LinActuator50mm):
+#### [Linear actuator](electronic.yml#LinActuator50mm):
 
 - Orange – Feedback Potentiometer negative reference rail
 
@@ -30,6 +30,11 @@
 - Black – Motor V- (Ground)
 
 - Yellow – Feedback Potentiometer positive reference rail
+
+#### [PixyCam2](electronic.yml#PixyCam)
+
+- You can use the SPI cable to connect the [PixyCam2](electronic.yml#PixyCam) with the Arduino.
+    - It should be included in the delivery
 
 
 
@@ -48,7 +53,3 @@ The left and right sensor in the circuit diagram is meant to be a electrically c
 The buzzer and LED in the wiring configuration are components of the first use case and may not be required for your set up. 
 Because the provided code is also from the first use case, both components still get mentioned here. 
 
-
->! **To do ** 
->!
->! SPI cable for pixy - more flexible connecting
