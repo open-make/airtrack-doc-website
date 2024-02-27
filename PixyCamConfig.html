@@ -125,13 +125,13 @@
         Floating platform
     </a>
     </li>
-<li class="active">
-    <a class="active" href="./script_setup.html">
+<li class="not-active">
+    <a class="not-active" href="./script_setup.html">
         Uploading of scripts to the Arduino Uno
     </a>
     </li>
-<li class="not-active">
-    <a class="not-active" href="./PixyCamConfig.html">
+<li class="active">
+    <a class="active" href="./PixyCamConfig.html">
         Configuration of the PixyCam 2
     </a>
     </li>
@@ -145,44 +145,83 @@
             </nav>
         </div>
         <div class="wrapper">
-    <h1 id="uploading-of-scripts-to-the-arduino-uno">Uploading of scripts to the Arduino Uno</h1>
+    <h1 id="configuration-of-the-pixycam-2">Configuration of the PixyCam 2</h1>
 <div class="info-block">
 <p><strong>Note</strong> </p>
-<p>It's recommend to upload the scripts to the Arduino Uno before connecting it. </p>
-</div>
-<div class="pagebom">
-<h3 id="part">Parts</h3>
+<p>It's recommend to: </p>
 <ul>
-<li>1 <a Class="bom" href="electronic/Arduino_Uno.html">Arduino Uno</a> </li>
+<li>
+<p>Upload the preferences to the PixyCam before connecting it</p>
+</li>
+<li>
+<p>Watch the video and the block detection while running the experiment</p>
+</li>
 </ul>
 </div>
-<p>Within this section you're going to upload the scripts to the <a href="electronic/Arduino_Uno.html">Arduino Uno</a>.</p>
-<h2 id="source-of-the-code">Source of the code</h2>
-<p>https://github.com/larkum-lab/airtrack</p>
-<h2 id="setup-of-the-arduino-uno">Setup of the Arduino Uno</h2>
-<ol>
-<li>Install the Arduino IDE: Download and install the Arduino IDE from the official Arduino website (https://www.arduino.cc/en/software).</li>
-<li>Install the Pixy2 Library (download at Pixycam.com; guide on the website).</li>
-<li>Create a new Arduino sketch: Open the Arduino IDE, and create a new sketch by clicking "File" &gt; "New". </li>
-<li>Save the sketch in the project related folder and add the header files: definitions.h, leds.h, mpr.h, sensor.h, acuator.h and pins.h) inside the folder. </li>
-<li>Further add the airtrack.ino file in the same folder (a download for an updated airtrack.ino file for PixyCam2 is at the bottom of this page).</li>
-<li>Connect the Arduino: Connect your Arduino board to your computer by using a USB cable.</li>
-<li>Select the Arduino board and port: In the Arduino IDE, go to "Tools" &gt; "Board" and select the appropriate Arduino board (e.g., "Arduino Uno"). Then, go to "Tools" &gt; "Port" and select the port corresponding to your connected Arduino board.</li>
-<li>Compile, check for errors and upload the code to your Arduino board.</li>
-</ol>
-<h2 id="saving-of-the-output">Saving of the output</h2>
-<p>In the Arduino IDE output section are continuously print outputs while running the experiment. These prints can be saved in a text file to store the experimental data. </p>
-<div class="warning-block">
-<p><strong>Warning</strong> </p>
-<p>Need test of file</p>
-</div>
-<div class="info-block">
-<p><strong>Note</strong> </p>
-<p>The airtrack.ino file of the Github repository was made for the PixyCam.</p>
-<p><a href="airtrack.ino.zip" title="">Download the updated airtrack.ino for PixyCam2</a></p>
-</div>
+<p>The PixyCam needs to be configured in order to work with the scripts on the Arduino. The Pixymon software is able to safe parameters at the PixyCam. </p>
+<h2 class="page-step" id="install-pixymon">Step 1: Install Pixymon</h2>
+<p>Download the Pixymon software (at Pixycam.com)</p>
+<ul>
+<li>
+<p>Set up a connection to the PixyCam via USB from your Computer</p>
+</li>
+<li>
+<p>MacOS users need to disable gatekeeper for first time usage</p>
+</li>
+<li>
+<p>You might need to choose "Blocks, video" in the drop down menu "View" to see the recording</p>
+</li>
+</ul>
+<h2 class="page-step" id="light-settings">Step 2: Light settings</h2>
+<p>Use the lightning settings in the  "Pixy Parameter" submenu to optimize the visibility in the Pixymon viewer. You need to check what works best at your setup place. A better visibility of objects in the viewer will result in better object detection. </p>
+<ul>
+<li>
+<p>Within "Tuning" submenu -&gt; "Camera brightness"</p>
+</li>
+<li>
+<p>Several settings in "Camera" submenu</p>
+</li>
+<li>
+<p>Maybe you need to adjust light sources as the reflections in the air table contribute to the noise.</p>
+</li>
+<li>
+<p>Lowering the frames per second can help in low light situations to reduce noise.</p>
+</li>
+<li>
+<p>You can enable "Highlight overexposure" in the Pixymon parameters to show areas with poor image recognition properties. </p>
+</li>
+</ul>
+<h2 class="page-step" id="block-detection">Step 3: Block detection</h2>
+<ul>
+<li>
+<p>Place the floating platform on the air table. The orientation of the colored rectangle should be parallel or orthogonal to the length of the air table.</p>
+</li>
+<li>
+<p>In " Pixy parameters" -&gt; "Expert"</p>
+<ul>
+<li>Set "Max blocks"  to 2, as you only need to detect two connected blocks. </li>
+<li>Set "Default program" to "color connected components"</li>
+</ul>
+</li>
+<li>
+<p>In the drop down menu "Actions"</p>
+<ul>
+<li>Select "Set CC signature 1" and "Set CC signature 2" to mark the center area of each color on the floating platform</li>
+</ul>
+</li>
+<li>
+<p>In " Pixy parameters" -&gt; "Expert"</p>
+<ul>
+<li>Play with the "Signature teach threshold" to have the hole object detected but not more than it.</li>
+</ul>
+</li>
+<li>
+<p>Afterwards in the Pixymon viewer: A box should be visible around both colors at the bottom side of the platform with a "s" and "phi" value. </p>
+</li>
+</ul>
+<p>The detection configuration will be saved on the PixyCam and can be used with the Arduino scripts.</p>
 <hr />
-<p><a href="3Dprinting.html">Previous page</a> | <a href="PixyCamConfig.html">Next page</a></p>
+<p><a href="script_setup.html">Previous page</a> | <a href="electronic.html">Next page</a></p>
     </div>
 </div>
 <footer class="site-footer">
