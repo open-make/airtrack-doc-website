@@ -6,7 +6,7 @@
 
 - In order to connect the devices you need a circuit board, e.g. this [circuit board](electronic.yml#circuit_board){Qty:1}. 
 
-- Further you need many jumper wires to set up connections accordingly to the following circuit drawing. You need male, female and ordinary wires. 
+- Further you need many jumper wires [jumper wires](electronic.yml#jumper_wires){Qty:many} to set up connections accordingly to the following circuit drawing. You need male, female and ordinary wires. 
 
 - To clean up the pathing of cables you can use cable ties like, e.g. these [cable ties](connectors.yml#cable_tie){Qty:many} and fixate with that the cables at the [aluminium strut profile](framework.yml#20x20Rod).
 
@@ -35,6 +35,16 @@
 
 - You can use the SPI cable to connect the [PixyCam2](electronic.yml#PixyCam) with the Arduino.
     - It should be included in the delivery
+
+
+#### 12V Power supply
+
+We used an DIY approach to connect a 12V power supply. It is shown in the picture below:
+
+
+![](images/power_supply.jpg)
+
+The black ending was removed from another electronic device with a 12V power supply. By this we can connect the power supply with the circuit board via cable 
 
 
 

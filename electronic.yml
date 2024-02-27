@@ -101,3 +101,16 @@ pv_clamp:
         BIOZOL Diagnostica Vertrieb GmbH:
             PartNo: 075P2NC12-01S
             Link: 'https://www.lab-club.com/Mounting-clip-for-type-075-valves'
+
+
+jumper_wires:
+    Name: Jumper wires
+    Description: Wires to connect the electronic devices at the circuit board
+    Suppliers:
+        Digikey:
+            PartNo: 1568-1511-ND
+            Link: 'https://www.digikey.de/en/products/detail/sparkfun-electronics/PRT-12794/5993859'
+            PartNo: 1568-1512-ND
+            Link: 'https://www.digikey.de/en/products/detail/sparkfun-electronics/PRT-12795/5993860'
+            PartNo: 1568-1513-ND
+            Link: 'https://www.digikey.de/en/products/detail/sparkfun-electronics/PRT-12796/5993861'
