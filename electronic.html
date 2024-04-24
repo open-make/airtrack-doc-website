@@ -140,6 +140,11 @@
         Set up of the electric system
     </a>
     </li>
+<li class="not-active">
+    <a class="not-active" href="./code_usage.html">
+        Arduino code guide
+    </a>
+    </li>
 
                 </ul>
             </nav>
@@ -151,13 +156,17 @@
 <ul>
 <li>1 <a Class="bom" href="electronic/Keyes_KY-012.html">Active Buzzer</a> </li>
 <li>many <a Class="bom" href="connectors/cable_tie.html">cable ties</a> </li>
-<li>1 <a Class="bom" href="electronic/mpr121.html">capacitive sensor mpr121</a> </li>
-<li>1 <a Class="bom" href="electronic/circuit_board.html">circuit board</a> </li>
+<li>1 <a Class="bom" href="electronic/mpr121.html">capacitive sensor MPR121</a> </li>
+<li>some <a Class="bom" href="electronic/circuit_board.html">circuit board</a> </li>
 <li>1 <a Class="bom" href="electronic/L293D.html">H bridge L293D</a> </li>
 <li>many <a Class="bom" href="electronic/jumper_wires.html">jumper wires</a> </li>
 </ul>
+<h3 id="tool">Tools</h3>
+<ul>
+<li>1 <a Class="bom" href="tools/soldering.html">soldering station</a> </li>
+</ul>
 </div>
-<h2 class="page-step" id="wiring-of-devices">Step 1: Wiring of devices</h2>
+<h2 id="wiring-of-devices">Wiring of devices</h2>
 <ul>
 <li>
 <p>In order to connect the devices you need a circuit board, e.g. this <a href="electronic/circuit_board.html">circuit board</a>. </p>
@@ -169,33 +178,39 @@
 <p>To clean up the pathing of cables you can use cable ties like, e.g. these <a href="connectors/cable_tie.html">cable ties</a> and fixate with that the cables at the <a href="framework/20x20Rod.html" title="">aluminium strut profile</a>.</p>
 </li>
 <li>
-<p>You can use a large breadboard to keep a structure between the <a href="electronic/Arduino_Uno.html" title="">Arduino Uno</a>, <a href="electronic/mpr121.html">capacitive sensor mpr121</a>, <a href="electronic/Keyes_KY-012.html">Active Buzzer</a> and <a href="electronic/L293D.html">H bridge L293D</a>.</p>
+<p>You can use a large breadboard to keep a structure between the <a href="electronic/Arduino_Uno.html" title="">Arduino Uno</a>, <a href="electronic/mpr121.html">capacitive sensor MPR121</a>, <a href="electronic/Keyes_KY-012.html">Active Buzzer</a> and <a href="electronic/L293D.html">H bridge L293D</a>.</p>
 </li>
 </ul>
 <h4 id="wiring-configuration">Wiring configuration</h4>
 <p><img alt="" src="images/arduino_schematic.png" title="" /></p>
+<h4 id="circuit-boards-with-wiring-configuration">Circuit boards with wiring configuration</h4>
+<p><img alt="" src="images/circuit.jpg" title="" /></p>
 <h3 id="component-informations">Component informations:</h3>
+<h4 id="h-bridge-l293d"><a href="electronic/L293D.html" title="">H bridge L293D</a>:</h4>
+<ul>
+<li>Each connection showing 5V must be connected with a 5V power supply. The Arduino Uno has a 5V power supply.</li>
+</ul>
 <h4 id="linear-actuator"><a href="electronic/LinActuator50mm.html" title="">Linear actuator</a>:</h4>
 <ul>
 <li>
-<p>Orange – Feedback Potentiometer negative reference rail</p>
+<p>Orange cable – Feedback Potentiometer negative reference rail</p>
 </li>
 <li>
-<p>Purple – Feedback Potentiometer wiper</p>
+<p>Purple cable – Feedback Potentiometer wiper</p>
 </li>
 <li>
-<p>Red – Motor V+ (6V or 12V)</p>
+<p>Red cable – Motor V+ (6V or 12V)</p>
 </li>
 <li>
-<p>Black – Motor V- (Ground)</p>
+<p>Black cable – Motor V- (Ground)</p>
 </li>
 <li>
-<p>Yellow – Feedback Potentiometer positive reference rail</p>
+<p>Yellow cable – Feedback Potentiometer positive reference rail</p>
 </li>
 </ul>
 <h4 id="pixycam2"><a href="electronic/PixyCam.html" title="">PixyCam2</a></h4>
 <ul>
-<li>You can use the SPI cable to connect the <a href="electronic/PixyCam.html" title="">PixyCam2</a> with the Arduino.<ul>
+<li>You should use the SPI cable to connect the <a href="electronic/PixyCam.html" title="">PixyCam2</a> with the Arduino.<ul>
 <li>It should be included in the delivery</li>
 </ul>
 </li>
@@ -203,20 +218,25 @@
 <h4 id="12v-power-supply">12V Power supply</h4>
 <p>We used an DIY approach to connect a 12V power supply. It is shown in the picture below:</p>
 <p><img alt="" src="images/power_supply.jpg" title="" /></p>
-<p>The black ending was removed from another electronic device with a 12V power supply. By this we can connect the power supply with the circuit board via cable </p>
-<h2 class="page-step" id="capacitive-sensor-mpr121electronicymlmpr121">Step 2: <a href="electronic/mpr121.html" title="">Capacitive sensor MPR121</a></h2>
+<p>The black ending was removed from another electronic device with a 12V power supply. By this we can connect the power supply with the circuit board via cable.</p>
+<h4 id="capacitive-sensor-mpr121"><a href="electronic/mpr121.html" title="">Capacitive sensor MPR121</a></h4>
 <p>The left and right sensor in the circuit diagram is meant to be a electrically conductive wire which is attached to each needle.</p>
 <ul>
-<li>The wire needs to be wrapped around the needle multiple times<ul>
-<li>For small changes in the placement of the wire the threshold of the Mpr121 needs to be adjusted. The margin of tolerance is small.</li>
+<li>
+<p>The wire needs to be wrapped around the needle multiple times</p>
+<ul>
+<li>For small changes in the placement of the wire the threshold of the Mpr121 needs to be adjusted. </li>
 </ul>
 </li>
+<li>
+<p>The connections at the MPR121 must be soldered. Therefore you need a small <a href="tools/soldering.html">soldering station</a>.</p>
+</li>
 </ul>
-<h2 class="page-step" id="not-required-parts-of-wiring-configuration">Step 3: Not required parts of wiring configuration</h2>
+<h2 id="not-required-parts-of-wiring-configuration">Not required parts of wiring configuration</h2>
 <p>The buzzer and LED in the wiring configuration are components of the first use case and may not be required for your set up. 
 Because the provided code is also from the first use case, both components still get mentioned here.</p>
 <hr />
-<p><a href="PixyCamConfig.html">Previous page</a></p>
+<p><a href="PixyCamConfig.html">Previous page</a> | <a href="code_usage.html">Next page</a></p>
     </div>
 </div>
 <footer class="site-footer">

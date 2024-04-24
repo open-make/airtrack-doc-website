@@ -21,8 +21,8 @@ aluminium strut profile	part	5	Aluminium framework		RS Components	180-9136	 http
 angle	part	26	Frame Angle		Misumi	HBLFSNF5-C-SSP	https://de.misumi-ec.com/vona2/detail/110300437260/?HissuCode=HBLFSNF5-C-SSP	Conrad	TC-10493184	https://www.conrad.de/de/p/tru-components-bracket-2020-tc-10493184-verstaerkung-90-aluminium-1-st-2623296.html?searchType=SearchRedirect&refresh=true#productDescription
 Arduino Uno	part	1	Arduino Uno		Digi-Key Electronics	1050-1024-ND	https://www.digikey.de/de/products/detail/arduino/A000066/2784006			
 cable ties	part	Some	Cable tie		Distrelec	301-41-528	https://www.distrelec.de/en/cable-tie-99-5mm-polypropylene-49n-black-panduit-plt1m-m100/p/30141528?trackQuery=cat-DNAV_PL_2225543&pos=1&origPos=9&origPageSize=50&filterapplied=filter_Length~~mm%3d99&track=true			
-capacitive sensor mpr121	part	1	MPR121 Capacitive Touch Sensor		Tinkerly	No PartNo	https://paradisetronic.com/de/sensoren/mpr121-touchsensor-controller-breakout-12-kanaele-i2c			
-circuit board	part	1	BB-32621		Digi-Key Electronics	377-2094-ND	https://www.digikey.de/de/products/detail/bud-industries/BB-32621/4156445			
+capacitive sensor MPR121	part	1	MPR121 Capacitive Touch Sensor		Tinkerly	No PartNo	https://paradisetronic.com/de/sensoren/mpr121-touchsensor-controller-breakout-12-kanaele-i2c			
+circuit board	part	some	BB-32621		Digi-Key Electronics	377-2094-ND	https://www.digikey.de/de/products/detail/bud-industries/BB-32621/4156445			
 compressed air hose	part	2	Compressed air hose							
 connecting clamp	part	2	Connecting Clamp		RS Components	786-6071	https://de.rs-online.com/web/p/verbindungselemente/7866071			
 drill rig	tool	1	Drill rig							
@@ -55,6 +55,7 @@ pressure relief valve	part	1	Pressure relief valve		RS Components	210-8443	https
 reducing fitting	part	1	Reducing fitting		Hans Joachim SCHNEIDER GmbH	EA244205I	https://shop.schneider-berlin.de/Technisches-Zubehoer/Installationsmaterial/Gewinde-Verschraubungen/Doppelnippel/Doppelnippel-Edelstahl-AISI-316-R-1-4-x-R-1-4.html			
 SmallRig articulated_arm	part	1	Articulated arm by SmallRig		SmallRig	2066B	https://smallrig.com.de/smallrig-articulating-arm-9-5-inches-2066.html			
 SmallRig super clamp	part	2	Super clamp by SmallRig		SmallRig	735	https://smallrig.com.de/smallrig-super-clamp-w-1-4-and-3-8-thread-735.html			
+soldering station	tool	1	soldering station							
 solenoid pinch valve	part	2	pinch valve		BIOZOL Diagnostica Vertrieb GmbH	075P2NC12-01S	https://www.lab-club.com/2-way-NC-pinch-valve-type-075P2NC12-01S			
 tube	part	1	Silicon Select tubing		BIOZOL Diagnostica Vertrieb GmbH	10025-01S	https://www.lab-club.com/Silicon-Select-tubing-type-10025-01S-50-feet-approx-152-m			
 Y-hose connector	part	1	hose connector		Norma Group	0770 8900 008	https://shop.normagroup.com/de_de/norma-sv-ys-0770.html			

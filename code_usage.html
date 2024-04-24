@@ -5,11 +5,11 @@
     <title>Construct your Airtrack setup !</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="../static/Logo/favicon.ico" />
-<link rel="icon" type="image/png" href="../static/Logo/favicon-32x32.png" sizes="32x32" />
-<link rel="icon" type="image/png" href="../static/Logo/favicon-16x16.png" sizes="16x16" />
+    <link rel="shortcut icon" href="./static/Logo/favicon.ico" />
+<link rel="icon" type="image/png" href="./static/Logo/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="./static/Logo/favicon-16x16.png" sizes="16x16" />
 
-    <link href="../static/style.css" rel="stylesheet">
+    <link href="./static/style.css" rel="stylesheet">
                   <style>
     .nav-list a.navhome, .sub-nav-list a.navhome{
       background-color: #f1502f !important;
@@ -61,87 +61,87 @@
                 </a>
                 <ul class="nav-list">
                 <li>
-    <a class="navhome" href="../">
+    <a class="navhome" href="./">
         Construct your Airtrack setup !
     </a>
 </li>
 <li class="not-active">
-    <a class="not-active" href="../airtable.html">
+    <a class="not-active" href="./airtable.html">
         Construction of the air table
     </a>
     </li>
 <li class="not-active">
-    <a class="not-active" href="../precut.html">
+    <a class="not-active" href="./precut.html">
         Airtable part 1: Precut of the aluminium profile strut
     </a>
     </li>
 <li class="not-active">
-    <a class="not-active" href="../predrill.html">
+    <a class="not-active" href="./predrill.html">
         Airtable part 2: Predrill
     </a>
     </li>
 <li class="not-active">
-    <a class="not-active" href="../glue.html">
+    <a class="not-active" href="./glue.html">
         Airtable part 3: Glueing and screwing
     </a>
     </li>
 <li class="not-active">
-    <a class="not-active" href="../basicframework.html">
+    <a class="not-active" href="./basicframework.html">
         Airtable part 4: Construction of the framework
     </a>
     </li>
 <li class="not-active">
-    <a class="not-active" href="../ballvalve.html">
+    <a class="not-active" href="./ballvalve.html">
         Airtable part 5: Insertion of ball valves
     </a>
     </li>
 <li class="not-active">
-    <a class="not-active" href="../air_flow.html">
+    <a class="not-active" href="./air_flow.html">
         Airtable part 6: Incoming air and pressure control
     </a>
     </li>
 <li class="not-active">
-    <a class="not-active" href="../headandcamera.html">
+    <a class="not-active" href="./headandcamera.html">
         Attaching the camera
     </a>
     </li>
 <li class="not-active">
-    <a class="not-active" href="../actuator_head.html">
+    <a class="not-active" href="./actuator_head.html">
         Construction of the linear actuator front
     </a>
     </li>
 <li class="not-active">
-    <a class="not-active" href="../rewardsystem.html">
+    <a class="not-active" href="./rewardsystem.html">
         Construction of the rewarding system
     </a>
     </li>
 <li class="not-active">
-    <a class="not-active" href="../headfixation.html">
+    <a class="not-active" href="./headfixation.html">
         Construction of the head fixation 
     </a>
     </li>
 <li class="not-active">
-    <a class="not-active" href="../3Dprinting.html">
+    <a class="not-active" href="./3Dprinting.html">
         Floating platform
     </a>
     </li>
 <li class="not-active">
-    <a class="not-active" href="../script_setup.html">
+    <a class="not-active" href="./script_setup.html">
         Uploading of scripts to the Arduino Uno
     </a>
     </li>
 <li class="not-active">
-    <a class="not-active" href="../PixyCamConfig.html">
+    <a class="not-active" href="./PixyCamConfig.html">
         Configuration of the PixyCam 2
     </a>
     </li>
 <li class="not-active">
-    <a class="not-active" href="../electronic.html">
+    <a class="not-active" href="./electronic.html">
         Set up of the electric system
     </a>
     </li>
-<li class="not-active">
-    <a class="not-active" href="../code_usage.html">
+<li class="active">
+    <a class="active" href="./code_usage.html">
         Arduino code guide
     </a>
     </li>
@@ -150,29 +150,57 @@
             </nav>
         </div>
         <div class="wrapper">
-    <h1 id="pressure-relief-valve">Pressure relief valve</h1>
-<p>Releases air if the pressure inside is to high</p>
-<h2 id="suppliers">Suppliers</h2>
-<table>
-<thead>
-<tr>
-<th>Supplier</th>
-<th>Part Number</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>RS Components</td>
-<td><a href="https://de.rs-online.com/web/p/pneumatik-druckentlastungsventile/2108443" target="_blank">210-8443</a></td>
-</tr>
-</tbody>
-</table>
+    <h1 id="arduino-code-guide">Arduino code guide</h1>
+<p>The provided code handles a complex workflow. It tracks the position of the mouse and provides positional feedback and rewards. This process requires several external components which are set up at the start of the script. If errors arise, it's most likely within this section. </p>
+<p>For debugging you need to implement several print messages and check which get outputted and which not.</p>
+<ul>
+<li>e.g.: Serial.print("Start sensor setup  ");</li>
+</ul>
+<h3 id="test-capacitive-sensor-mpr121" pagestep="pagestep">Test capacitive sensor MPR121</h3>
+<ul>
+<li>
+<p>To test the functionality of the MPR121 use the test.ino provided in the Github repository </p>
+</li>
+<li>
+<p>https://github.com/adafruit/Adafruit_MPR121/blob/master/examples/MPR121test/MPR121test.ino</p>
+</li>
+<li>
+<p>Depending on your wiring the MPR121 will register more or less contacts.</p>
+<ul>
+<li>These values can be found in the definitions.h file starting with line 97</li>
+</ul>
+</li>
+</ul>
+<h3 id="test-pixycam2" pagestep="pagestep">Test Pixycam2</h3>
+<ul>
+<li>
+<p>To test the Pixycam2 select within the Arduino IDE file -&gt; examples -&gt; Pixy2 -&gt; ccc_hello_world</p>
+</li>
+<li>
+<p>The program permanently prints if it detects a specified object and includes the parameters</p>
+</li>
+</ul>
+<h3 id="adjust-pixel-values-in-code" pagestep="pagestep">Adjust pixel values in code</h3>
+<p>Depending on the position of your camera you need to adjust the pixel values in the code.</p>
+<ul>
+<li>
+<p>The minimal and maximal x and y values specify the pixels in the camera view where the center of the platform is if the mouse is in a lane.</p>
+<ul>
+<li>These values can be found in the definitions.h file starting with line 111</li>
+</ul>
+</li>
+<li>
+<p>Use the "ccc_hello_world" to determine pixel values of the area</p>
+</li>
+</ul>
+<hr />
+<p><a href="electronic.html">Previous page</a></p>
     </div>
 </div>
 <footer class="site-footer">
     <div class="wrapper">
         <a target="_blank" rel="noopener noreferrer" href="https://gitbuilding.io">
-    <img class="icon" src="../static/Logo/GitBuilding500x.png" alt="GitBuilding logo">
+    <img class="icon" src="./static/Logo/GitBuilding500x.png" alt="GitBuilding logo">
     <span class="info">Documentation powered by GitBuilding</span>
 </a>
 
