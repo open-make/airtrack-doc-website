@@ -54,6 +54,9 @@ This guide is part of the output from the [open.make project](https://www.openma
 
 #### [Setup of the electronics](electronic.md){step}
 
+#### [Arduino code guide](code_usage.md){step}
+
+
 
 
 
@@ -119,6 +122,10 @@ Some parts are more difficult to construct than others. Mainly the central plexi
 
 If you have access to a workshop, we recommend you to get the air table constructed there. In general, it's better to have a large fraction of the Airtrack manufactured professionally. 
 
+
+### Disclaimer: Arduino code complexity
+
+I order to fully use the airtrack, you need to debug and write code for the Arduino. The provided code works but you need to adjust it at some places to adapt it to your circumstances. 
 
 
 ## Size and struts

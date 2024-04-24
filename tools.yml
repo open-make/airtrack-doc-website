@@ -84,4 +84,9 @@ drillrig:
 
 sandingsponge:
     Name: sanding sponge
-    Description: a sponge to sand sharp metall endings
+    Description: A sponge to sand sharp metall endings
+
+
+soldering:
+    Name: soldering station
+    Description: A soldering station for small components

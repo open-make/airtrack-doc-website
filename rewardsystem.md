@@ -104,6 +104,11 @@ Place one [solenoid pinch valve](electronic.yml#pv){Qty:2} at the top of each ve
 - Place the [solenoid pinch valve](electronic.yml#pv) inside the [pinch valve clamp](electronic.yml#pv_clamp).
 
 
+
+
+
+
+
 ##  Tube placement {pagestep}
 
 Finally you need to path the tubing from you source of reward through the solenoid pinch valve to the needle at the linear actuator front.

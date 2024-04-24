@@ -1,12 +1,6 @@
 # Configuration of the PixyCam 2
 
->i **Note** 
->i
->i  It's recommend to: 
->i
->i - Upload the preferences to the PixyCam before connecting it
->i 
->i - Watch the video and the block detection while running the experiment
+
 
 The PixyCam needs to be configured in order to work with the scripts on the Arduino. The Pixymon software is able to safe parameters at the PixyCam. 
 
@@ -60,6 +54,11 @@ Use the lightning settings in the  "Pixy Parameter" submenu to optimize the visi
 The detection configuration will be saved on the PixyCam and can be used with the Arduino scripts.
 
 
+>i **Note** 
+>i
+>i  It's recommend to: 
+>i 
+>i - Watch the video and the block detection while running the experiment
 
 
 
