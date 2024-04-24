@@ -111,7 +111,14 @@ The computational tasks are performed with a Arduino Uno microcontroller.
 
 
 
-![](models/airtrack_480x366001.stl){color: grey}
+![](models/airtrack_480x366.stl){color: grey}
+
+### STEP file download of hole Airtrack
+
+[Download of STEP file](airtable_480x366.step.zip)
+
+
+
 
 
 
