@@ -154,9 +154,9 @@
 <p>The provided code handles a complex workflow. It tracks the position of the mouse and provides positional feedback and rewards. This process requires several external components which are set up at the start of the script. If errors arise, it's most likely within this section. </p>
 <p>For debugging you need to implement several print messages and check which get outputted and which not.</p>
 <ul>
-<li>e.g.: Serial.print("Start sensor setup  ");</li>
+<li>Code example for printing: Serial.print("Start sensor setup  ");</li>
 </ul>
-<h3 id="test-capacitive-sensor-mpr121" pagestep="pagestep">Test capacitive sensor MPR121</h3>
+<h3 id="capacitive-sensor-mpr121" pagestep="pagestep">Capacitive sensor MPR121</h3>
 <ul>
 <li>
 <p>To test the functionality of the MPR121 use the test.ino provided in the Github repository </p>
@@ -165,7 +165,7 @@
 <p>https://github.com/adafruit/Adafruit_MPR121/blob/master/examples/MPR121test/MPR121test.ino</p>
 </li>
 <li>
-<p>Depending on your wiring the MPR121 will register more or less contacts.</p>
+<p>Depending on your wiring the MPR121 will register more or less contacts. You might need to change the thresholds.</p>
 <ul>
 <li>These values can be found in the definitions.h file starting with line 97</li>
 </ul>
@@ -181,7 +181,7 @@
 </li>
 </ul>
 <h3 id="adjust-pixel-values-in-code" pagestep="pagestep">Adjust pixel values in code</h3>
-<p>Depending on the position of your camera you need to adjust the pixel values in the code.</p>
+<p>Depending on the position of your camera you need to adjust the pixel values for the tracked platform in the code.</p>
 <ul>
 <li>
 <p>The minimal and maximal x and y values specify the pixels in the camera view where the center of the platform is if the mouse is in a lane.</p>
@@ -190,7 +190,16 @@
 </ul>
 </li>
 <li>
-<p>Use the "ccc_hello_world" to determine pixel values of the area</p>
+<p>Use the "ccc_hello_world" to determine pixel values of the area </p>
+</li>
+</ul>
+<h3 id="linear-actuator" pagestep="pagestep">Linear actuator</h3>
+<ul>
+<li>
+<p>The airtrack code Github repository contains a linear actuator moving file which also can be used to test it</p>
+</li>
+<li>
+<p>The default mode of the code is to pull</p>
 </li>
 </ul>
 <hr />

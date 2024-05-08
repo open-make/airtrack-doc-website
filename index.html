@@ -200,17 +200,28 @@ The position tracking was done with a Pixy camera (CMUcam5 Image Sensor) by dete
 The table is mounted on aluminium legs to reach the desired height and space for the camera.
 On the framework is a lot space to place e.g. further tracking devices.
 The computational tasks are performed with a Arduino Uno microcontroller.</p>
-<noscript><a href="models/airtrack_480x366001.stl"></a></noscript>
-<p><gb3d-viewer src="models/airtrack_480x366001.stl" color="grey"></gb3d-viewer></p>
+<h2 id="size-and-struts">Size and struts</h2>
+<p>The amount of strut profiles you need depends on the hight of the table, and how well you can cut the 2 m strut profiles into pieces. For the default table (height = 400 mm) it takes 6m (= 3 pieces). It is best practice to have more than you actually need, such that you get spares if the struts are incorrectly cut. </p>
+<noscript><a href="models/airtrack_480x366.stl"></a></noscript>
+<p><gb3d-viewer src="models/airtrack_480x366.stl" color="grey"></gb3d-viewer></p>
+<h3 id="download-step-file-of-hole-airtrack">Download STEP file of hole Airtrack</h3>
+<div class="info-block">
+<p><strong>Download</strong> </p>
+<p><a href="airtable_480x366.step.zip" title="">STEP file</a></p>
+</div>
+<div class="info-block">
+<p><strong>Note</strong> </p>
+<p>The STL and STEP files vary in the used components at some places to this guide</p>
+</div>
 <h3 id="disclaimer-construction-complexity">Disclaimer: Construction complexity</h3>
 <p>Some parts are more difficult to construct than others. Mainly the central plexiglass box is difficult to build with an improvised work place. Precise cutting of the plexiglass is needed to ensure airtight manufacturing. Further, a workshop might use UV glue for the box which provides a higher quality.</p>
 <p>If you have access to a workshop, we recommend you to get the air table constructed there. In general, it's better to have a large fraction of the Airtrack manufactured professionally. </p>
 <h3 id="disclaimer-arduino-code-complexity">Disclaimer: Arduino code complexity</h3>
-<p>I order to fully use the airtrack, you need to debug and write code for the Arduino. The provided code works but you need to adjust it at some places to adapt it to your circumstances. </p>
-<h2 id="size-and-struts">Size and struts</h2>
-<p>The amount of strut profiles you need depends on the hight of the table, and how well you can cut the 2 m strut profiles into pieces. For the default table (height = 400 mm) it takes 6m (= 3 pieces). It is best practice to have more than you actually need, such that you get spares if the struts are incorrectly cut. </p>
+<p>I order to fully use the Airtrack, you need to debug and write code for the Arduino. The provided code works but you need to adjust it at some places to adapt it to your circumstances. </p>
+<h3 id="advice-further-development">Advice: Further development</h3>
+<p>If you want to use the base hardware of the Airtrack and want to use it for other research questions, we recommend you to have a good understanding of the Arduino and possible peripherals. Besides you need sufficient coding experience with C++ (mostly used) to develop a good working code. </p>
 <p>References: <a href="https://pubmed.ncbi.nlm.nih.gov/27486102/" target="_blank" title="">Nashaat MA, Oraby H, Sachdev RN, Winter Y, Larkum ME. Air-Track: a real-world floating environment for active sensing in head-fixed mice. J Neurophysiol. 116(4):1542-1553, 2016</a></p>
-<h4 id="latest-change-30012024">Latest change: 30.01.2024</h4>
+<h4 id="latest-change-07052024">Latest change: 07.05.2024</h4>
 <hr />
 <p><a href="index_BOM.html">Next page</a></p>
     </div>
