@@ -109,17 +109,31 @@ On the framework is a lot space to place e.g. further tracking devices.
 The computational tasks are performed with a Arduino Uno microcontroller.
 
 
+## Size and struts
+
+The amount of strut profiles you need depends on the hight of the table, and how well you can cut the 2 m strut profiles into pieces. For the default table (height = 400 mm) it takes 6m (= 3 pieces). It is best practice to have more than you actually need, such that you get spares if the struts are incorrectly cut. 
 
 
 ![](models/airtrack_480x366.stl){color: grey}
 
-### STEP file download of hole Airtrack
-
-[Download of STEP file](airtable_480x366.step.zip)
+### Download STEP file of hole Airtrack
 
 
 
 
+
+>i **Download** 
+>i
+>i [STEP file](airtable_480x366.step.zip)
+
+
+
+
+
+
+>i **Note** 
+>i
+>i The STL and STEP files vary in the used components at some places to this guide
 
 
 
@@ -132,12 +146,14 @@ If you have access to a workshop, we recommend you to get the air table construc
 
 ### Disclaimer: Arduino code complexity
 
-I order to fully use the airtrack, you need to debug and write code for the Arduino. The provided code works but you need to adjust it at some places to adapt it to your circumstances. 
+I order to fully use the Airtrack, you need to debug and write code for the Arduino. The provided code works but you need to adjust it at some places to adapt it to your circumstances. 
 
 
-## Size and struts
+### Advice: Further development
 
-The amount of strut profiles you need depends on the hight of the table, and how well you can cut the 2 m strut profiles into pieces. For the default table (height = 400 mm) it takes 6m (= 3 pieces). It is best practice to have more than you actually need, such that you get spares if the struts are incorrectly cut. 
+If you want to use the base hardware of the Airtrack and want to use it for other research questions, we recommend you to have a good understanding of the Arduino and possible peripherals. Besides you need sufficient coding experience with C++ (mostly used) to develop a good working code. 
+
+
  
 
 References: [Nashaat MA, Oraby H, Sachdev RN, Winter Y, Larkum ME. Air-Track: a real-world floating environment for active sensing in head-fixed mice. J Neurophysiol. 116(4):1542-1553, 2016](https://pubmed.ncbi.nlm.nih.gov/27486102/)
@@ -145,4 +161,4 @@ References: [Nashaat MA, Oraby H, Sachdev RN, Winter Y, Larkum ME. Air-Track: a 
 
 
 
-#### Latest change: 30.01.2024
+#### Latest change: 07.05.2024

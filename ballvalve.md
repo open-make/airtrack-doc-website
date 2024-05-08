@@ -24,7 +24,7 @@ If your ball sleeve in the ball fixation is a bit lose, you can use some [Glue (
 The balls must be able to move easily in these sleeves, but must not lose too much air, otherwise the valves will leak. Therefore you need to check which 3D printed ball fixation and which ball fit together the best. Additionally it's important to clean the inside of the sleeve from 3D printing artifacts. Most likely are the printed sleeves  to thin for the ball, therefore you need a [7mm plexiglas drill](tools.yml#7mmdrill){Qty: 1, Cat: Tool} to widen it. Since this step requires a high degree of precision, a [drill rig](tools.yml#drillrig){Qty: 1, Cat: Tool} and good fixation are needed. 
 
  - The  [drill rig](tools.yml#drillrig){Qty: 1, Cat: Tool} is required as it allows the drilling depth to be adjusted so that all balls have the same height under pressure. 
- - Recommended remaining depth after drilling: 1mm
+ - Recommended remaining depth after drilling when drilling from the thiner to the wider part of the sleeve: 1mm
 
 
 ![](models/ball_fixation001.stl){color: grey}
