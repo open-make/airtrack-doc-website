@@ -1,4 +1,4 @@
-# Set up of the electric system
+# Electronics part 1: Set up of the wiring
 
 {{BOM}}
 
@@ -10,7 +10,7 @@
 
 - To clean up the pathing of cables you can use cable ties like, e.g. these [cable ties](connectors.yml#cable_tie){Qty:many} and fixate with that the cables at the [aluminium strut profile](framework.yml#20x20Rod).
 
--  You can use a large breadboard to keep a structure between the [Arduino Uno](electronic.yml#Arduino_Uno), [capacitive sensor MPR121](electronic.yml#mpr121){Qty:1}, [Active Buzzer](electronic.yml#Keyes_KY-012){Qty:1} and [H bridge L293D](electronic.yml#L293D){Qty:1}.
+-  You can use a large breadboard to keep a structure between the [Arduino Uno](electronic.yml#Arduino_Uno){Qty:1}, [capacitive sensor MPR121](electronic.yml#mpr121){Qty:1}, [Active Buzzer](electronic.yml#Keyes_KY-012){Qty:1} and [H bridge L293D](electronic.yml#L293D){Qty:1}.
 
 #### Wiring configuration
 ![](images/arduino_schematic.png)
@@ -43,6 +43,8 @@
 
 - You should use the SPI cable to connect the [PixyCam2](electronic.yml#PixyCam) with the Arduino.
     - It should be included in the delivery
+
+- The PixyCam needs to be connected the hole time for power supply
 
 
 #### 12V Power supply

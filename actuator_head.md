@@ -1,4 +1,4 @@
-# Construction of the linear actuator front
+# Peripherals part 2: Construction of the linear actuator front
 
 Within this section a small hold for needles is built. It's placed at the front of the linear actuator and therefore can be moved towards the mouse if rewards should be provided. 
 

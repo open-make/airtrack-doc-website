@@ -1,14 +1,10 @@
-# Uploading of scripts to the Arduino Uno
+# Electronics part 2: Uploading of scripts to the Arduino Uno
 
 
->i **Note** 
->i
->i It's recommend to upload the scripts to the Arduino Uno before connecting it. 
 
 
-{{BOM}}
 
-Within this section you're going to upload the scripts to the [Arduino Uno](electronic.yml#Arduino_Uno){Qty:1}.
+Within this section you're going to upload the scripts to the [Arduino Uno](electronic.yml#Arduino_Uno).
 
 
 ## Source of the code
@@ -31,5 +27,8 @@ https://github.com/open-make/airtrack-code
 In the Arduino IDE output section are continuously print outputs in the serial monitor tab while running the experiment. These prints can be saved in a text file to store the experimental data. 
 
 
+>i **Note** 
+>i
+>i The scripts for PixyCam1 are also included in the Github
 
 

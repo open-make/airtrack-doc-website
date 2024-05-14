@@ -1,10 +1,13 @@
-# Arduino code guide
+# Electronics part 4: Arduino code guide
 
 The provided code handles a complex workflow. It tracks the position of the mouse and provides positional feedback and rewards. This process requires several external components which are set up at the start of the script. If errors arise, it's most likely within this section. 
 
 For debugging you need to implement several print messages and check which get outputted and which not.
 
--  Code example for printing: Serial.print("Start sensor setup  ");
+- There are currently the main important prints to check the functionality implemented. You can enable them by setting the variable test_run to "true". This variable is located at the top of the ".ino" files. If all messages get printed, the set up should work as intended. 
+
+- You might need some extra debugging if unexpected errors occur.
+    -  Code example for additional printing: Serial.print("Start sensor setup  ");
 
 
 

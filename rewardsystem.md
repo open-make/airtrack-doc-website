@@ -1,4 +1,4 @@
-# Construction of the rewarding system
+# Peripherals part 3: Construction of the rewarding system
 
 We will fix here a linear actuator that will bring the reward to the animal. The reward itself is delivered with two solenoid valves.
 

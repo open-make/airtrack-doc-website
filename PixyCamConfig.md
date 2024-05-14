@@ -1,4 +1,4 @@
-# Configuration of the PixyCam 2
+# Electronics part 3: Configuration of the PixyCam 2
 
 
 
@@ -56,11 +56,11 @@ The detection configuration will be saved on the PixyCam and can be used with th
 
 >i **Note** 
 >i
->i  It's recommend to: 
->i 
->i - Watch the video and the block detection while running the experiment
-
-
+>i  It's recommend to watch the video and the block detection while running the experiment
+>i
+>i  **Reminder**
+>i
+>i  You must have the camera connected to a PC during the usage.
 
 
 

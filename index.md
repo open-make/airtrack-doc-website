@@ -8,6 +8,11 @@ The Airtrack was first published in 2016, with a paper titled [Air-Track: a real
 It was developed by the authors of the paper with the help of the Charité workshop (Alexander Schill).
 This documentation website was created by Fabio Reeh and reviewed by Julien Colomb, based on the existing documentation.
 
+
+>!! **Warning** 
+>!!
+>!! original picture here
+
 ![visualisation of an airtrack table with a platform with a 4 arms maze. In the center, an animal head fixation setup is visible, while a reward system is fixed in the front ot the maze and a camera is fixed below the table.](images/airtrack_platform_small.jpg)
 
 
@@ -33,6 +38,8 @@ This guide is part of the output from the [open.make project](https://www.openma
 
 #### [Air flow and pressure control](air_flow.md){step}
 
+#### [Construction of the peripherals](peripherals.md){step}
+
 
 #### [Construction of platform tracking](headandcamera.md){step}
 
@@ -48,11 +55,15 @@ This guide is part of the output from the [open.make project](https://www.openma
 
 #### [Floating platform](3Dprinting.md){step}
 
+#### [Setup of the electronics](setup_electronic.md){step}
+
+#### [Setup of the wiring](electronic.md){step}
+
 #### [Installation of scripts](script_setup.md){step}
 
 #### [Configuration of PixyCam](PixyCamConfig.md){step}
 
-#### [Setup of the electronics](electronic.md){step}
+
 
 #### [Arduino code guide](code_usage.md){step}
 
@@ -119,12 +130,20 @@ The amount of strut profiles you need depends on the hight of the table, and how
 ### Download STEP file of hole Airtrack
 
 
+The STL file above and the CAD files of the ZIP folder contain partly different components. The main changes:
+
+- Platform borders
+- Headfixation
+- Camera mount
+- No second framework ring
 
 
 
 >i **Download** 
 >i
->i [STEP file](airtable_480x366.step.zip)
+>i Download all available CAD files and extra documents
+>i
+>i [ZIP file](airtable_480x366.zip)
 
 
 

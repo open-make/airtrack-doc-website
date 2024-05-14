@@ -1,4 +1,4 @@
-# Attaching the camera
+# Peripherals part 1: Attaching the camera
 
 This page presents how to set a pixie camera below the setup. The camera should be far enough to record the whole bottom of the air table box. 
 {{BOM}}

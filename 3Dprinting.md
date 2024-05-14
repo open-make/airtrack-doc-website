@@ -1,4 +1,4 @@
-# Floating platform
+# Peripherals part 5: Floating platform
 
 
 {{BOM}}
