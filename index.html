@@ -102,48 +102,58 @@
     </a>
     </li>
 <li class="not-active">
+    <a class="not-active" href="./peripherals.html">
+        Construction of the peripherals
+    </a>
+    </li>
+<li class="not-active">
     <a class="not-active" href="./headandcamera.html">
-        Attaching the camera
+        Peripherals part 1: Attaching the camera
     </a>
     </li>
 <li class="not-active">
     <a class="not-active" href="./actuator_head.html">
-        Construction of the linear actuator front
+        Peripherals part 2: Construction of the linear actuator front
     </a>
     </li>
 <li class="not-active">
     <a class="not-active" href="./rewardsystem.html">
-        Construction of the rewarding system
+        Peripherals part 3: Construction of the rewarding system
     </a>
     </li>
 <li class="not-active">
     <a class="not-active" href="./headfixation.html">
-        Construction of the head fixation 
+        Peripherals part 4: Construction of the head fixation 
     </a>
     </li>
 <li class="not-active">
     <a class="not-active" href="./3Dprinting.html">
-        Floating platform
+        Peripherals part 5: Floating platform
     </a>
     </li>
 <li class="not-active">
-    <a class="not-active" href="./script_setup.html">
-        Uploading of scripts to the Arduino Uno
-    </a>
-    </li>
-<li class="not-active">
-    <a class="not-active" href="./PixyCamConfig.html">
-        Configuration of the PixyCam 2
+    <a class="not-active" href="./setup_electronic.html">
+        Set up of the electronics
     </a>
     </li>
 <li class="not-active">
     <a class="not-active" href="./electronic.html">
-        Set up of the electric system
+        Electronics part 1: Set up of the wiring
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./script_setup.html">
+        Electronics part 2: Uploading of scripts to the Arduino Uno
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./PixyCamConfig.html">
+        Electronics part 3: Configuration of the PixyCam 2
     </a>
     </li>
 <li class="not-active">
     <a class="not-active" href="./code_usage.html">
-        Arduino code guide
+        Electronics part 4: Arduino code guide
     </a>
     </li>
 
@@ -155,6 +165,10 @@
 <p>The Airtrack was first published in 2016, with a paper titled <a href="https://doi.org/10.1152/jn.00088.2016" target="_blank" title="">Air-Track: a real-world floating environment for active sensing in head-fixed mice</a>.
 It was developed by the authors of the paper with the help of the Charité workshop (Alexander Schill).
 This documentation website was created by Fabio Reeh and reviewed by Julien Colomb, based on the existing documentation.</p>
+<div class="warning-block">
+<p><strong>Warning</strong> </p>
+<p>original picture here</p>
+</div>
 <p><img alt="visualisation of an airtrack table with a platform with a 4 arms maze. In the center, an animal head fixation setup is visible, while a reward system is fixed in the front ot the maze and a camera is fixed below the table." src="images/airtrack_platform_small.jpg" title="" /></p>
 <p>This guide is part of the output from the <a href="https://www.openmake.de/" target="_blank" title="">open.make project</a> (see website for more information, including funding information). This project aims to further establish open hardware in academic research, and support
  scientist in the creation of FAIR research hardware.</p>
@@ -166,14 +180,16 @@ This documentation website was created by Fabio Reeh and reviewed by Julien Colo
 <h4 id="construction-of-the-basic-framework"><a href="basicframework.html" title="">Construction of the basic framework</a></h4>
 <h4 id="insertion-of-ball-valves"><a href="ballvalve.html" title="">Insertion of ball valves</a></h4>
 <h4 id="air-flow-and-pressure-control"><a href="air_flow.html" title="">Air flow and pressure control</a></h4>
+<h4 id="construction-of-the-peripherals"><a href="peripherals.html" title="">Construction of the peripherals</a></h4>
 <h4 id="construction-of-platform-tracking"><a href="headandcamera.html" title="">Construction of platform tracking</a></h4>
 <h4 id="construction-of-linear-actuator-front"><a href="actuator_head.html" title="">Construction of linear actuator front</a></h4>
 <h4 id="construction-of-the-rewarding-system"><a href="rewardsystem.html" title="">Construction of the rewarding system</a></h4>
 <h4 id="construction-of-the-head-fixation"><a href="headfixation.html" title="">Construction of the head fixation</a></h4>
 <h4 id="floating-platform"><a href="3Dprinting.html" title="">Floating platform</a></h4>
+<h4 id="setup-of-the-electronics"><a href="setup_electronic.html" title="">Setup of the electronics</a></h4>
+<h4 id="setup-of-the-wiring"><a href="electronic.html" title="">Setup of the wiring</a></h4>
 <h4 id="installation-of-scripts"><a href="script_setup.html" title="">Installation of scripts</a></h4>
 <h4 id="configuration-of-pixycam"><a href="PixyCamConfig.html" title="">Configuration of PixyCam</a></h4>
-<h4 id="setup-of-the-electronics"><a href="electronic.html" title="">Setup of the electronics</a></h4>
 <h4 id="arduino-code-guide"><a href="code_usage.html" title="">Arduino code guide</a></h4>
 <h4 id="list-of-all-necessary-components"><a href="index_BOM.html" title="HTML">List of all necessary components</a> (<a href="index_BOM.html"><img alt="HTML" class="smallicon" src="static/Icons/html.png" title="HTML Bill of Materials" /></a>, <a href="index_BOM.csv"><img alt="CSV" class="smallicon" src="static/Icons/csv.png" title="CSV Bill of Materials" /></a>)</h4>
 <h2 id="about-the-airtrack">About the Airtrack</h2>
@@ -205,9 +221,17 @@ The computational tasks are performed with a Arduino Uno microcontroller.</p>
 <noscript><a href="models/airtrack_480x366.stl"></a></noscript>
 <p><gb3d-viewer src="models/airtrack_480x366.stl" color="grey"></gb3d-viewer></p>
 <h3 id="download-step-file-of-hole-airtrack">Download STEP file of hole Airtrack</h3>
+<p>The STL file above and the CAD files of the ZIP folder contain partly different components. The main changes:</p>
+<ul>
+<li>Platform borders</li>
+<li>Headfixation</li>
+<li>Camera mount</li>
+<li>No second framework ring</li>
+</ul>
 <div class="info-block">
 <p><strong>Download</strong> </p>
-<p><a href="airtable_480x366.step.zip" title="">STEP file</a></p>
+<p>Download all available CAD files and extra documents</p>
+<p><a href="airtable_480x366.zip" title="">ZIP file</a></p>
 </div>
 <div class="info-block">
 <p><strong>Note</strong> </p>

@@ -101,48 +101,58 @@
     </a>
     </li>
 <li class="not-active">
+    <a class="not-active" href="./peripherals.html">
+        Construction of the peripherals
+    </a>
+    </li>
+<li class="not-active">
     <a class="not-active" href="./headandcamera.html">
-        Attaching the camera
+        Peripherals part 1: Attaching the camera
     </a>
     </li>
 <li class="not-active">
     <a class="not-active" href="./actuator_head.html">
-        Construction of the linear actuator front
+        Peripherals part 2: Construction of the linear actuator front
     </a>
     </li>
 <li class="not-active">
     <a class="not-active" href="./rewardsystem.html">
-        Construction of the rewarding system
+        Peripherals part 3: Construction of the rewarding system
     </a>
     </li>
 <li class="not-active">
     <a class="not-active" href="./headfixation.html">
-        Construction of the head fixation 
+        Peripherals part 4: Construction of the head fixation 
     </a>
     </li>
 <li class="not-active">
     <a class="not-active" href="./3Dprinting.html">
-        Floating platform
+        Peripherals part 5: Floating platform
     </a>
     </li>
 <li class="not-active">
-    <a class="not-active" href="./script_setup.html">
-        Uploading of scripts to the Arduino Uno
-    </a>
-    </li>
-<li class="not-active">
-    <a class="not-active" href="./PixyCamConfig.html">
-        Configuration of the PixyCam 2
+    <a class="not-active" href="./setup_electronic.html">
+        Set up of the electronics
     </a>
     </li>
 <li class="active">
     <a class="active" href="./electronic.html">
-        Set up of the electric system
+        Electronics part 1: Set up of the wiring
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./script_setup.html">
+        Electronics part 2: Uploading of scripts to the Arduino Uno
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./PixyCamConfig.html">
+        Electronics part 3: Configuration of the PixyCam 2
     </a>
     </li>
 <li class="not-active">
     <a class="not-active" href="./code_usage.html">
-        Arduino code guide
+        Electronics part 4: Arduino code guide
     </a>
     </li>
 
@@ -150,11 +160,12 @@
             </nav>
         </div>
         <div class="wrapper">
-    <h1 id="set-up-of-the-electric-system">Set up of the electric system</h1>
+    <h1 id="electronics-part-1-set-up-of-the-wiring">Electronics part 1: Set up of the wiring</h1>
 <div class="pagebom">
 <h3 id="part">Parts</h3>
 <ul>
 <li>1 <a Class="bom" href="electronic/Keyes_KY-012.html">Active Buzzer</a> </li>
+<li>1 <a Class="bom" href="electronic/Arduino_Uno.html">Arduino Uno</a> </li>
 <li>many <a Class="bom" href="connectors/cable_tie.html">cable ties</a> </li>
 <li>1 <a Class="bom" href="electronic/mpr121.html">capacitive sensor MPR121</a> </li>
 <li>some <a Class="bom" href="electronic/circuit_board.html">circuit board</a> </li>
@@ -178,7 +189,7 @@
 <p>To clean up the pathing of cables you can use cable ties like, e.g. these <a href="connectors/cable_tie.html">cable ties</a> and fixate with that the cables at the <a href="framework/20x20Rod.html" title="">aluminium strut profile</a>.</p>
 </li>
 <li>
-<p>You can use a large breadboard to keep a structure between the <a href="electronic/Arduino_Uno.html" title="">Arduino Uno</a>, <a href="electronic/mpr121.html">capacitive sensor MPR121</a>, <a href="electronic/Keyes_KY-012.html">Active Buzzer</a> and <a href="electronic/L293D.html">H bridge L293D</a>.</p>
+<p>You can use a large breadboard to keep a structure between the <a href="electronic/Arduino_Uno.html">Arduino Uno</a>, <a href="electronic/mpr121.html">capacitive sensor MPR121</a>, <a href="electronic/Keyes_KY-012.html">Active Buzzer</a> and <a href="electronic/L293D.html">H bridge L293D</a>.</p>
 </li>
 </ul>
 <h4 id="wiring-configuration">Wiring configuration</h4>
@@ -210,9 +221,14 @@
 </ul>
 <h4 id="pixycam2"><a href="electronic/PixyCam.html" title="">PixyCam2</a></h4>
 <ul>
-<li>You should use the SPI cable to connect the <a href="electronic/PixyCam.html" title="">PixyCam2</a> with the Arduino.<ul>
+<li>
+<p>You should use the SPI cable to connect the <a href="electronic/PixyCam.html" title="">PixyCam2</a> with the Arduino.</p>
+<ul>
 <li>It should be included in the delivery</li>
 </ul>
+</li>
+<li>
+<p>The PixyCam needs to be connected the hole time for power supply</p>
 </li>
 </ul>
 <h4 id="12v-power-supply">12V Power supply</h4>
@@ -236,7 +252,7 @@
 <p>The buzzer and LED in the wiring configuration are components of the first use case and may not be required for your set up. 
 Because the provided code is also from the first use case, both components still get mentioned here.</p>
 <hr />
-<p><a href="PixyCamConfig.html">Previous page</a> | <a href="code_usage.html">Next page</a></p>
+<p><a href="setup_electronic.html">Previous page</a> | <a href="script_setup.html">Next page</a></p>
     </div>
 </div>
 <footer class="site-footer">

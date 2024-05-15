@@ -101,48 +101,58 @@
     </a>
     </li>
 <li class="not-active">
+    <a class="not-active" href="./peripherals.html">
+        Construction of the peripherals
+    </a>
+    </li>
+<li class="not-active">
     <a class="not-active" href="./headandcamera.html">
-        Attaching the camera
+        Peripherals part 1: Attaching the camera
     </a>
     </li>
 <li class="not-active">
     <a class="not-active" href="./actuator_head.html">
-        Construction of the linear actuator front
+        Peripherals part 2: Construction of the linear actuator front
     </a>
     </li>
 <li class="not-active">
     <a class="not-active" href="./rewardsystem.html">
-        Construction of the rewarding system
+        Peripherals part 3: Construction of the rewarding system
     </a>
     </li>
 <li class="not-active">
     <a class="not-active" href="./headfixation.html">
-        Construction of the head fixation 
+        Peripherals part 4: Construction of the head fixation 
     </a>
     </li>
 <li class="not-active">
     <a class="not-active" href="./3Dprinting.html">
-        Floating platform
+        Peripherals part 5: Floating platform
     </a>
     </li>
 <li class="not-active">
-    <a class="not-active" href="./script_setup.html">
-        Uploading of scripts to the Arduino Uno
-    </a>
-    </li>
-<li class="not-active">
-    <a class="not-active" href="./PixyCamConfig.html">
-        Configuration of the PixyCam 2
+    <a class="not-active" href="./setup_electronic.html">
+        Set up of the electronics
     </a>
     </li>
 <li class="not-active">
     <a class="not-active" href="./electronic.html">
-        Set up of the electric system
+        Electronics part 1: Set up of the wiring
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./script_setup.html">
+        Electronics part 2: Uploading of scripts to the Arduino Uno
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./PixyCamConfig.html">
+        Electronics part 3: Configuration of the PixyCam 2
     </a>
     </li>
 <li class="active">
     <a class="active" href="./code_usage.html">
-        Arduino code guide
+        Electronics part 4: Arduino code guide
     </a>
     </li>
 
@@ -150,11 +160,19 @@
             </nav>
         </div>
         <div class="wrapper">
-    <h1 id="arduino-code-guide">Arduino code guide</h1>
+    <h1 id="electronics-part-4-arduino-code-guide">Electronics part 4: Arduino code guide</h1>
 <p>The provided code handles a complex workflow. It tracks the position of the mouse and provides positional feedback and rewards. This process requires several external components which are set up at the start of the script. If errors arise, it's most likely within this section. </p>
 <p>For debugging you need to implement several print messages and check which get outputted and which not.</p>
 <ul>
-<li>Code example for printing: Serial.print("Start sensor setup  ");</li>
+<li>
+<p>There are currently the main important prints to check the functionality implemented. You can enable them by setting the variable test_run to "true". This variable is located at the top of the ".ino" files. If all messages get printed, the set up should work as intended. </p>
+</li>
+<li>
+<p>You might need some extra debugging if unexpected errors occur.</p>
+<ul>
+<li>Code example for additional printing: Serial.print("Start sensor setup  ");</li>
+</ul>
+</li>
 </ul>
 <h3 id="capacitive-sensor-mpr121" pagestep="pagestep">Capacitive sensor MPR121</h3>
 <ul>
@@ -203,7 +221,7 @@
 </li>
 </ul>
 <hr />
-<p><a href="electronic.html">Previous page</a></p>
+<p><a href="PixyCamConfig.html">Previous page</a></p>
     </div>
 </div>
 <footer class="site-footer">
