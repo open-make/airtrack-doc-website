@@ -141,15 +141,13 @@ The STL file above and the CAD files of the ZIP folder contain partly different 
 
 >i **Download** 
 >i
->i Download all available CAD files and extra documents
+>i Download all available CAD files and extra documents:
+>i
+>i Contains: STL file, CAD Parasolid file, CAD for SolidWorks viewer, STEP file, PDF with some technical aspects
+>i
 >i
 >i [ZIP file](airtable_480x366.zip)
-
-
-
-
-
-
+>i
 >i **Note** 
 >i
 >i The STL and STEP files vary in the used components at some places to this guide

@@ -8,7 +8,7 @@ Within this section you're going to upload the scripts to the [Arduino Uno](elec
 
 
 ## Source of the code
-https://github.com/open-make/airtrack-code
+https://github.com/open-make/code-airtrack
 
 ## Setup of the Arduino Uno 
 
