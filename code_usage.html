@@ -165,12 +165,29 @@
 <p>For debugging you need to implement several print messages and check which get outputted and which not.</p>
 <ul>
 <li>
-<p>There are currently the main important prints to check the functionality implemented. You can enable them by setting the variable test_run to "true". This variable is located at the top of the ".ino" files. If all messages get printed, the set up should work as intended. </p>
+<p>There are currently the main important prints to check the functionality implemented. You can enable them by setting the variable test_run to "true". This variable is located at the top of the ".ino" files. </p>
+<ul>
+<li>If all messages get printed, the set up should work as intended. </li>
+<li>Additionally, you can test it by moving the platform until the prints state to be in the reward lane. These prints are always enabled. </li>
+</ul>
 </li>
 <li>
 <p>You might need some extra debugging if unexpected errors occur.</p>
 <ul>
 <li>Code example for additional printing: Serial.print("Start sensor setup  ");</li>
+</ul>
+</li>
+</ul>
+<h3 id="test-run" pagestep="pagestep">Test run</h3>
+<p>You can test the functionality by moving the platform until the prints state to be in the reward lane. These prints are always enabled. </p>
+<ul>
+<li>
+<p>Imagine to be a head fixed mouse while moving the platform. </p>
+</li>
+<li>
+<p>Depending on the choice of the lick spot a reward should be provided or not. </p>
+<ul>
+<li>You can view the hole workflow in the Paper   <a href="https://doi.org/10.1152/jn.00088.2016" target="_blank" title="">Air-Track: a real-world floating environment for active sensing in head-fixed mice</a> in figure 3.</li>
 </ul>
 </li>
 </ul>
