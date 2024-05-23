@@ -35,7 +35,7 @@ You can test the functionality by moving the platform until the prints state to 
 - https://github.com/adafruit/Adafruit_MPR121/blob/master/examples/MPR121test/MPR121test.ino
 
 - Depending on your wiring the MPR121 will register more or less contacts. You might need to change the thresholds.
-    - These values can be found in the definitions.h file starting with line 97
+    - These values can be found in the definitions.h file starting with "static const long int SAME_SENSOR_MAX_THRESHOLD = 500;"
 
 
 ### Test Pixycam2 {pagestep}
@@ -50,7 +50,7 @@ You can test the functionality by moving the platform until the prints state to 
 Depending on the position of your camera you need to adjust the pixel values for the tracked platform in the code.
 
 - The minimal and maximal x and y values specify the pixels in the camera view where the center of the platform is if the mouse is in a lane.
-    - These values can be found in the definitions.h file starting with line 111
+    - These values can be found in the definitions.h file starting with "DistancesStruct ()"
 
 - Use the "ccc_hello_world" to determine pixel values of the area 
 
