@@ -20,7 +20,11 @@ You can test the functionality by moving the platform until the prints state to 
 - Imagine to be a head fixed mouse while moving the platform. 
 
 - Depending on the choice of the lick spot a reward should be provided or not. 
-    - You can view the hole workflow in the Paper   [Air-Track: a real-world floating environment for active sensing in head-fixed mice](https://doi.org/10.1152/jn.00088.2016) in figure 3.
+
+- Below you can view the hole workflow as displayed in the paper   [Air-Track: a real-world floating environment for active sensing in head-fixed mice](https://doi.org/10.1152/jn.00088.2016) in figure 3.
+
+![](images/flowchart.png)
+
 
 
 
