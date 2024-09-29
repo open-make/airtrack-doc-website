@@ -18,7 +18,7 @@ Acrlyic glass ball	part	28	Acrylic glass		Modulor	86217	https://www.modulor.de/e
 Active Buzzer	part	1	Keyes KY-012 Active Buzzer		Aliexpress	No PartNo	https://de.aliexpress.com/item/32816721769.html?aff_fcid=dbb60528572745a9ac0787a7403f897f-1651112003196-06651&aff_fsk&aff_platform=api-new-product-query&sk&aff_trace_key=dbb60528572745a9ac0787a7403f897f-1651112003196-06651&terminal_id=c3fe0c0a7e284a458624de73aaa29e49&afSmartRedirect=y&gatewayAdapt=glo2deu			
 aluminium rod 12mm diameter	part	1	Aluminium rod		RS Components	124-3623	https://de.rs-online.com/web/p/metallstangen-und-stabe/1243623			
 aluminium strut profile	part	5	Aluminium framework		RS Components	180-9136	 https://de.rs-online.com/web/p/rohre-und-strebenprofile/8508470			
-angle	part	26	Frame Angle		Misumi	HBLFSNF5-C-SSP	https://de.misumi-ec.com/vona2/detail/110300437260/?HissuCode=HBLFSNF5-C-SSP	Conrad	TC-10493184	https://www.conrad.de/de/p/tru-components-bracket-2020-tc-10493184-verstaerkung-90-aluminium-1-st-2623296.html?searchType=SearchRedirect&refresh=true#productDescription
+angle	part	24	Frame Angle		Misumi	HBLFSNF5-C-SSP	https://de.misumi-ec.com/vona2/detail/110300437260/?HissuCode=HBLFSNF5-C-SSP	Conrad	TC-10493184	https://www.conrad.de/de/p/tru-components-bracket-2020-tc-10493184-verstaerkung-90-aluminium-1-st-2623296.html?searchType=SearchRedirect&refresh=true#productDescription
 Arduino Uno	part	1	Arduino Uno		Digi-Key Electronics	1050-1024-ND	https://www.digikey.de/de/products/detail/arduino/A000066/2784006			
 cable ties	part	Some	Cable tie		Distrelec	301-41-528	https://www.distrelec.de/en/cable-tie-99-5mm-polypropylene-49n-black-panduit-plt1m-m100/p/30141528?trackQuery=cat-DNAV_PL_2225543&pos=1&origPos=9&origPageSize=50&filterapplied=filter_Length~~mm%3d99&track=true			
 capacitive sensor MPR121	part	1	MPR121 Capacitive Touch Sensor		Tinkerly	No PartNo	https://paradisetronic.com/de/sensoren/mpr121-touchsensor-controller-breakout-12-kanaele-i2c			
@@ -34,6 +34,7 @@ H bridge L293D	part	1	L293D H-bridge		Digi-Key Electronics	497-2936-5-ND	https:/
 hose connection glands	part	2	hose connection gland		Norma Group	07108910008	https://shop.normagroup.com/de_de/norma-sv-ges-8-r-1-8-07108910008.html#tab-label-description			
 jumper wires	part	many	Jumper wires		Digikey	1568-1513-ND	https://www.digikey.de/en/products/detail/sparkfun-electronics/PRT-12796/5993861			
 linear actuator	part	1	Actuonix L16 Linear Actuator 35:1 50mm 12V with Potentiometer Feedback		RobotShop	L16-50-35-12-P	https://www.robotshop.com/uk/actuonix-l16-linear-actuator-351-50mm-12v-w--potentiometer-feedback.html			
+Luer Connector Kit	part	1	Luer to Tube Connector Kit							
 M2 hexagon nut	part	1	Heaxagon nuts		RS Components	560-271	https://de.rs-online.com/web/p/sechskantmuttern/0560271			
 M2 screw (16mm)	part	3	Lens head Pozidriv screw		RS Components	179-5689	https://de.rs-online.com/web/p/maschinenschrauben/1795689			
 M3 hexagon nut	part	2	Heaxagon nuts		RS Components	560-293	https://de.rs-online.com/web/p/sechskantmuttern/0560293			
@@ -43,11 +44,11 @@ M4 screw (20mm)	part	1	Lens head Pozidriv screw		RS Components	553-560	https://d
 M4 screw (6mm)	part	2	Hexagon socket screw		RS Components	822-9164	https://de.rs-online.com/web/p/innensechskantschrauben/8229164			
 M5 hexagon nut	part	18	Heaxagon nuts		RS Components	525-903	https://de.rs-online.com/web/p/sechskantmuttern/0525903			
 M5 rods	part	2	Round rod M5		Misumi Europe GmbH	ETKLS12-200-F10-SC0-M5-N5	https://de.misumi-ec.com/vona2/detail/110300209240/?PNSearch=ETKLS12-200-F10-SC0-M5-N5&HissuCode=ETKLS12-200-F10-SC0-M5-N5&searchFlow=suggest2products&Keyword=ETKLS12-200-F10-SC0-M5-N5			
-M5 screw (12mm)	part	18	Hexagon socket screw		RS Components	183-8676	https://de.rs-online.com/web/p/innensechskantschrauben/1838676			
+M5 screw (12mm)	part	16	Hexagon socket screw		RS Components	183-8676	https://de.rs-online.com/web/p/innensechskantschrauben/1838676			
 M5 screw (6mm)	part	42	Hexagon socket screw		RS Components	822-9170	https://de.rs-online.com/web/p/innensechskantschrauben/8229170			
 metall saw	tool	1	Metall saw							
-nut	part	58	Frame nut		RS Components	180-9104	https://de.rs-online.com/web/p/verbindungselemente/1809104			
-nut (M4)	part	2	Frame nut		RS Components	180-9103	https://de.rs-online.com/web/p/verbindungselemente/1809103			
+nut	part	56	Frame nut		RS Components	180-9104	https://de.rs-online.com/web/p/verbindungselemente/1809104			
+nuts (M4)	part	2	Frame nut		RS Components	180-9103	https://de.rs-online.com/web/p/verbindungselemente/1809103			
 pinch valve clamp	part	2	pinch valve clamp		BIOZOL Diagnostica Vertrieb GmbH	075P2NC12-01S	https://www.lab-club.com/Mounting-clip-for-type-075-valves			
 Pixy Camera	part	1	Pixy 2 CMUCAM5		Digi-Key Electronics	1738-1426-ND	https://www.digikey.de/de/products/detail/dfrobot/SEN0265/9559245			
 plexiglass plate	part	1	Circular (cast) acrylic glass sheet precut							
