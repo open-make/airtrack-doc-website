@@ -78,20 +78,6 @@ To guarantee a higher stability it's recommended to place a second framework cir
 ![](images/camera_below02.jpeg)
 
 
-## Glueing of the bottom plate {pagestep}
-
-After connecting the air table with the framework there is no need in accessing the inner box, so we can close the box. The bottom plate is meant to disconnect first if the pressure in the box gets too high. Therefore the bottom plate is not screwed.
-
-
-- Again it's necessary to degrease and remove any dirt at the glueing surface before glueing.
-
-- Line up the long side of the box with the long side of the plate, there must be no hole for air flowing through.
-
-- [Glue (acrylic glue)](tools.yml#acrifix_192){Qty: Some, Cat:tool}[i](glueingadvise.md) the not predrilled bottom [480mm x 326mm plexiglass plate](plexiglass.yml#480x326pg){Qty:1} below the table box. It's recommended to put the glue on the 8 mm wide sides and not on the bottom plate.
-
-
-
-Wait for the glue to be dry before going to the next step.
 
 
 

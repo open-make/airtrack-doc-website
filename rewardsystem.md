@@ -1,4 +1,4 @@
-# Construction of the rewarding system
+# Peripherals part 3: Construction of the rewarding system
 
 We will fix here a linear actuator that will bring the reward to the animal. The reward itself is delivered with two solenoid valves.
 
@@ -12,14 +12,14 @@ A buzzer is added to the system but do not need to be fixed to the table.
 
 The following elements will be placed on the air table struts opposite of the pressure relief valve.
 
-- Place two outside pointing (air table center as perspective) [nut](connectors.yml#5mmNuts){Qty:4}s in each vertical [aluminium strut profile](framework.yml#20x20Rod) of the [center air table](fromstep){qty:1}. Place one around  the height of the lower framework and one close to the top of the [aluminium strut profile](framework.yml#20x20Rod). 
+- Place two outside pointing (air table center as perspective) [nut](connectors.yml#5mmNuts){Qty:2}s in one of the vertical [aluminium strut profile](framework.yml#20x20Rod) of the [center air table](fromstep){qty:1}. Place one around  the height of the lower framework and one close to the top of the [aluminium strut profile](framework.yml#20x20Rod). 
 
 
-- Attach to all nuts an [angle](connectors.yml#5mmNuts_angle){Qty:4} by using [M5 screw (12mm)](screws.yml#m5x12mm_screw){Qty:4}. The angles must point towards the angles on the other strut profile.
+- Attach to both nuts an [angle](connectors.yml#5mmNuts_angle){Qty:2} by using [M5 screw (12mm)](screws.yml#m5x12mm_screw){Qty:2}. The angles must point outwards.
      - Between the strut and the angle a [M5 hexagon nut](screws.yml#m5_hexagon_nuts){Qty:4}s is needed because of the shape of the angle. 
          - Alternatively you could use a three millimeter spacer for M5 screws or get extra angles with a flat outside.
 
-- Attach to both sides vertical an [aluminium strut profile](framework.yml#20x20Rod) which raises 250 mm above the airtable by using [M5 screw (6mm)](screws.yml#m5x6mm_screw){Qty:4} and [nut](connectors.yml#5mmNuts){Qty:4}s at the attached strut profiles. 
+- Attach vertically an [aluminium strut profile](framework.yml#20x20Rod) which raises 250 mm above the airtable by using [M5 screw (6mm)](screws.yml#m5x6mm_screw){Qty:4} and [nut](connectors.yml#5mmNuts){Qty:4}s at the attached strut profile. 
      - Between the strut and the angle a [M5 hexagon nut](screws.yml#m5_hexagon_nuts){Qty:4}s is needed because of the shape of the angle. 
          
 - The exact length is depending on your choices of the general height. 
@@ -97,11 +97,21 @@ The following elements will be placed on the air table struts opposite of the pr
 
 ## Fixing the solenoid pinch valve {pagestep}
 
-Place one [solenoid pinch valve](electronic.yml#pv){Qty:2} at the top of each vertical [aluminium strut profile](framework.yml#20x20Rod). 
+Place one [solenoid pinch valve](electronic.yml#pv){Qty:2} at the top of the vertical [aluminium strut profile](framework.yml#20x20Rod). 
 
-- Therefore place a [nut (M4)](connectors.yml#4mmNuts){Qty:2} at the top of each [aluminium strut profile](framework.yml#20x20Rod) and fixate a  [pinch valve clamp](electronic.yml#pv_clamp){Qty:2} on each with a [M4 screw (6mm)](screws.yml#m4x6mm_screw){Qty:2}.
+- Therefore place two [nuts (M4)](connectors.yml#4mmNuts){Qty:2} at the top of the [aluminium strut profile](framework.yml#20x20Rod) and fixate a  [pinch valve clamp](electronic.yml#pv_clamp){Qty:2} on each with a [M4 screw (6mm)](screws.yml#m4x6mm_screw){Qty:2}.
 
 - Place the [solenoid pinch valve](electronic.yml#pv) inside the [pinch valve clamp](electronic.yml#pv_clamp).
+
+
+![](images/pinch_valve.png)
+
+
+
+
+
+
+
 
 
 ##  Tube placement {pagestep}

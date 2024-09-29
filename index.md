@@ -6,9 +6,16 @@ This website will guide you through the whole process of building an Airtrack se
 
 The Airtrack was first published in 2016, with a paper titled [Air-Track: a real-world floating environment for active sensing in head-fixed mice](https://doi.org/10.1152/jn.00088.2016).
 It was developed by the authors of the paper with the help of the Charité workshop (Alexander Schill).
-This documentation website was created by Fabio Reeh and reviewed by Julien Colomb, based on the existing documentation.
+This documentation website was created by Fabio Reeh and reviewed by Julien Colomb, based on the existing documentation and an own replica.
 
-![visualisation of an airtrack table with a platform with a 4 arms maze. In the center, an animal head fixation setup is visible, while a reward system is fixed in the front ot the maze and a camera is fixed below the table.](images/airtrack_platform_small.jpg)
+
+
+![](images/whole_setup1.png)
+![](images/airtrack_platform_small.jpg)
+
+
+
+
 
 
 This guide is part of the output from the [open.make project](https://www.openmake.de/) (see website for more information, including funding information). This project aims to further establish open hardware in academic research, and support
@@ -29,7 +36,11 @@ This guide is part of the output from the [open.make project](https://www.openma
 
 #### [Construction of the basic framework](basicframework.md){step}
 
+#### [Insertion of ball valves](ballvalve.md){step}
+
 #### [Air flow and pressure control](air_flow.md){step}
+
+#### [Construction of the peripherals](peripherals.md){step}
 
 
 #### [Construction of platform tracking](headandcamera.md){step}
@@ -44,18 +55,26 @@ This guide is part of the output from the [open.make project](https://www.openma
 
 #### [Construction of the head fixation](headfixation.md){step}
 
+#### [Floating platform](3Dprinting.md){step}
 
+#### [Setup of the electronics](setup_electronic.md){step}
 
-
-#### [Setup of the electronics](electronic.md){step}
-
-
-
+#### [Setup of the wiring](electronic.md){step}
 
 #### [Installation of scripts](script_setup.md){step}
 
+#### [Configuration of PixyCam](PixyCamConfig.md){step}
 
-#### [3D printing instructions](3Dprinting.md){step}
+
+
+#### [Arduino code guide](code_usage.md){step}
+
+
+
+
+
+
+
 
 
 #### [List of all necessary components]{BOM}
@@ -66,7 +85,7 @@ This guide is part of the output from the [open.make project](https://www.openma
 
 
 
-### About the Airtrack
+## About the Airtrack
 
 To investigate the neuronal activities in ordinary behaviour, it's eligible to implement modern brain recording equipment.
 These modern technics frequently require head fixation.
@@ -85,7 +104,7 @@ As the system is in use within Larkum Lab and gets developed, we encourage you t
 
 
 
-### Overview of the setup
+## Overview of the setup
 
 The airtrack system consists out of a central air table with the possibility of modification.
 In this version, a mouse moves on a floating lightweight plus maze, while being head fixed in the center above the platform.
@@ -103,24 +122,57 @@ On the framework is a lot space to place e.g. further tracking devices.
 The computational tasks are performed with a Arduino Uno microcontroller.
 
 
+## Size and struts
+
+The amount of strut profiles you need depends on the hight of the table, and how well you can cut the 2 m strut profiles into pieces. For the default table (height = 400 mm) it takes 6m (= 3 pieces). It is best practice to have more than you actually need, such that you get spares if the struts are incorrectly cut. 
 
 
-![](models/airtrack_480x366001.stl){color: grey}
+![](models/airtrack_480x366.stl){color: grey}
 
+### Download STEP file of hole Airtrack
+
+
+The STL file above and the CAD files of the ZIP folder contain partly different components. The main changes:
+
+- Platform borders
+- Headfixation
+- Camera mount
+- No second framework ring
+
+
+
+>i **Download** 
+>i
+>i Download all available CAD files and extra documents:
+>i
+>i Contains: STL file, CAD Parasolid file, CAD for SolidWorks viewer, STEP file, PDF with some technical aspects
+>i
+>i
+>i [ZIP file](airtable_480x366.zip)
+>i
+>i **Note** 
+>i
+>i The STL and STEP files vary in the used components at some places to this guide
 
 
 
 ### Disclaimer: Construction complexity
 
-Some parts are more difficult to construct than others. Mainly the central plexiglass box is difficult to build with an improvised work place. Precise cutting of the plexiglass is needed to ensure airtight manufacturing. Further, a workshop might use UV glue for the box which provides a good quality.
+Some parts are more difficult to construct than others. Mainly the central plexiglass box is difficult to build with an improvised work place. Precise cutting of the plexiglass is needed to ensure airtight manufacturing. Further, a workshop might use UV glue for the box which provides a higher quality.
 
-If you have access to a workshop, we recommend you to get the air table constructed there. In general it's better to have large fraction of the Airtrack manufactured professionally. 
+If you have access to a workshop, we recommend you to get the air table constructed there. In general, it's better to have a large fraction of the Airtrack manufactured professionally. 
 
 
+### Disclaimer: Arduino code complexity
 
-## Size and struts
+I order to fully use the Airtrack, you need to debug and write code for the Arduino. The provided code works but you need to adjust it at some places to adapt it to your circumstances. 
 
-The amount of strut profiles you need depends on the hight of the table, and how well you can cut the 2 m strut profiles into pieces. For the default table (height = 400 mm) it takes 6m (= 3 pieces). It is best practice to have more than you actually need, such that you get spares if the struts are incorrectly cut. 
+
+### Advice: Further development
+
+If you want to use the base hardware of the Airtrack and want to use it for other research questions, we recommend you to have a good understanding of the Arduino and possible peripherals. Besides you need sufficient coding experience with C++ (mostly used) to develop a good working code. 
+
+
  
 
 References: [Nashaat MA, Oraby H, Sachdev RN, Winter Y, Larkum ME. Air-Track: a real-world floating environment for active sensing in head-fixed mice. J Neurophysiol. 116(4):1542-1553, 2016](https://pubmed.ncbi.nlm.nih.gov/27486102/)
@@ -128,4 +180,4 @@ References: [Nashaat MA, Oraby H, Sachdev RN, Winter Y, Larkum ME. Air-Track: a 
 
 
 
-#### Latest change: 05.01.2024
+#### Latest change: 25.09.2024

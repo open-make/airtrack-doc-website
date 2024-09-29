@@ -1,4 +1,4 @@
-# Construction of the linear actuator front
+# Peripherals part 2: Construction of the linear actuator front
 
 Within this section a small hold for needles is built. It's placed at the front of the linear actuator and therefore can be moved towards the mouse if rewards should be provided. 
 
@@ -91,18 +91,22 @@ Use a [M2 screw (16mm)](screws.yml#m2x16mm_screw){Qty: 1} and a [M2 hexagon nut]
 ![](images/hold_03001.jpg)
 
 
-## Adding needles {pagestep}
+## Adding cannula {pagestep}
 
-On both sides of the linear actuator front a hollow blunt needle needs to be placed. This is used to provide the rewards. 
+On both sides of the linear actuator front a hollow blunt cannula needs to be placed. This is used to provide the rewards. 
 
-The needle needs to go through the rotatable needle hold end (3D printed part) and should be kept in place by the needle fixation (3D printed part). 
+The cannula needs to go through the rotatable cannula hold end (3D printed part) and should be kept in place by the cannula fixation (3D printed part). 
 
--   The default  outer diameter for the needle would be 1 mm. But as 3D prints tend to fill gaps you will need a clean the hole and by this you can choose a preferred diameter.  
+- Backend of cannula needs to have a luer lock connection. 
+- The default  outer diameter for the cannula would be 1 mm. But as 3D prints tend to fill gaps you will need a clean the hole and by this you can choose a preferred diameter.  
 
-In contrast to the STL below, the needle needs to have a 10 mm space at the end behind the needle fixation for the tube which comes from a solenoid pinch valve. 
+- In order to connect the cannula with the tube attach to both cannulas a part with the number #72-1424 or #72-1425 from the  [Luer Connector Kit](connectors.yml#cannula_con_set){Qty: 1}
 
-#### STL for visualization
-![](models/rewards_all.stl){color: grey}
+
+#### Picture for visualization with tube already connected
+
+![](images/needle.png)
+
 
 
 
@@ -127,8 +131,8 @@ In contrast to the STL below, the needle needs to have a 10 mm space at the end 
 
 #### Two pictures of this state:
 
-![](images/hold_01001.jpg)
-![](images/hold_02001.jpg)
+![](images/hold_01.jpg)
+![](images/hold_02.jpg)
 
 
 

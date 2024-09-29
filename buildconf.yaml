@@ -1,7 +1,7 @@
-PrimaryColor: '#f1502f'
-SecondaryColor: '#cccccc'
-HoverColor: '#555555'
-DefaultCategory: part
 AutoCompleteSubNav: true
-RemoveImagesBorder: true
+DefaultCategory: part
+HoverColor: '#555555'
+PrimaryColor: '#f1502f'
 RemoveImagesBackground: true
+RemoveImagesBorder: true
+SecondaryColor: '#cccccc'

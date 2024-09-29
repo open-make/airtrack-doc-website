@@ -97,3 +97,9 @@ cable_tie:
         Distrelec:
             PartNo: 301-41-528
             Link: 'https://www.distrelec.de/en/cable-tie-99-5mm-polypropylene-49n-black-panduit-plt1m-m100/p/30141528?trackQuery=cat-DNAV_PL_2225543&pos=1&origPos=9&origPageSize=50&filterapplied=filter_Length~~mm%3d99&track=true'
+
+cannula_con_set:
+    Name: Luer to Tube Connector Kit
+    Description: The Luer Connector Kit contains a selection of Luer fittings to interconnect Luer connectors (e.g. syringes, stopcocks and needles) with one another and with tubing. These kits are available in white nylon (WN), polypropylene (PP) and Kynar® (KY), a chemically resistant autoclavable plastic.
+    Specs:
+        Material: White Nylon
