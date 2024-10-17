@@ -4,6 +4,16 @@
 
 The PixyCam needs to be configured in order to work with the scripts on the Arduino. The Pixymon software is able to safe parameters at the PixyCam. 
 
+## Install Arduino library {pagestep}
+
+To use the PixyCam with the Arduino, you need to download the latest library zip-file and import it in the Arduino IDE via Sketch -> Include Library.
+
+The zip-file for the PixyCam2 can be found at "https://pixycam.com/downloads-pixy2/".
+
+The zip-file for the PixyCam1 can be found at "https://pixycam.com/downloads-pixy1/".
+
+
+
 ## Install Pixymon {pagestep}
 
 Download the Pixymon software (at Pixycam.com)
