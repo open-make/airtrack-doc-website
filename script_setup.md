@@ -22,6 +22,12 @@ https://github.com/open-make/code-airtrack
 
 
 
+>i **Note** 
+>i
+>i If the Arduino IDE keeps loading on first start, try a different internet connection as some driver downloads might be blocked by the firewall.
+
+
+
 ## Saving of the output
 
 In the Arduino IDE output section are continuously print outputs in the serial monitor tab while running the experiment. These prints can be saved in a text file to store the experimental data. 
