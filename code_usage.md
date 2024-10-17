@@ -4,7 +4,7 @@ The provided code handles a complex workflow. It tracks the position of the mous
 
 For debugging you need to implement several print messages and check which get outputted and which not.
 
-- There are currently the main important prints to check the functionality implemented. You can enable them by setting the variable test_run to "true". This variable is located at the top of the ".ino" files. 
+- There are currently the main important prints to check the functionality implemented. You can enable them by setting the variable test_run to "true". This variable is located at the top of the ".ino" file. 
     - If all messages get printed, the set up should work as intended. 
     - Additionally, you can test it by moving the platform until the prints state to be in the reward lane. These prints are always enabled. 
 

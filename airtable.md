@@ -16,11 +16,27 @@ Follow the [instruction](precut.md) to prepare the top and side plexiglass plate
 
 Follow the [instruction](predrill.md) to prepare the top and side plexiglass plates.
 
-## Cleaning the plexiglass {pagestep}
-
-Before beginning any gluing work, the pieces must be degreased (with soap and water) and free of any remaining screwing or other dirt.
 
 ## Glue and screw parts together {pagestep}
 
+### Cleaning the plexiglass
+
+Before beginning any gluing work, the pieces must be degreased (with soap and water) and free of any remaining screwing or other dirt.
+
+
 Follow the [instruction](glue.md) to prepare the top and side plexiglass plates.
+
+## Construction of the framework  {pagestep}
+
+Follow the [instruction](basicframework.md) to build the framework.
+
+## Insertion of ball valves {pagestep}
+
+Follow the [instruction](ballvalve.md) to build the ball valves and insert them.
+
+## Incoming air and pressure control  {pagestep}
+
+Follow the [instruction](air_flow.md) to set up the air flow.
+
+
 
