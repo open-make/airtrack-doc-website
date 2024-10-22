@@ -27,6 +27,12 @@ Download the Pixymon software (at Pixycam.com)
 
 ## Light settings {pagestep}
 
+
+>i **Note** 
+>i
+>i As experiments most likely are done in the dark, extra light sources are needed. Place the light sources at the side and not below the plexiglass book to minimize reflections for PixyCam detection.
+
+
 Use the lightning settings in the  "Pixy Parameter" submenu to optimize the visibility in the Pixymon viewer. You need to check what works best at your setup place. A better visibility of objects in the viewer will result in better object detection. 
 
 
