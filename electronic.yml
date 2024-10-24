@@ -54,11 +54,8 @@ mpr121:
 
 Keyes_KY-012:
     Name: Keyes KY-012 Active Buzzer
-    Description: Active Buzzer
-    Suppliers:
-        Aliexpress:
-            PartNo: No PartNo
-            Link: 'https://de.aliexpress.com/item/32816721769.html?aff_fcid=dbb60528572745a9ac0787a7403f897f-1651112003196-06651&aff_fsk&aff_platform=api-new-product-query&sk&aff_trace_key=dbb60528572745a9ac0787a7403f897f-1651112003196-06651&terminal_id=c3fe0c0a7e284a458624de73aaa29e49&afSmartRedirect=y&gatewayAdapt=glo2deu'            
+    Description: Active Buzzer - Suppliers and the product links frequently change, please find a suitable supplier on your own
+           
             
 
 5VLED:
