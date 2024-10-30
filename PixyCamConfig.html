@@ -179,7 +179,9 @@
 <p>You might need to choose "Blocks, video" in the drop down menu "View" to see the recording</p>
 </li>
 </ul>
-<h2 class="page-step" id="light-settings">Step 3: Light settings</h2>
+<h2 class="page-step" id="pixycam-orientation">Step 3: PixyCam orientation</h2>
+<p>Once again make sure that the lens of the PixyCam is pointing away from the table side where rewards get provided.</p>
+<h2 class="page-step" id="light-settings">Step 4: Light settings</h2>
 <div class="info-block">
 <p><strong>Note</strong> </p>
 <p>As experiments most likely are done in the dark, extra light sources are needed. Place the light sources at the side and not below the plexiglass book to minimize reflections for PixyCam detection.</p>
@@ -202,7 +204,7 @@
 <p>You can enable "Highlight overexposure" in the Pixymon parameters to show areas with poor image recognition properties. </p>
 </li>
 </ul>
-<h2 class="page-step" id="block-detection">Step 4: Block detection</h2>
+<h2 class="page-step" id="block-detection">Step 5: Block detection</h2>
 <ul>
 <li>
 <p>Place the floating platform on the air table. The orientation of the colored rectangle should be parallel or orthogonal to the length of the air table.</p>
@@ -231,6 +233,14 @@
 </li>
 </ul>
 <p>The detection configuration will be saved on the PixyCam and can be used with the Arduino scripts.</p>
+<h2 class="page-step" id="configuration-of-coordinates">Step 6: Configuration of coordinates</h2>
+<p>In the definitions.h you need to specify the y-axis minimum and maximum coordinates of the movement of the platform. Further you need to change the y-axis motor threshold which triggers the motor if the mouse is in the lane. As the mouse moves forwards in a lane, the platform moves to the non reward side of the air table. You need to determine the y-axis value when the mouse is deep enough in the lane.</p>
+<p>In definitions.h the PixyCam coordinates for our set up are set to:</p>
+<ul>
+<li>this-&gt;y_threshold_min = 45</li>
+<li>this-&gt;y_threshold_max = 190</li>
+<li>this-&gt;y_motor_threshold = 115</li>
+</ul>
 <div class="info-block">
 <p><strong>Note</strong> </p>
 <p>It's recommend to watch the video and the block detection while running the experiment</p>
