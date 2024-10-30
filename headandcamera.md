@@ -32,6 +32,12 @@ This page presents how to set a pixie camera below the setup. The camera should 
 
 - Connect the [Pixy Camera](electronic.yml#PixyCam) to the 1.5mm plate by using [M3 screw (5mm)](screws.yml#m3x5mm_screw){Qty: 2} and [M3 hexagon nut](screws.yml#m3_hexagon_nuts){Qty: 2}s.
 
+
+>i **Note** 
+>i
+>i The [Pixy Camera](electronic.yml#PixyCam) needs to face with the lens away from the side of the table the rewards is provided from to have the assumed orientation of the script.
+
+
 You might need to shift the [aluminium strut profile](framework.yml#20x20Rod) in the center a bit to have the [Pixy Camera](electronic.yml#PixyCam) in the center.
 
 

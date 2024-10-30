@@ -2,6 +2,8 @@
 
 
 
+
+
 The PixyCam needs to be configured in order to work with the scripts on the Arduino. The Pixymon software is able to safe parameters at the PixyCam. 
 
 ## Install Arduino library {pagestep}
@@ -23,6 +25,10 @@ Download the Pixymon software (at Pixycam.com)
 - MacOS users need to disable gatekeeper for first time usage
 
 - You might need to choose "Blocks, video" in the drop down menu "View" to see the recording
+
+## PixyCam orientation {pagestep}
+
+Once again make sure that the lens of the PixyCam is pointing away from the table side where rewards get provided.
 
 
 ## Light settings {pagestep}
@@ -68,6 +74,21 @@ Use the lightning settings in the  "Pixy Parameter" submenu to optimize the visi
 - Afterwards in the Pixymon viewer: A box should be visible around both colors at the bottom side of the platform with a "s" and "phi" value. 
 
 The detection configuration will be saved on the PixyCam and can be used with the Arduino scripts.
+
+
+
+## Configuration of coordinates {pagestep}
+
+In the definitions.h you need to specify the y-axis minimum and maximum coordinates of the movement of the platform. Further you need to change the y-axis motor threshold which triggers the motor if the mouse is in the lane. As the mouse moves forwards in a lane, the platform moves to the non reward side of the air table. You need to determine the y-axis value when the mouse is deep enough in the lane.
+
+In definitions.h the PixyCam coordinates for our set up are set to:
+
+
+- this->y_threshold_min = 45
+- this->y_threshold_max = 190
+- this->y_motor_threshold = 115
+
+
 
 
 >i **Note** 
