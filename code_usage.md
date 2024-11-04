@@ -34,7 +34,7 @@ You can test the functionality by moving the platform until the prints state to 
 
 - https://github.com/adafruit/Adafruit_MPR121/blob/master/examples/MPR121test/MPR121test.ino
 
-- To change the threshold for touch and release you need to adjust these both values in the sensor.h:
+- To change the threshold for touch and release you need to adjust these both values in the sensor.h. The thresholds are stored in hexadecimal:
     - define NEW_TOU_THRESH 0x02
     - define NEW_REL_THRESH 0x35
 
