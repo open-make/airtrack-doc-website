@@ -34,6 +34,10 @@ You can test the functionality by moving the platform until the prints state to 
 
 - https://github.com/adafruit/Adafruit_MPR121/blob/master/examples/MPR121test/MPR121test.ino
 
+- To change the threshold for touch and release you need to adjust these both values in the sensor.h:
+    - define NEW_TOU_THRESH 0x02
+    - define NEW_REL_THRESH 0x35
+
 - Depending on your wiring the MPR121 will register more or less contacts. You might need to change the thresholds.
     - These values can be found in the definitions.h file starting with "static const long int SAME_SENSOR_MAX_THRESHOLD = 500;"
 
