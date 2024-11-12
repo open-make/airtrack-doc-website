@@ -38,7 +38,7 @@ You can test the functionality by moving the platform until the prints state to 
     - define NEW_TOU_THRESH 0x02
     - define NEW_REL_THRESH 0x35
 
-- Depending on your wiring the MPR121 will register more or less contacts. You might need to change the thresholds.
+- Depending on the behaviour of the mouse, you might need to make a bias correction if the mouse to often licks the same reward side. Set it to a low number like 10 for bias correction.
     - These values can be found in the definitions.h file starting with "static const long int SAME_SENSOR_MAX_THRESHOLD = 500;"
 
 
